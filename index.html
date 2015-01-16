@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova/cordova.js"></script>
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+
+<script>
+$(document).ready(function(){
+$( "#hello" ).dialog({ autoOpen: false });
+$( "#say_it" ).click(function() {
+$( "#hello" ).dialog( "open" );
+});
+});
+</script>
+	
+<script>
+$(document).ready(function(){
+$( "#hello1" ).dialog({ autoOpen: false });
+$( "#say_it1" ).click(function() {
+$( "#hello1" ).dialog( "open" );
+});
+});
+</script>
+
+
+
+
+
+
+		</head>
+   <body>
+   	
+   	
+   <style>
+   	
+   	#checklist
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	margin: 45px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#checklist table
+{
+	width: 100%;
+}
+#checklist th
+{
+	font-weight: normal;
+	padding: 12px 15px;
+	color: #039;
+}
+#checklist td
+{
+	vertical-align: top;
+	padding: 10px 15px;
+	color: #669;
+	border-top: 1px solid #e8edff;
+}
+.checklist-first
+{
+	background: #d0dafd;
+	font-weight: bold;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+#checklist tr:hover td
+{
+	color: #339;
+	background: #eff2ff;
+}
+.notes
+{
+	background: #E5E5E5;
+}
+
+   	
+   	
+   	
+   	
+   	
+   </style>	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+      <div data-add-back-btn="true" id="menu" data-role="page">
+         <div data-role="header">
+            <h1>Checklist</h1>
+         </div>
+         <div class="ui-content" data-role="main">
+            <div data-role="collapsible">
+               <h1>Preflight Inspection</h1>
+               <div data-role="collapsible">
+                  <h2>General Inspection</h2>
+                  <form method="post">
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:5%" />
+                           <col class="checklist-first" style="width:20%" />
+                           <col style="width:5%" />
+                           <col style="width:70%" />
+                        </colgroup>
+                        <thead>
+                           <tr>
+                              <th scope="col">No</th>
+                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <input value="Reset" type="reset" />
+                              </th>
+                              <th scope="col">Action</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>Aircraft</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Good general condition</p>
+                                 <p class="notes">When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>Doors</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Checked</p>
+                                 <p class="notes">On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>Glass</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Clean and intact</p>
+                                 <p class="notes">Windows are cleaned, window sliders are intact.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>4</td>
+                              <td>Dual controls</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Fitted correctly.  Locking pins and canon plugs in place.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>5</td>
+                              <td>Covers</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h2>Cockpit Inspection and Fuel Drain</h2>
+                  <form method="post">
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:5%" />
+                           <col class="checklist-first" style="width:20%" />
+                           <col style="width:5%" />
+                           <col style="width:70%" />
+                        </colgroup>
+                        <thead>
+                           <tr>
+                              <th scope="col">No</th>
+                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <input value="Reset" type="reset" />
+                              </th>
+                              <th scope="col">Action</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>Doors and cabin</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check the general condition of the cockpit, instruments, radios, harnesses and controls</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>Documentation</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check fire extinguisher, first aid kit, survival equipment is on board</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>Emergency equipment</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check fire extinguisher, first aid kit, survival equipment is on board</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>4</td>
+                              <td>Battery switch</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>5</td>
+                              <td>Throttle</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Closed</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>6</td>
+                              <td>Fuel valve</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>7</td>
+                              <td>Radios and Avionics</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>8</td>
+                              <td>Anti-Collision light</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>ON</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>9</td>
+                              <td>Battery switch</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>ON (move to BAT)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>10</td>
+                              <td>Fuel quantity</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>11</td>
+                              <td>Fuel sump drain</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Depress button and check fuel for water or contaminants</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>12</td>
+                              <td>Fuel Valve</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>ON</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>13</td>
+                              <td>Fuel boost pumps</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>ON (circuit breakers IN and check fuel pressure)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>14</td>
+                              <td>Airframe filter drain</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Take sample and check for water or contaminants</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>15</td>
+                              <td>Airframe filter test</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Press test button and check for A/F Filter caution light</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>16</td>
+                              <td>Fuel boost pumps</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF (circuit breakers OUT)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>17</td>
+                              <td>Fuel valve</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>18</td>
+                              <td>Internal Cockpit Lights</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check that all internal lights are working</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>19</td>
+                              <td>External lights</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Check all external lights are working</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>20</td>
+                              <td>Battery switch</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>OFF</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>21</td>
+                              <td>Loose articles</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Ensure all loose articles such as helmet bags, cargo, etc. are secured</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+            </div>
+            <div data-role="collapsible">
+               <h1>Post Flight Inspection</h1>
+               <div data-role="collapsible">
+                  <h2>Post Flight Inspection</h2>
+                  <form method="post">
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:5%" />
+                           <col class="checklist-first" style="width:20%" />
+                           <col style="width:5%" />
+                           <col style="width:70%" />
+                        </colgroup>
+                        <thead>
+                           <tr>
+                              <th scope="col">No</th>
+                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <input value="Reset" type="reset" />
+                              </th>
+                              <th scope="col">Action</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>Main blades still turning</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Wait in the helicopter until the main rotor blades have completely stopped turning</p>
+                                 <p class="notes">WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>MR and DFR</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Complete the relevant paper work</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>Fuel quantity</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>4</td>
+                              <td>Exit the helicopter</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td>
+                                 <p />
+                                 <p class="notes">NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div data-role="footer">
+            <h1>Becker Helicopters Copyright 2014</h1>
+         </div>
+      </div>
+   </body>
+</html>
