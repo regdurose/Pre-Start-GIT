@@ -1,0 +1,41 @@
+
+#checklist
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	margin: 45px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#checklist table
+{
+	width: 100%;
+}
+#checklist th
+{
+	font-weight: normal;
+	padding: 12px 15px;
+	color: #039;
+}
+#checklist td
+{
+	vertical-align: top;
+	padding: 10px 15px;
+	color: #669;
+	border-top: 1px solid #e8edff;
+}
+.checklist-first
+{
+	background: #d0dafd;
+	font-weight: bold;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+#checklist tr:hover td
+{
+	color: #339;
+	background: #eff2ff;
+}
+.notes
+{
+	background: #E5E5E5;
+}
