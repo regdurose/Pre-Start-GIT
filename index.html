@@ -16,9 +16,88 @@
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<link href="checklist.css" rel="stylesheet" type="text/css"/>	
+<!--<link href="checklist.css" rel="stylesheet" type="text/css"/>-->	
 <link rel="stylesheet" href="trc.css" />
 <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+
+
+<style>
+	
+	
+#checklist
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	margin: 45px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#checklist table
+{
+	width: 100%;
+	
+}
+#checklist th
+{
+	font-weight: normal;
+	padding: 12px 15px;
+	color: #039;
+	
+}
+#checklist td
+{
+	vertical-align: top;
+	padding: 10px 15px;
+	color: #000000;
+	border-top: 3px solid #e8edff;
+	background: #FFD700;
+}
+.checklist-first
+{
+	background: #d0dafd;
+	font-weight: bold;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+#checklist tr:hover td
+{
+	color: #339;
+	background: #eff2ff;
+}
+.notes
+{
+	background: #000000;
+	color: #ffffff;
+	box-shadow: 5px 5px 3px #888888;
+    
+}
+
+.div {
+   
+    background-color: #FFD700;
+    box-shadow: 5px 5px 3px #888888;
+    margin: 5px;
+}
+
+thead {color:white; height:10% }
+tbody {color:BLACK; background-color: #000028 }
+tfoot {color:red;}
+th,
+table  {  background-color: #ffffff ; border-collapse: collapse}
+tr#color1 { background-color: #ffffbf }
+tr#color2 { background-color: #e1e16b }
+tr#color3 { background-color: #000028 }
+tr#color4 { background-color: #dddddd ; border-color: 999; height: 50%}
+td#color5 { background-color: #000028 }
+td#color6 { background-color: #ffc926 }
+
+</style>
+
+
+
+
+
+
+
 
 <script>
 $(document).ready(function(){
@@ -37,49 +116,27 @@ $( "#hello1" ).dialog( "open" );
 });
 });
 </script>
-
-
-
-
-
-
-		</head>
+</head>
    <body>
    	
    	
 
 <style type="text/css">
-thead {color:white; height:10% }
-tbody {color:BLACK; background-color: #000028 }
-tfoot {color:red;}
-th,
-table  {  background-color: #ffffff ; border-collapse: collapse}
-tr#color1 { background-color: #ffffbf }
-tr#color2 { background-color: #e1e16b }
-tr#color3 { background-color: #000028 }
-tr#color4 { background-color: #dddddd ; border-color: 999; height: 50%}
+thead {color:white; height:15% }
+tbody {background-color: #000028 }
 td#color5 { background-color: #000028 }
-td#color6 { background-color: #ffc926 }
 </style>	
  
 
 <style> 
 div {
-   
     background-color: #FFD700;
     box-shadow: 5px 5px 3px #888888;
     margin: 5px;
 }
-</style> 	
-
-
-
-
-
-   	
-   	
-  
-      <div data-add-back-btn="true" id="menu" data-role="page" data-theme="c">
+</style> 
+	
+<div data-add-back-btn="true" id="menu" data-role="page" data-theme="c">
       	
       	<table style="width:100%">
 <thead>
@@ -93,16 +150,12 @@ div {
 <td id="color5" align="center" style="width:100%" style="color:black"><br />206BIII ABREVIATED NORMAL CHECKLIST<br /><br /></td>
 </thead>
 </table>
-  	
-      	
-      	
-      	
-      	
-      	
-      	
-         <!--<div data-role="header">
-            <h1>Checklist</h1>
-         </div>-->
+  
+<!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE__________________-->
+
+
+
+
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h1>Preflight Inspection</h1>
@@ -131,10 +184,10 @@ div {
                               <td>1</td>
                               <td>Aircraft</td>
                               <td>
-                                 <input name="checklist" type="checkbox"  />
+                                 <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p>Good general condition</p>
+                                 Good general condition
                                  <p class="notes">When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.</p>
                               </td>
                            </tr>
@@ -145,7 +198,7 @@ div {
                                  <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p>Checked</p>
+                                 Checked
                                  <p class="notes">On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.</p>
                               </td>
                            </tr>
@@ -156,7 +209,7 @@ div {
                                  <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p>Clean and intact</p>
+                                 Clean and intact
                                  <p class="notes">Windows are cleaned, window sliders are intact.</p>
                               </td>
                            </tr>
@@ -166,9 +219,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Fitted correctly.  Locking pins and canon plugs in place.</p>
-                              </td>
+                              <td>Fitted correctly.  Locking pins and canon plugs in place.</td>
                            </tr>
                            <tr>
                               <td>5</td>
@@ -176,9 +227,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.</p>
-                              </td>
+                              <td>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.</td>
                            </tr>
                         </tbody>
                      </table>
@@ -211,9 +260,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check the general condition of the cockpit, instruments, radios, harnesses and controls</p>
-                              </td>
+                              <td>Check the general condition of the cockpit, instruments, radios, harnesses and controls</td>
                            </tr>
                            <tr>
                               <td>2</td>
@@ -221,9 +268,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check fire extinguisher, first aid kit, survival equipment is on board</p>
-                              </td>
+                              <td>Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
                               <td>3</td>
@@ -231,9 +276,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check fire extinguisher, first aid kit, survival equipment is on board</p>
-                              </td>
+                              <td>Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
                               <td>4</td>
@@ -241,9 +284,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF</p>
-                              </td>
+                              <td>OFF</td>
                            </tr>
                            <tr>
                               <td>5</td>
@@ -251,9 +292,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Closed</p>
-                              </td>
+                              <td>Closed</td>
                            </tr>
                            <tr>
                               <td>6</td>
@@ -261,9 +300,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF</p>
-                              </td>
+                              <td>OFF</td>
                            </tr>
                            <tr>
                               <td>7</td>
@@ -271,9 +308,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF</p>
-                              </td>
+                              <td>OFF</td>
                            </tr>
                            <tr>
                               <td>8</td>
@@ -281,9 +316,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>ON</p>
-                              </td>
+                              <td>ON</td>
                            </tr>
                            <tr>
                               <td>9</td>
@@ -291,9 +324,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>ON (move to BAT)</p>
-                              </td>
+                              <td>ON (move to BAT)</td>
                            </tr>
                            <tr>
                               <td>10</td>
@@ -301,9 +332,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check</p>
-                              </td>
+                              <td>Check</td>
                            </tr>
                            <tr>
                               <td>11</td>
@@ -311,9 +340,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Depress button and check fuel for water or contaminants</p>
-                              </td>
+                              <td>Depress button and check fuel for water or contaminants</td>
                            </tr>
                            <tr>
                               <td>12</td>
@@ -321,9 +348,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>ON</p>
-                              </td>
+                              <td>ON</td>
                            </tr>
                            <tr>
                               <td>13</td>
@@ -331,9 +356,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>ON (circuit breakers IN and check fuel pressure)</p>
-                              </td>
+                              <td>ON (circuit breakers IN and check fuel pressure)</td>
                            </tr>
                            <tr>
                               <td>14</td>
@@ -341,9 +364,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Take sample and check for water or contaminants</p>
-                              </td>
+                              <td>Take sample and check for water or contaminants</td>
                            </tr>
                            <tr>
                               <td>15</td>
@@ -351,9 +372,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Press test button and check for A/F Filter caution light</p>
-                              </td>
+                              <td>Press test button and check for A/F Filter caution light</td>
                            </tr>
                            <tr>
                               <td>16</td>
@@ -361,9 +380,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF (circuit breakers OUT)</p>
-                              </td>
+                              <td>OFF (circuit breakers OUT)</td>
                            </tr>
                            <tr>
                               <td>17</td>
@@ -371,9 +388,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF</p>
-                              </td>
+                              <td>OFF</td>
                            </tr>
                            <tr>
                               <td>18</td>
@@ -381,9 +396,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check that all internal lights are working</p>
-                              </td>
+                              <td>Check that all internal lights are working</td>
                            </tr>
                            <tr>
                               <td>19</td>
@@ -391,9 +404,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Check all external lights are working</p>
-                              </td>
+                              <td>Check all external lights are working</td>
                            </tr>
                            <tr>
                               <td>20</td>
@@ -401,9 +412,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>OFF</p>
-                              </td>
+                              <td>OFF</td>
                            </tr>
                            <tr>
                               <td>21</td>
@@ -411,15 +420,13 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Ensure all loose articles such as helmet bags, cargo, etc. are secured</p>
-                              </td>
+                              <td>Ensure all loose articles such as helmet bags, cargo, etc. are secured</td>
                            </tr>
                         </tbody>
                      </table>
                   </form>
                </div>
-            </div><br /><br />
+            </div>
             <div data-role="collapsible">
                <h1>Post Flight Inspection</h1>
                <div data-role="collapsible">
@@ -450,7 +457,7 @@ div {
                                  <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p>Wait in the helicopter until the main rotor blades have completely stopped turning</p>
+                                 Wait in the helicopter until the main rotor blades have completely stopped turning
                                  <p class="notes">WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</p>
                               </td>
                            </tr>
@@ -460,9 +467,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Complete the relevant paper work</p>
-                              </td>
+                              <td>Complete the relevant paper work</td>
                            </tr>
                            <tr>
                               <td>3</td>
@@ -470,9 +475,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 <p>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</p>
-                              </td>
+                              <td>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</td>
                            </tr>
                            <tr>
                               <td>4</td>
@@ -481,7 +484,6 @@ div {
                                  <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p />
                                  <p class="notes">NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</p>
                               </td>
                            </tr>
@@ -490,10 +492,14 @@ div {
                   </form>
                </div>
             </div>
-         </div><br /><br />
+         </div>
          <div data-role="footer">
             <h1>Becker Helicopters Copyright 2014</h1>
          </div>
       </div>
+   </body>
+</html>
+    <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
+      
    </body>
 </html>
