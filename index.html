@@ -66,15 +66,15 @@
 .notes
 {
 	background: #000000;
-	color: #ffffff;
-	box-shadow: 5px 5px 3px #888888;
-    
+	color: #c0c0c0;
+	box-shadow: 4px 4px 2px #c0c0c0;
+	padding: 10px 10px 10px 10px;
 }
 
 .div {
    
     background-color: #FFD700;
-    box-shadow: 5px 5px 3px #888888;
+    box-shadow: 4px 4px 2px #c0c0c0;
     margin: 5px;
 }
 
@@ -89,6 +89,18 @@ tr#color3 { background-color: #000028 }
 tr#color4 { background-color: #dddddd ; border-color: 999; height: 50%}
 td#color5 { background-color: #000028 }
 td#color6 { background-color: #ffc926 }
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:40px;
+    height:40px;
+    background:white;
+    border-radius:20px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background-image: url("tick40.png");
+}
 
 </style>
 
@@ -147,12 +159,11 @@ div {
 
 <table border="1" style="width:100%">
 <thead>
-<td id="color5" align="center" style="width:100%" style="color:black"><br />206BIII ABREVIATED NORMAL CHECKLIST<br /><br /></td>
+<td id="color5" align="center" style="width:100%" style="color:black"><br />BELL 206BIII ABREVIATED NORMAL CHECKLIST<br /><br /></td>
 </thead>
 </table>
   
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
-
 
 
 
@@ -499,6 +510,7 @@ div {
       </div>
    </body>
 </html>
+
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       
    </body>

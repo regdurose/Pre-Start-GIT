@@ -47,7 +47,7 @@
                       <td><xsl:value-of select="number"/></td>
                       <td><xsl:value-of select="item"/></td>
                       <td><input type="checkbox" name="checklist" /></td>
-                      <td><p><xsl:value-of select="action"/></p>
+                      <td><xsl:value-of select="action"/>
                         <xsl:if test="notes !=''">
                             <p class="notes"><xsl:value-of select="notes " /></p>
                         </xsl:if>
