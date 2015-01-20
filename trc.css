@@ -567,7 +567,7 @@ html body .ui-group-theme-c .ui-bar-inherit {
 	background-color: #000028 /*{c-page-background-color}*/;
 	border-color: #bbbbbb /*{c-page-border}*/;
 	color: #333333 /*{c-page-color}*/;
-	text-shadow: 0 /*{c-page-shadow-x}*/ 1px /*{c-page-shadow-y}*/ 0 /*{c-page-shadow-radius}*/ #f3f3f3 /*{c-page-shadow-color}*/;
+	
 }
 /* Body: Read-only lists, text inputs, collapsible content */
 .ui-body-c,
@@ -579,7 +579,7 @@ html .ui-panel-page-container-c {
 	background-color: #000028 /*{c-body-background-color}*/;
 	border-color: #dddddd /*{c-body-border}*/;
 	color: #ffffff /*{c-body-color}*/;
-	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #f3f3f3 /*{c-body-shadow-color}*/;
+	
 }
 .ui-body-c {
 	border-width: 1px;
