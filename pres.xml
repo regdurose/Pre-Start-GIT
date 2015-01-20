@@ -13,35 +13,53 @@
                 <number>1</number>
                 <item>Aircraft</item>
                 <action>Good general condition</action>
+                <warning>Watch Out When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.</warning>
+                <caution>Caution! Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed. </caution>
                 <notes>When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.</notes>
+                <infnotes>These notes are not manditory</infnotes>
+         
+                
             </step>
             <step>
                 <icon></icon>
                 <number>2</number>
                 <item>Doors</item>
                 <action>Checked</action>
+                <warning>Look Out!</warning>
+                <caution></caution>
                 <notes>On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.</notes>
+                <infnotes></infnotes>
+               
             </step>
             <step>
                 <icon></icon>
                 <number>3</number>
                 <item>Glass</item>
                 <action>Clean and intact</action>
+                <warning></warning>
+                <caution></caution>
                 <notes>Windows are cleaned, window sliders are intact.</notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>4</number>
                 <item>Dual controls</item>
                 <action>Fitted correctly.  Locking pins and canon plugs in place.</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>5</number>
                 <item>Covers</item>
                 <action>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
         </stage>
     
@@ -53,147 +71,210 @@
                 <number>1</number>
                 <item>Doors and cabin</item>
                 <action>Check the general condition of the cockpit, instruments, radios, harnesses and controls</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>2</number>
                 <item>Documentation</item>
                 <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>3</number>
                 <item>Emergency equipment</item>
                 <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>4</number>
                 <item>Battery switch</item>
                 <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>5</number>
                 <item>Throttle</item>
                 <action>Closed</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>6</number>
                 <item>Fuel valve</item>
                 <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>7</number>
                 <item>Radios and Avionics</item>
                 <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>8</number>
                 <item>Anti-Collision light</item>
                 <action>ON</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>9</number>
                 <item>Battery switch</item>
                 <action>ON (move to BAT)</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>10</number>
                 <item>Fuel quantity</item>
                 <action>Check</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>11</number>
                 <item>Fuel sump drain</item>
                 <action>Depress button and check fuel for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>12</number>
                 <item>Fuel Valve</item>
                 <action>ON</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>13</number>
                 <item>Fuel boost pumps</item>
                 <action>ON (circuit breakers IN and check fuel pressure)</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>14</number>
                 <item>Airframe filter drain</item>
                 <action>Take sample and check for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>15</number>
                 <item>Airframe filter test</item>
                 <action>Press test button and check for A/F Filter caution light</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>16</number>
                 <item>Fuel boost pumps</item>
                 <action>OFF (circuit breakers OUT)</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>17</number>
                 <item>Fuel valve</item>
                 <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon>night</icon>
                 <number>18</number>
                 <item>Internal Cockpit Lights</item>
                 <action>Check that all internal lights are working</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon>night</icon>
                 <number>19</number>
                 <item>External lights</item>
                 <action>Check all external lights are working</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>20</number>
                 <item>Battery switch</item>
                 <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>21</number>
                 <item>Loose articles</item>
                 <action>Ensure all loose articles such as helmet bags, cargo, etc. are secured</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
         </stage>
     </phase>
@@ -208,27 +289,38 @@
                 <number>1</number>
                 <item>Main blades still turning</item>
                 <action>Wait in the helicopter until the main rotor blades have completely stopped turning</action>
+                <warning></warning>
+                <caution></caution>
                 <notes>WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>2</number>
                 <item>MR and DFR</item>
                 <action>Complete the relevant paper work</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>3</number>
                 <item>Fuel quantity</item>
                 <action>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</action>
+                <warning></warning>
+                <caution></caution>
                 <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
                 <icon></icon>
                 <number>4</number>
                 <item>Exit the helicopter</item>
                 <action></action>
+                <warning></warning>
+                <caution></caution>
                     <sub>Secure the doors</sub>
                     <sub>Tie down the main rotor blades</sub>
                     <sub>Cover the instrument console</sub>
@@ -236,6 +328,7 @@
                     <sub>Cover the aircraft if it is the last flight of the day</sub>
                     <sub>Conduct a walk around inspection looking for damage to the fuselage and rotor blades.  Inspect for oil leaks.</sub>
                 <notes>NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</notes>
+                    <infnotes></infnotes>
             </step>        
         </stage>
     </phase>  

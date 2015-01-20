@@ -41,6 +41,10 @@
                     <th scope="col">Action</th>
                   </tr>
                   </thead>
+                  
+                  
+                  
+                  
                   <tbody>
                   <xsl:for-each select="step">
                     <tr>
@@ -48,9 +52,30 @@
                       <td><xsl:value-of select="item"/></td>
                       <td><input type="checkbox" name="checklist" /></td>
                       <td><xsl:value-of select="action"/>
-                        <xsl:if test="notes !=''">
-                            <p class="notes"><xsl:value-of select="notes " /></p>
+                      
+                      
+                      
+                      <xsl:if test="warning !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
+                      
+                      <xsl:if test="caution !=''">
+                       <p class="caution"><img src = "caution.png" class = "capimg"></img><xsl:value-of select="caution" /></p>
+                        </xsl:if>
+                      
+                    
+                      <xsl:if test="notes !=''">
+                            <p class="notes"><img src = "notes.jpg" class = "capimg"></img><xsl:value-of select="notes" /></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="infnotes !=''">
+                            <p class="infnotes"><img src = "infnotes.jpg" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
+                        </xsl:if>
+                        
+                        
+                        
+                        
+                        
                       </td>
                     </tr>
                   </xsl:for-each>

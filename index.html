@@ -26,7 +26,7 @@
 	
 #checklist
 {
-	font-family:"Arial Rounded MT Bold"
+
 	margin: 45px;
 	text-align: left;
 	border-collapse: collapse;
@@ -78,7 +78,56 @@
 	padding: 7px 7px 7px 7px;
 	font-weight: 100;
 	font-style:normal;
+	color: white;
+}
+
+.warning
+{
+	background: #000028;
+	color: #c0c0c0;
+	padding: 7px 7px 7px 7px;
+	font-weight: 100;
+	font-style:normal;
 	color: red;
+
+}
+
+
+.caution
+{
+	background: #000028;
+	color: #c0c0c0;
+	padding: 7px 7px 7px 7px;
+	font-weight: 100;
+	font-style:normal;
+	color:#3388CC;
+}
+
+.infnotes
+{
+	background: #000028;
+	color: #c0c0c0;
+	padding: 7px 7px 7px 7px;
+	font-weight: 100;
+	font-style:normal;
+	color:#BBBBBB;
+}
+
+.capimg {
+    float: left;
+    width: 10%;
+    padding-right: 10px;
+    
+}
+
+p {
+    
+    -webkit-column-count:1; /* Safari and Chrome */
+    column-count:1;
+
+    -webkit-column-gap:2em; /* Safari and Chrome */
+    column-gap:2em;
+
 }
 
 .div {
@@ -181,7 +230,6 @@ div {
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
 
 
-
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h1>Preflight Inspection</h1>
@@ -214,7 +262,22 @@ div {
                               </td>
                               <td>
                                  Good general condition
-                                 <p class="notes">When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.</p>
+                                 <p class="warning">
+                                    <img class="capimg" src="warning.png" />
+                                    Watch Out When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.
+                                 </p>
+                                 <p class="caution">
+                                    <img class="capimg" src="caution.png" />
+                                    Caution! Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.
+                                 </p>
+                                 <p class="notes">
+                                    <img class="capimg" src="notes.jpg" />
+                                    When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.
+                                 </p>
+                                 <p class="infnotes">
+                                    <img class="capimg" src="infnotes.jpg" />
+                                    These notes are not manditory
+                                 </p>
                               </td>
                            </tr>
                            <tr>
@@ -225,7 +288,14 @@ div {
                               </td>
                               <td>
                                  Checked
-                                 <p class="notes">On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.</p>
+                                 <p class="warning">
+                                    <img class="capimg" src="warning.png" />
+                                    Look Out!
+                                 </p>
+                                 <p class="notes">
+                                    <img class="capimg" src="notes.jpg" />
+                                    On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.
+                                 </p>
                               </td>
                            </tr>
                            <tr>
@@ -236,7 +306,10 @@ div {
                               </td>
                               <td>
                                  Clean and intact
-                                 <p class="notes">Windows are cleaned, window sliders are intact.</p>
+                                 <p class="notes">
+                                    <img class="capimg" src="notes.jpg" />
+                                    Windows are cleaned, window sliders are intact.
+                                 </p>
                               </td>
                            </tr>
                            <tr>
@@ -484,7 +557,10 @@ div {
                               </td>
                               <td>
                                  Wait in the helicopter until the main rotor blades have completely stopped turning
-                                 <p class="notes">WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</p>
+                                 <p class="notes">
+                                    <img class="capimg" src="notes.jpg" />
+                                    WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT
+                                 </p>
                               </td>
                            </tr>
                            <tr>
@@ -510,7 +586,10 @@ div {
                                  <input name="checklist" type="checkbox" />
                               </td>
                               <td>
-                                 <p class="notes">NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</p>
+                                 <p class="notes">
+                                    <img class="capimg" src="notes.jpg" />
+                                    NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.
+                                 </p>
                               </td>
                            </tr>
                         </tbody>
@@ -520,12 +599,11 @@ div {
             </div>
          </div>
          <div data-role="footer">
-            <h1>Becker Helicopters Copyright 2015</h1>
+            <h1>Becker Helicopters Copyright 2014</h1>
          </div>
       </div>
    </body>
 </html>
-
 
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       
