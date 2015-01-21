@@ -68,8 +68,14 @@
                             <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
                         </xsl:if>
                         
+                        
+                        
+                        
+                        
+                        <!--                              Display only when selected                                                        -->
                         <xsl:if test="infnotes !=''">
-                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
+                           <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
+                            
                         </xsl:if>
                         
                         
