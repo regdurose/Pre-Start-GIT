@@ -57,7 +57,7 @@
                       
                       <xsl:choose>
                       	<xsl:when test="icon = 1">
-                      <td style="background-color:#ffb266"><xsl:value-of select="action"/>
+                      <td style="background-color:#B8860B"><xsl:value-of select="action"/>
                       	
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
@@ -82,7 +82,7 @@
                         
                       <xsl:otherwise>
                       	
-                      <td style="background-color:#6666ff"><xsl:value-of select="action"/>
+                      <td style="background-color:#008080"><xsl:value-of select="action"/>
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>

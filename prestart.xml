@@ -403,7 +403,7 @@
         <stagetitle>Cockpit Inspection and Fuel Drain</stagetitle>
         <stagenotes></stagenotes>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>1</number>
                 <item>Doors and cabin</item>
                 <action>Check the general condition of the cockpit, instruments, radios, harnesses and controls</action>
@@ -413,7 +413,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>2</number>
                 <item>Documentation</item>
                 <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
@@ -423,7 +423,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>3</number>
                 <item>Emergency equipment</item>
                 <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
@@ -433,7 +433,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>4</number>
                 <item>Battery switch</item>
                 <action>OFF</action>
@@ -443,7 +443,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>5</number>
                 <item>Throttle</item>
                 <action>Closed</action>
@@ -453,7 +453,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>6</number>
                 <item>Fuel valve</item>
                 <action>OFF</action>
@@ -463,7 +463,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>7</number>
                 <item>Radios and Avionics</item>
                 <action>OFF</action>
@@ -473,7 +473,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>8</number>
                 <item>Anti-Collision light</item>
                 <action>ON</action>
@@ -483,7 +483,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>9</number>
                 <item>Battery switch</item>
                 <action>ON &#40;move to BAT&#41;</action>
@@ -493,7 +493,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>10</number>
                 <item>Fuel quantity</item>
                 <action>Check</action>
@@ -503,7 +503,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>11</number>
                 <item>Fuel sump drain</item>
                 <action>Depress button and check fuel for water or contaminants</action>
@@ -513,7 +513,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>12</number>
                 <item>Fuel Valve</item>
                 <action>ON</action>
@@ -523,7 +523,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>13</number>
                 <item>Fuel boost pumps</item>
                 <action>ON &#40;circuit breakers IN and check fuel pressure&#41;</action>
@@ -533,7 +533,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>14</number>
                 <item>Airframe filter drain</item>
                 <action>Take sample and check for water or contaminants</action>
@@ -543,7 +543,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>15</number>
                 <item>Airframe filter test</item>
                 <action>Press test button and check for A/F Filter caution light</action>
@@ -553,7 +553,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>16</number>
                 <item>Fuel boost pumps</item>
                 <action>OFF &#40;circuit breakers OUT&#41;</action>
@@ -563,7 +563,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>17</number>
                 <item>Fuel valve</item>
                 <action>OFF</action>
@@ -573,7 +573,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon>night</icon>
+                <icon>2</icon>
                 <number>18</number>
                 <item>Internal Cockpit Lights</item>
                 <action>Check that all internal lights are working</action>
@@ -583,7 +583,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon>night</icon>
+                <icon>2</icon>
                 <number>19</number>
                 <item>External lights</item>
                 <action>Check all external lights are working</action>
@@ -593,7 +593,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>20</number>
                 <item>Battery switch</item>
                 <action>OFF</action>
@@ -603,7 +603,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-                <icon></icon>
+                <icon>1</icon>
                 <number>21</number>
                 <item>Loose articles</item>
                 <action>Ensure all loose articles such as helmet bags, cargo, etc. are secured</action>
