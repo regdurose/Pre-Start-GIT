@@ -59,8 +59,8 @@
 {
 	background: #d0dafd;
 	font-weight: bold;
-	border-right: 10px solid transparent;
-	border-left: 10px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
 	
 }
 #checklist tr:hover td
@@ -121,6 +121,9 @@
     padding-right: 10px;
    
 }
+
+
+
 
 p {
     
@@ -233,12 +236,11 @@ div {
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
 
 
-
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h1>Preflight Inspection</h1>
                <div data-role="collapsible">
-                  <h2>General Inspection</h2>
+                  <h2>PRE START</h2>
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
@@ -249,88 +251,324 @@ div {
                         </colgroup>
                         <thead>
                            <tr>
-                              <th scope="col">No</th>
-                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th scope="col">
+                                 <h3>Item</h3>
+                              </th>
                               <th scope="col">
                                  <input value="Reset" type="reset" />
                               </th>
-                              <th scope="col">Action</th>
+                              <th scope="col">
+                                 <h3>Action</h3>
+                              </th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
                               <td>1</td>
-                              <td>Aircraft</td>
+                              <td>BATTERY MASTER</td>
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 Good general condition
-                                 <p class="warning">
-                                    <img class="capimg" src="warning.png" />
-                                    Watch Out When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.
-                                 </p>
-                                 <p class="caution">
-                                    <img class="capimg" src="caution.png" />
-                                    Caution! Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.
-                                 </p>
-                                 <p class="notes">
-                                    <img class="capimg" src="notes.png" />
-                                    When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or on the ground. Look for anything unusual that catches your eye.
-                                 </p>
-                                 <p class="infnotes">
-                                    <img class="capimg" src="infnotes.png" />
-                                    These notes are to be displayed on request
-                                 </p>
-                              </td>
+                              <td style="background-color:#6666ff">ON (SELECT BAT)</td>
                            </tr>
                            <tr>
                               <td>2</td>
-                              <td>Doors</td>
+                              <td>ANTI-COLLISION LIGHT</td>
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 Checked
-                                 <p class="warning">
-                                    <img class="capimg" src="warning.png" />
-                                    Look Out!
-                                 </p>
-                                 <p class="notes">
-                                    <img class="capimg" src="notes.png" />
-                                    On or Off as required. Door pins, gas struts and restraining straps are installed.  If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least ½ inch (13mm) through the door lugs with the jettison handle in the correct position.
-                                 </p>
-                              </td>
+                              <td style="background-color:#6666ff">ON</td>
                            </tr>
                            <tr>
                               <td>3</td>
-                              <td>Glass</td>
+                              <td>POSITION LIGHTS</td>
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
-                                 Clean and intact
-                                 <p class="notes">
-                                    <img class="capimg" src="notes.png" />
-                                    Windows are cleaned, window sliders are intact.
-                                 </p>
-                              </td>
+                              <td style="background-color:#6666ff">ON</td>
                            </tr>
                            <tr>
                               <td>4</td>
-                              <td>Dual controls</td>
+                              <td>INTERNAL INSTRUMENT LIGHTS</td>
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Fitted correctly.  Locking pins and canon plugs in place.</td>
+                              <td style="background-color:#6666ff">ON, AS REQD</td>
                            </tr>
                            <tr>
                               <td>5</td>
-                              <td>Covers</td>
+                              <td>CABIN INTERIOR</td>
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed.</td>
+                              <td style="background-color:#ffb266">SECURE</td>
+                           </tr>
+                           <tr>
+                              <td>6</td>
+                              <td>SEAT BELTS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">SECURE</td>
+                           </tr>
+                           <tr>
+                              <td>7</td>
+                              <td>CABIN DOORS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">SECURE</td>
+                           </tr>
+                           <tr>
+                              <td>8</td>
+                              <td>CONTROL LOCKS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">OFF (if installed)</td>
+                           </tr>
+                           <tr>
+                              <td>9</td>
+                              <td>PEDALS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ADJUSTED - FULL &amp; FREE</td>
+                           </tr>
+                           <tr>
+                              <td>10</td>
+                              <td>FRICTIONS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">OFF</td>
+                           </tr>
+                           <tr>
+                              <td>11</td>
+                              <td>CYCLIC</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">CYCLIC FULL &amp; FREE / CENTERED - FRICTION ON</td>
+                           </tr>
+                           <tr>
+                              <td>12</td>
+                              <td>PILOT COLLECTIVE</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">COLLECTIVE FULL UP AND DOWN - FRICTION ON</td>
+                           </tr>
+                           <tr>
+                              <td>13</td>
+                              <td>PILOT THROTTLE</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">OFF - IDLE - FULL - IDLE - OFF</td>
+                           </tr>
+                           <tr>
+                              <td>14</td>
+                              <td>CO-PILOT THROTTLE</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">OFF - IDLE - FULL - OFF</td>
+                           </tr>
+                           <tr>
+                              <td>15</td>
+                              <td>LANDING LIGHT</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#6666ff">ON - TEST - OFF</td>
+                           </tr>
+                           <tr>
+                              <td>16</td>
+                              <td>NIGHT SCANNER (PIC)</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#6666ff">ON - TEST - OFF - STOW (AS REQD)</td>
+                           </tr>
+                           <tr>
+                              <td>17</td>
+                              <td>NIGHT SCANNER (NFP)</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#6666ff">ON - TEST - OFF - STOW (AS REQD)</td>
+                           </tr>
+                           <tr>
+                              <td>18</td>
+                              <td>ELT</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ARMED</td>
+                           </tr>
+                           <tr>
+                              <td>19</td>
+                              <td>BATTERY SELECTION SWITCH</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">SELECT BOTH (IF FITTED)</td>
+                           </tr>
+                           <tr>
+                              <td>20</td>
+                              <td>EMERGENCY AIR</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">CLOSED AND GUARDED</td>
+                           </tr>
+                           <tr>
+                              <td>21</td>
+                              <td>ENGINE ANTI ICE</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">OFF</td>
+                           </tr>
+                           <tr>
+                              <td>22</td>
+                              <td>HYD SYSTEM</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ON</td>
+                           </tr>
+                           <tr>
+                              <td>23</td>
+                              <td>FUEL VALVE</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ON AND GUARDED</td>
+                           </tr>
+                           <tr>
+                              <td>24</td>
+                              <td>ALTIMETERS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">SET FIELD ELEVATION</td>
+                           </tr>
+                           <tr>
+                              <td>25</td>
+                              <td>INSTRUMENTS &amp; GUAGES</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">CHECKED</td>
+                           </tr>
+                           <tr>
+                              <td>26</td>
+                              <td>OVERHEAD SWITCHES</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ALL OFF EXCEPT ANTI-COL ON &amp; MASTER GYRO SWITCH ON</td>
+                           </tr>
+                           <tr>
+                              <td>27</td>
+                              <td>CIRCUIT BREAKERS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">IN EXCEPT FUEL BOOST CBs OUT</td>
+                           </tr>
+                           <tr>
+                              <td>28</td>
+                              <td>BATTERY MASTER</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ON (UNLESS EXTERNAL POWER)</td>
+                           </tr>
+                           <tr>
+                              <td>29</td>
+                              <td>RADIO MASTER</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ON - CHECK HELMET WORKING</td>
+                           </tr>
+                           <tr>
+                              <td>30</td>
+                              <td>FCAUTION / WARNING LIGHTS</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">5 WARNING LIGHTS SHOWING</td>
+                           </tr>
+                           <tr>
+                              <td>31</td>
+                              <td>CAUTION AND WARNING PANEL</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">PUSH TO TEST</td>
+                           </tr>
+                           <tr>
+                              <td>32</td>
+                              <td>COLLECTIVE RAISE THEN LOWER</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">CHECK LOW RPM AUDIO AND LIGHT</td>
+                           </tr>
+                           <tr>
+                              <td>33</td>
+                              <td>AFT FUEL BOOST PUMP CB</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">[IN]     CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
+                           </tr>
+                           <tr>
+                              <td>34</td>
+                              <td>FWD FUEL BOOST PUMP CB</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">[IN]     CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
+                           </tr>
+                           <tr>
+                              <td>35</td>
+                              <td>AFT FUEL BOOST PUMP CB</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">[OUT]     CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
+                           </tr>
+                           <tr>
+                              <td>36</td>
+                              <td>AFT FUEL BOOST PUMP CB</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">[IN]     CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
+                           </tr>
+                           <tr>
+                              <td>37</td>
+                              <td>OAT</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">NOTED</td>
+                           </tr>
+                           <tr>
+                              <td>38</td>
+                              <td>CLOCK</td>
+                              <td>
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#ffb266">ZEROED</td>
                            </tr>
                         </tbody>
                      </table>
@@ -348,12 +586,18 @@ div {
                         </colgroup>
                         <thead>
                            <tr>
-                              <th scope="col">No</th>
-                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th scope="col">
+                                 <h3>Item</h3>
+                              </th>
                               <th scope="col">
                                  <input value="Reset" type="reset" />
                               </th>
-                              <th scope="col">Action</th>
+                              <th scope="col">
+                                 <h3>Action</h3>
+                              </th>
                            </tr>
                         </thead>
                         <tbody>
@@ -363,7 +607,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check the general condition of the cockpit, instruments, radios, harnesses and controls</td>
+                              <td style="background-color:#6666ff">Check the general condition of the cockpit, instruments, radios, harnesses and controls</td>
                            </tr>
                            <tr>
                               <td>2</td>
@@ -371,7 +615,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check fire extinguisher, first aid kit, survival equipment is on board</td>
+                              <td style="background-color:#6666ff">Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
                               <td>3</td>
@@ -379,7 +623,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check fire extinguisher, first aid kit, survival equipment is on board</td>
+                              <td style="background-color:#6666ff">Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
                               <td>4</td>
@@ -387,7 +631,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF</td>
+                              <td style="background-color:#6666ff">OFF</td>
                            </tr>
                            <tr>
                               <td>5</td>
@@ -395,7 +639,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Closed</td>
+                              <td style="background-color:#6666ff">Closed</td>
                            </tr>
                            <tr>
                               <td>6</td>
@@ -403,7 +647,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF</td>
+                              <td style="background-color:#6666ff">OFF</td>
                            </tr>
                            <tr>
                               <td>7</td>
@@ -411,7 +655,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF</td>
+                              <td style="background-color:#6666ff">OFF</td>
                            </tr>
                            <tr>
                               <td>8</td>
@@ -419,7 +663,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>ON</td>
+                              <td style="background-color:#6666ff">ON</td>
                            </tr>
                            <tr>
                               <td>9</td>
@@ -427,7 +671,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>ON (move to BAT)</td>
+                              <td style="background-color:#6666ff">ON (move to BAT)</td>
                            </tr>
                            <tr>
                               <td>10</td>
@@ -435,7 +679,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check</td>
+                              <td style="background-color:#6666ff">Check</td>
                            </tr>
                            <tr>
                               <td>11</td>
@@ -443,7 +687,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Depress button and check fuel for water or contaminants</td>
+                              <td style="background-color:#6666ff">Depress button and check fuel for water or contaminants</td>
                            </tr>
                            <tr>
                               <td>12</td>
@@ -451,7 +695,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>ON</td>
+                              <td style="background-color:#6666ff">ON</td>
                            </tr>
                            <tr>
                               <td>13</td>
@@ -459,7 +703,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>ON (circuit breakers IN and check fuel pressure)</td>
+                              <td style="background-color:#6666ff">ON (circuit breakers IN and check fuel pressure)</td>
                            </tr>
                            <tr>
                               <td>14</td>
@@ -467,7 +711,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Take sample and check for water or contaminants</td>
+                              <td style="background-color:#6666ff">Take sample and check for water or contaminants</td>
                            </tr>
                            <tr>
                               <td>15</td>
@@ -475,7 +719,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Press test button and check for A/F Filter caution light</td>
+                              <td style="background-color:#6666ff">Press test button and check for A/F Filter caution light</td>
                            </tr>
                            <tr>
                               <td>16</td>
@@ -483,7 +727,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF (circuit breakers OUT)</td>
+                              <td style="background-color:#6666ff">OFF (circuit breakers OUT)</td>
                            </tr>
                            <tr>
                               <td>17</td>
@@ -491,7 +735,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF</td>
+                              <td style="background-color:#6666ff">OFF</td>
                            </tr>
                            <tr>
                               <td>18</td>
@@ -499,7 +743,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check that all internal lights are working</td>
+                              <td style="background-color:#6666ff">Check that all internal lights are working</td>
                            </tr>
                            <tr>
                               <td>19</td>
@@ -507,7 +751,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Check all external lights are working</td>
+                              <td style="background-color:#6666ff">Check all external lights are working</td>
                            </tr>
                            <tr>
                               <td>20</td>
@@ -515,7 +759,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>OFF</td>
+                              <td style="background-color:#6666ff">OFF</td>
                            </tr>
                            <tr>
                               <td>21</td>
@@ -523,7 +767,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Ensure all loose articles such as helmet bags, cargo, etc. are secured</td>
+                              <td style="background-color:#6666ff">Ensure all loose articles such as helmet bags, cargo, etc. are secured</td>
                            </tr>
                         </tbody>
                      </table>
@@ -544,12 +788,18 @@ div {
                         </colgroup>
                         <thead>
                            <tr>
-                              <th scope="col">No</th>
-                              <th scope="col">Item</th>
+                              <th scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th scope="col">
+                                 <h3>Item</h3>
+                              </th>
                               <th scope="col">
                                  <input value="Reset" type="reset" />
                               </th>
-                              <th scope="col">Action</th>
+                              <th scope="col">
+                                 <h3>Action</h3>
+                              </th>
                            </tr>
                         </thead>
                         <tbody>
@@ -559,7 +809,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
+                              <td style="background-color:#6666ff">
                                  Wait in the helicopter until the main rotor blades have completely stopped turning
                                  <p class="notes">
                                     <img class="capimg" src="notes.png" />
@@ -573,7 +823,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Complete the relevant paper work</td>
+                              <td style="background-color:#6666ff">Complete the relevant paper work</td>
                            </tr>
                            <tr>
                               <td>3</td>
@@ -581,7 +831,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</td>
+                              <td style="background-color:#6666ff">Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</td>
                            </tr>
                            <tr>
                               <td>4</td>
@@ -589,7 +839,7 @@ div {
                               <td>
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td>
+                              <td style="background-color:#6666ff">
                                  <p class="notes">
                                     <img class="capimg" src="notes.png" />
                                     NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.
@@ -603,11 +853,12 @@ div {
             </div>
          </div>
          <div data-role="footer">
-            <h1>Becker Helicopters Copyright 2014</h1>
+            <h1>Becker Helicopters Copyright 2015</h1>
          </div>
       </div>
    </body>
 </html>
+
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       
    </body>

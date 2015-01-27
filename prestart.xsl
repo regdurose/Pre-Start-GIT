@@ -35,10 +35,10 @@
                 </colgroup>
                 <thead>
                   <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Item</th>
+                    <th scope="col"><h3>No</h3></th>
+                    <th scope="col"><h3>Item</h3></th>
                     <th scope="col"><input type="reset" value="Reset" /></th>
-                    <th scope="col">Action</th>
+                    <th scope="col"><h3>Action</h3></th>
                   </tr>
                   </thead>
                   
@@ -48,12 +48,18 @@
                   <tbody>
                   <xsl:for-each select="step">
                     <tr>
+                    
+                  
+                      
                       <td><xsl:value-of select="number"/></td>
                       <td><xsl:value-of select="item"/></td>
                       <td><input type="checkbox" name="checklist" /></td>
-                      <td><xsl:value-of select="action"/>
-                         
-                      <xsl:if test="warning !=''">
+                      
+                      <xsl:choose>
+                      	<xsl:when test="icon = 1">
+                      <td style="background-color:#ffb266"><xsl:value-of select="action"/>
+                      	
+                      	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
                       
@@ -71,12 +77,34 @@
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
                             
                         </xsl:if>
+                        </td>
+                        </xsl:when>
                         
+                      <xsl:otherwise>
+                      	
+                      <td style="background-color:#6666ff"><xsl:value-of select="action"/>
+                      	<xsl:if test="warning !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
+                        </xsl:if>
+                      
+                      <xsl:if test="caution !=''">
+                       <p class="caution"><img src = "caution.png" class = "capimg"></img><xsl:value-of select="caution" /></p>
+                        </xsl:if>
+                      
+                    
+                      <xsl:if test="notes !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
+                        </xsl:if>
                         
-                        
-                        
-                        
-                      </td>
+<!--                              Display only when selected                                                        -->
+                        <xsl:if test="infnotes !=''">
+                           <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
+                            </xsl:if>
+                        </td>
+                        </xsl:otherwise>
+                      
+                      
+                      </xsl:choose>
                     </tr>
                   </xsl:for-each>
                 </tbody>

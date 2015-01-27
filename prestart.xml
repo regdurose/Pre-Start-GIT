@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pres.xsl"?>
+<!-- Edited by Becker Helicopters -->
+<checklist>
+	<phase>
+    <phasetitle>Preflight Inspection</phasetitle>
+    <phasenotes></phasenotes>
+        <stage>
+        <stagetitle>PRE START</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+                <icon>2</icon>
+                <number>1</number>
+                <item>BATTERY MASTER</item>
+                <action>ON &#40;SELECT BAT&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>2</number>
+                <item>ANTI-COLLISION LIGHT</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>3</number>
+                <item>POSITION LIGHTS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>4</number>
+                <item>INTERNAL INSTRUMENT LIGHTS</item>
+                <action>ON, AS REQD</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>5</number>
+                <item>CABIN INTERIOR</item>
+                <action>SECURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>6</number>
+                <item>SEAT BELTS</item>
+                <action>SECURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>7</number>
+                <item>CABIN DOORS</item>
+                <action>SECURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>8</number>
+                <item>CONTROL LOCKS</item>
+                <action>OFF &#40;if installed&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>9</number>
+                <item>PEDALS</item>
+                <action>ADJUSTED &#45; FULL &amp; FREE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>10</number>
+                <item>FRICTIONS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>11</number>
+                <item>CYCLIC</item>
+                <action>CYCLIC FULL &amp; FREE / CENTERED &#45; FRICTION ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>12</number>
+                <item>PILOT COLLECTIVE</item>
+                <action>COLLECTIVE FULL UP AND DOWN &#45; FRICTION ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>13</number>
+                <item>PILOT THROTTLE</item>
+                <action>OFF &#45; IDLE &#45; FULL &#45; IDLE &#45; OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>14</number>
+                <item>CO&#45;PILOT THROTTLE</item>
+                <action>OFF &#45; IDLE &#45; FULL &#45; OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>15</number>
+                <item>LANDING LIGHT</item>
+                <action>ON &#45; TEST &#45; OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>16</number>
+                <item>NIGHT SCANNER &#40;PIC&#41;</item>
+                <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>2</icon>
+                <number>17</number>
+                <item>NIGHT SCANNER &#40;NFP&#41;</item>
+                <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>18</number>
+                <item>ELT</item>
+                <action>ARMED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>19</number>
+                <item>BATTERY SELECTION SWITCH</item>
+                <action>SELECT BOTH &#40;IF FITTED&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>20</number>
+                <item>EMERGENCY AIR</item>
+                <action>CLOSED AND GUARDED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>21</number>
+                <item>ENGINE ANTI ICE</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>22</number>
+                <item>HYD SYSTEM</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>23</number>
+                <item>FUEL VALVE</item>
+                <action>ON AND GUARDED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>24</number>
+                <item>ALTIMETERS</item>
+                <action>SET FIELD ELEVATION</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>25</number>
+                <item>INSTRUMENTS &#38; GUAGES </item>
+                <action>CHECKED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>26</number>
+                <item>OVERHEAD SWITCHES</item>
+                <action>ALL OFF EXCEPT ANTI&#45;COL ON &#38; MASTER GYRO SWITCH ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>27</number>
+                <item>CIRCUIT BREAKERS</item>
+                <action>IN EXCEPT FUEL BOOST CBs OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>28</number>
+                <item>BATTERY MASTER</item>
+                <action>ON (UNLESS EXTERNAL POWER)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>29</number>
+                <item>RADIO MASTER</item>
+                <action>ON - CHECK HELMET WORKING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>30</number>
+                <item>FCAUTION / WARNING LIGHTS</item>
+                <action>5 WARNING LIGHTS SHOWING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>31</number>
+                <item>CAUTION AND WARNING PANEL</item>
+                <action>PUSH TO TEST</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>32</number>
+                <item>COLLECTIVE RAISE THEN LOWER</item>
+                <action>CHECK LOW RPM AUDIO AND LIGHT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>33</number>
+                <item>AFT FUEL BOOST PUMP CB</item>
+                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>34</number>
+                <item>FWD FUEL BOOST PUMP CB</item>
+                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>35</number>
+                <item>AFT FUEL BOOST PUMP CB</item>
+                <action>[OUT]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>36</number>
+                <item>AFT FUEL BOOST PUMP CB</item>
+                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>37</number>
+                <item>OAT</item>
+                <action>NOTED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+                <icon>1</icon>
+                <number>38</number>
+                <item>CLOCK</item>
+                <action>ZEROED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+        </stage>
+    
+        <stage>
+        <stagetitle>Cockpit Inspection and Fuel Drain</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+                <icon></icon>
+                <number>1</number>
+                <item>Doors and cabin</item>
+                <action>Check the general condition of the cockpit, instruments, radios, harnesses and controls</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>2</number>
+                <item>Documentation</item>
+                <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>3</number>
+                <item>Emergency equipment</item>
+                <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>4</number>
+                <item>Battery switch</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>5</number>
+                <item>Throttle</item>
+                <action>Closed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>6</number>
+                <item>Fuel valve</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>7</number>
+                <item>Radios and Avionics</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>8</number>
+                <item>Anti-Collision light</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>9</number>
+                <item>Battery switch</item>
+                <action>ON &#40;move to BAT&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>10</number>
+                <item>Fuel quantity</item>
+                <action>Check</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>11</number>
+                <item>Fuel sump drain</item>
+                <action>Depress button and check fuel for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>12</number>
+                <item>Fuel Valve</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>13</number>
+                <item>Fuel boost pumps</item>
+                <action>ON &#40;circuit breakers IN and check fuel pressure&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>14</number>
+                <item>Airframe filter drain</item>
+                <action>Take sample and check for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>15</number>
+                <item>Airframe filter test</item>
+                <action>Press test button and check for A/F Filter caution light</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>16</number>
+                <item>Fuel boost pumps</item>
+                <action>OFF &#40;circuit breakers OUT&#41;</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>17</number>
+                <item>Fuel valve</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>night</icon>
+                <number>18</number>
+                <item>Internal Cockpit Lights</item>
+                <action>Check that all internal lights are working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon>night</icon>
+                <number>19</number>
+                <item>External lights</item>
+                <action>Check all external lights are working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>20</number>
+                <item>Battery switch</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>21</number>
+                <item>Loose articles</item>
+                <action>Ensure all loose articles such as helmet bags, cargo, etc. are secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        </stage>
+    </phase>
+	<phase>
+    <phasetitle>Post Flight Inspection</phasetitle>
+    <phasenotes>The Post Flight Inspection is done immediately at the end of a flight and prior to returning to the Operations Desk.  It is to ensure that the helicopter has been left in a serviceable condition ready for the next flight by another crew.</phasenotes>
+        <stage>
+        <stagetitle>Post Flight Inspection</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+                <icon></icon>
+                <number>1</number>
+                <item>Main blades still turning</item>
+                <action>Wait in the helicopter until the main rotor blades have completely stopped turning</action>
+                <warning></warning>
+                <caution></caution>
+                <notes>WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>2</number>
+                <item>MR and DFR</item>
+                <action>Complete the relevant paper work</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>3</number>
+                <item>Fuel quantity</item>
+                <action>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+                <icon></icon>
+                <number>4</number>
+                <item>Exit the helicopter</item>
+                <action></action>
+                <warning></warning>
+                <caution></caution>
+                    <sub>Secure the doors</sub>
+                    <sub>Tie down the main rotor blades</sub>
+                    <sub>Cover the instrument console</sub>
+                    <sub>Cover the pitot tube</sub>
+                    <sub>Cover the aircraft if it is the last flight of the day</sub>
+                    <sub>Conduct a walk around inspection looking for damage to the fuselage and rotor blades.  Inspect for oil leaks.</sub>
+                <notes>NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</notes>
+                    <infnotes></infnotes>
+            </step>        
+        </stage>
+    </phase>  
+</checklist>
