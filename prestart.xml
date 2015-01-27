@@ -54,10 +54,10 @@
                 <number>5</number>
                 <item>CABIN INTERIOR</item>
                 <action>SECURE</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
+                <warning>just a warning</warning>
+                <caution>be carefull</caution>
+                <notes>jst notes</notes>
+                <infnotes>inf notes</infnotes>
             </step>
             <step>
                 <icon>1</icon>
@@ -339,7 +339,7 @@
                 <icon>1</icon>
                 <number>33</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
-                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
+                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
@@ -349,7 +349,7 @@
                 <icon>1</icon>
                 <number>34</number>
                 <item>FWD FUEL BOOST PUMP CB</item>
-                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
+                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
@@ -359,7 +359,7 @@
                 <icon>1</icon>
                 <number>35</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
-                <action>[OUT]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
+                <action>&#91;OUT&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
@@ -369,7 +369,7 @@
                 <icon>1</icon>
                 <number>36</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
-                <action>[IN]&#32;&#32;&#32;&#32;&#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
+                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
