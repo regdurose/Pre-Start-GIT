@@ -120,10 +120,13 @@
     float: left;
     width: 6%;
     padding-right: 10px;
-   
+  
 }
 
-
+.nifr {
+   
+   background-image: url("warning.png");
+}
 
 
 p {
@@ -238,6 +241,8 @@ div {
 
 
 
+
+
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h1>
@@ -252,13 +257,17 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
+                           <col style="width:3%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:20%" />
+                           <col class="checklist-first" style="width:18%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
                         <thead>
                            <tr>
+                              <th scope="col">
+                                 <h3 />
+                              </th>
                               <th scope="col">
                                  <h3>No</h3>
                               </th>
@@ -275,6 +284,9 @@ div {
                         </thead>
                         <tbody>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">1</td>
                               <td>BATTERY MASTER</td>
                               <td>
@@ -283,6 +295,9 @@ div {
                               <td style="background-color:#008080">ON (SELECT BAT)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">2</td>
                               <td>ANTI-COLLISION LIGHT</td>
                               <td>
@@ -291,6 +306,9 @@ div {
                               <td style="background-color:#008080">ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">3</td>
                               <td>POSITION LIGHTS</td>
                               <td>
@@ -299,6 +317,9 @@ div {
                               <td style="background-color:#008080">ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">4</td>
                               <td>INTERNAL INSTRUMENT LIGHTS</td>
                               <td>
@@ -307,6 +328,7 @@ div {
                               <td style="background-color:#008080">ON, AS REQD</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">5</td>
                               <td>CABIN INTERIOR</td>
                               <td>
@@ -315,6 +337,7 @@ div {
                               <td style="background-color:#B8860B">SECURE</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">6</td>
                               <td>SEAT BELTS</td>
                               <td>
@@ -323,6 +346,7 @@ div {
                               <td style="background-color:#B8860B">SECURE</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">7</td>
                               <td>CABIN DOORS</td>
                               <td>
@@ -331,6 +355,7 @@ div {
                               <td style="background-color:#B8860B">SECURE</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">8</td>
                               <td>CONTROL LOCKS</td>
                               <td>
@@ -339,6 +364,7 @@ div {
                               <td style="background-color:#B8860B">OFF (if installed)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">9</td>
                               <td>PEDALS</td>
                               <td>
@@ -347,6 +373,7 @@ div {
                               <td style="background-color:#B8860B">ADJUSTED - FULL &amp; FREE</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">10</td>
                               <td>FRICTIONS</td>
                               <td>
@@ -355,6 +382,9 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">11</td>
                               <td>CYCLIC</td>
                               <td>
@@ -363,6 +393,9 @@ div {
                               <td style="background-color:#B8860B">CYCLIC FULL &amp; FREE / CENTERED - FRICTION ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">12</td>
                               <td>PILOT COLLECTIVE</td>
                               <td>
@@ -371,6 +404,9 @@ div {
                               <td style="background-color:#B8860B">COLLECTIVE FULL UP AND DOWN - FRICTION ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">13</td>
                               <td>PILOT THROTTLE</td>
                               <td>
@@ -379,6 +415,9 @@ div {
                               <td style="background-color:#B8860B">OFF - IDLE - FULL - IDLE - OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">14</td>
                               <td>CO-PILOT THROTTLE</td>
                               <td>
@@ -387,6 +426,9 @@ div {
                               <td style="background-color:#B8860B">OFF - IDLE - FULL - OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">15</td>
                               <td>LANDING LIGHT</td>
                               <td>
@@ -395,6 +437,9 @@ div {
                               <td style="background-color:#008080">ON - TEST - OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">16</td>
                               <td>NIGHT SCANNER (PIC)</td>
                               <td>
@@ -403,6 +448,9 @@ div {
                               <td style="background-color:#008080">ON - TEST - OFF - STOW (AS REQD)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#008080">
+                                 <img src="blackbox.png" />
+                              </td>
                               <td style="background-color:#008080">17</td>
                               <td>NIGHT SCANNER (NFP)</td>
                               <td>
@@ -411,6 +459,7 @@ div {
                               <td style="background-color:#008080">ON - TEST - OFF - STOW (AS REQD)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">18</td>
                               <td>ELT</td>
                               <td>
@@ -419,6 +468,7 @@ div {
                               <td style="background-color:#B8860B">ARMED</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">19</td>
                               <td>BATTERY SELECTION SWITCH</td>
                               <td>
@@ -427,6 +477,7 @@ div {
                               <td style="background-color:#B8860B">SELECT BOTH (IF FITTED)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">20</td>
                               <td>EMERGENCY AIR</td>
                               <td>
@@ -435,6 +486,7 @@ div {
                               <td style="background-color:#B8860B">CLOSED AND GUARDED</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">21</td>
                               <td>ENGINE ANTI ICE</td>
                               <td>
@@ -443,6 +495,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">22</td>
                               <td>HYD SYSTEM</td>
                               <td>
@@ -451,6 +504,9 @@ div {
                               <td style="background-color:#B8860B">ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">23</td>
                               <td>FUEL VALVE</td>
                               <td>
@@ -459,6 +515,7 @@ div {
                               <td style="background-color:#B8860B">ON AND GUARDED</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">24</td>
                               <td>ALTIMETERS</td>
                               <td>
@@ -467,6 +524,7 @@ div {
                               <td style="background-color:#B8860B">SET FIELD ELEVATION</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">25</td>
                               <td>INSTRUMENTS &amp; GUAGES</td>
                               <td>
@@ -475,6 +533,9 @@ div {
                               <td style="background-color:#B8860B">CHECKED</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">26</td>
                               <td>OVERHEAD SWITCHES</td>
                               <td>
@@ -483,6 +544,7 @@ div {
                               <td style="background-color:#B8860B">ALL OFF EXCEPT ANTI-COL ON &amp; MASTER GYRO SWITCH ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">27</td>
                               <td>CIRCUIT BREAKERS</td>
                               <td>
@@ -491,6 +553,9 @@ div {
                               <td style="background-color:#B8860B">IN EXCEPT FUEL BOOST CBs OUT</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">28</td>
                               <td>BATTERY MASTER</td>
                               <td>
@@ -499,6 +564,9 @@ div {
                               <td style="background-color:#B8860B">ON (UNLESS EXTERNAL POWER)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">29</td>
                               <td>RADIO MASTER</td>
                               <td>
@@ -507,6 +575,9 @@ div {
                               <td style="background-color:#B8860B">ON - CHECK HELMET WORKING</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">30</td>
                               <td>FCAUTION / WARNING LIGHTS</td>
                               <td>
@@ -515,6 +586,7 @@ div {
                               <td style="background-color:#B8860B">5 WARNING LIGHTS SHOWING</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">31</td>
                               <td>CAUTION AND WARNING PANEL</td>
                               <td>
@@ -523,6 +595,9 @@ div {
                               <td style="background-color:#B8860B">PUSH TO TEST</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">32</td>
                               <td>COLLECTIVE RAISE THEN LOWER</td>
                               <td>
@@ -531,6 +606,9 @@ div {
                               <td style="background-color:#B8860B">CHECK LOW RPM AUDIO AND LIGHT</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">33</td>
                               <td>AFT FUEL BOOST PUMP CB</td>
                               <td>
@@ -539,6 +617,9 @@ div {
                               <td style="background-color:#B8860B">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">34</td>
                               <td>FWD FUEL BOOST PUMP CB</td>
                               <td>
@@ -547,6 +628,9 @@ div {
                               <td style="background-color:#B8860B">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">35</td>
                               <td>AFT FUEL BOOST PUMP CB</td>
                               <td>
@@ -555,6 +639,9 @@ div {
                               <td style="background-color:#B8860B">[OUT]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">36</td>
                               <td>AFT FUEL BOOST PUMP CB</td>
                               <td>
@@ -563,6 +650,9 @@ div {
                               <td style="background-color:#B8860B">[IN]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">37</td>
                               <td>OAT</td>
                               <td>
@@ -571,6 +661,9 @@ div {
                               <td style="background-color:#B8860B">NOTED</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#3CB371">
+                                 <img src="blacktriangle.png" />
+                              </td>
                               <td style="background-color:#3CB371">38</td>
                               <td>CLOCK</td>
                               <td>
@@ -590,13 +683,17 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
+                           <col style="width:3%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:20%" />
+                           <col class="checklist-first" style="width:18%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
                         <thead>
                            <tr>
+                              <th scope="col">
+                                 <h3 />
+                              </th>
                               <th scope="col">
                                  <h3>No</h3>
                               </th>
@@ -613,6 +710,7 @@ div {
                         </thead>
                         <tbody>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">1</td>
                               <td>Doors and cabin</td>
                               <td>
@@ -621,6 +719,7 @@ div {
                               <td style="background-color:#B8860B">Check the general condition of the cockpit, instruments, radios, harnesses and controls</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">2</td>
                               <td>Documentation</td>
                               <td>
@@ -629,6 +728,7 @@ div {
                               <td style="background-color:#B8860B">Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">3</td>
                               <td>Emergency equipment</td>
                               <td>
@@ -637,6 +737,7 @@ div {
                               <td style="background-color:#B8860B">Check fire extinguisher, first aid kit, survival equipment is on board</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">4</td>
                               <td>Battery switch</td>
                               <td>
@@ -645,6 +746,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">5</td>
                               <td>Throttle</td>
                               <td>
@@ -653,6 +755,7 @@ div {
                               <td style="background-color:#B8860B">Closed</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">6</td>
                               <td>Fuel valve</td>
                               <td>
@@ -661,6 +764,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">7</td>
                               <td>Radios and Avionics</td>
                               <td>
@@ -669,6 +773,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">8</td>
                               <td>Anti-Collision light</td>
                               <td>
@@ -677,6 +782,7 @@ div {
                               <td style="background-color:#B8860B">ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">9</td>
                               <td>Battery switch</td>
                               <td>
@@ -685,6 +791,7 @@ div {
                               <td style="background-color:#B8860B">ON (move to BAT)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">10</td>
                               <td>Fuel quantity</td>
                               <td>
@@ -693,6 +800,7 @@ div {
                               <td style="background-color:#B8860B">Check</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">11</td>
                               <td>Fuel sump drain</td>
                               <td>
@@ -701,6 +809,7 @@ div {
                               <td style="background-color:#B8860B">Depress button and check fuel for water or contaminants</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">12</td>
                               <td>Fuel Valve</td>
                               <td>
@@ -709,6 +818,7 @@ div {
                               <td style="background-color:#B8860B">ON</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">13</td>
                               <td>Fuel boost pumps</td>
                               <td>
@@ -717,6 +827,7 @@ div {
                               <td style="background-color:#B8860B">ON (circuit breakers IN and check fuel pressure)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">14</td>
                               <td>Airframe filter drain</td>
                               <td>
@@ -725,6 +836,7 @@ div {
                               <td style="background-color:#B8860B">Take sample and check for water or contaminants</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">15</td>
                               <td>Airframe filter test</td>
                               <td>
@@ -733,6 +845,7 @@ div {
                               <td style="background-color:#B8860B">Press test button and check for A/F Filter caution light</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">16</td>
                               <td>Fuel boost pumps</td>
                               <td>
@@ -741,6 +854,7 @@ div {
                               <td style="background-color:#B8860B">OFF (circuit breakers OUT)</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">17</td>
                               <td>Fuel valve</td>
                               <td>
@@ -749,6 +863,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">18</td>
                               <td>Internal Cockpit Lights</td>
                               <td>
@@ -757,6 +872,7 @@ div {
                               <td style="background-color:#008080">Check that all internal lights are working</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">19</td>
                               <td>External lights</td>
                               <td>
@@ -765,6 +881,7 @@ div {
                               <td style="background-color:#008080">Check all external lights are working</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">20</td>
                               <td>Battery switch</td>
                               <td>
@@ -773,6 +890,7 @@ div {
                               <td style="background-color:#B8860B">OFF</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">21</td>
                               <td>Loose articles</td>
                               <td>
@@ -798,13 +916,17 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
+                           <col style="width:3%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:20%" />
+                           <col class="checklist-first" style="width:18%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
                         <thead>
                            <tr>
+                              <th scope="col">
+                                 <h3 />
+                              </th>
                               <th scope="col">
                                  <h3>No</h3>
                               </th>
@@ -821,6 +943,7 @@ div {
                         </thead>
                         <tbody>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">1</td>
                               <td>Main blades still turning</td>
                               <td>
@@ -835,6 +958,7 @@ div {
                               </td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">2</td>
                               <td>MR and DFR</td>
                               <td>
@@ -843,6 +967,7 @@ div {
                               <td style="background-color:#008080">Complete the relevant paper work</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">3</td>
                               <td>Fuel quantity</td>
                               <td>
@@ -851,6 +976,7 @@ div {
                               <td style="background-color:#008080">Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</td>
                            </tr>
                            <tr>
+                              <td style="background-color:#B8860B" />
                               <td style="background-color:#B8860B">4</td>
                               <td>Exit the helicopter</td>
                               <td>

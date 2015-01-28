@@ -28,13 +28,15 @@
                 <form method="post">
                 <table id="checklist" summary="Checklist">
                 <colgroup>
+                    <col style="width:3%"/>
                     <col style="width:5%"/>
-                    <col style="width:20%" class="checklist-first" />
+                    <col style="width:18%" class="checklist-first" />
                     <col style="width:5%"/>
                     <col style="width:70%"/>
                 </colgroup>
                 <thead>
                   <tr>
+                    <th scope="col"><h3></h3></th>
                     <th scope="col"><h3>No</h3></th>
                     <th scope="col"><h3>Item</h3></th>
                     <th scope="col"><input type="reset" value="Reset" /></th>
@@ -49,9 +51,29 @@
                   <xsl:for-each select="step">
                     <tr>
                     
+               
+                      <xsl:choose> 
+               
+                      <xsl:when test="numcol = 1">
+                        <td style="background-color:#008080"><img src="blackbox.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 3">
+                        <td style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
+                      </xsl:when>
+               
+                      <xsl:otherwise>
+                        <td style="background-color:#B8860B"></td>
+                      </xsl:otherwise>
+               
+                      </xsl:choose>
+               
+               
+               
+               
                   
                       <xsl:choose>
-                      	
+                      
                       <xsl:when test="numcol = 1">
                         <td style="background-color:#008080"><xsl:value-of select="number"/></td>
                       </xsl:when>
@@ -70,6 +92,10 @@
                       <td><input type="checkbox" name="checklist" /></td>
                       
                       <xsl:choose>
+                      	
+                      	
+                      	
+                      	
                       	<xsl:when test="icon = 1">
                       <td style="background-color:#B8860B"><xsl:value-of select="action"/>
                       	
