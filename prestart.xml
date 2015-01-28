@@ -9,6 +9,7 @@
         <stagetitle>PRE START</stagetitle>
         <stagenotes></stagenotes>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>1</number>
                 <item>BATTERY MASTER</item>
@@ -19,6 +20,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>2</number>
                 <item>ANTI-COLLISION LIGHT</item>
@@ -30,6 +32,7 @@
                
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>3</number>
                 <item>POSITION LIGHTS</item>
@@ -40,6 +43,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>4</number>
                 <item>INTERNAL INSTRUMENT LIGHTS</item>
@@ -50,16 +54,18 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>5</number>
                 <item>CABIN INTERIOR</item>
                 <action>SECURE</action>
-                <warning>just a warning</warning>
-                <caution>be carefull</caution>
-                <notes>jst notes</notes>
-                <infnotes>inf notes</infnotes>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>6</number>
                 <item>SEAT BELTS</item>
@@ -70,6 +76,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>7</number>
                 <item>CABIN DOORS</item>
@@ -81,6 +88,7 @@
                
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>8</number>
                 <item>CONTROL LOCKS</item>
@@ -91,6 +99,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>9</number>
                 <item>PEDALS</item>
@@ -101,6 +110,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>10</number>
                 <item>FRICTIONS</item>
@@ -111,6 +121,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>11</number>
                 <item>CYCLIC</item>
@@ -121,6 +132,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>12</number>
                 <item>PILOT COLLECTIVE</item>
@@ -132,6 +144,7 @@
                
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>13</number>
                 <item>PILOT THROTTLE</item>
@@ -142,6 +155,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>14</number>
                 <item>CO&#45;PILOT THROTTLE</item>
@@ -152,6 +166,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>15</number>
                 <item>LANDING LIGHT</item>
@@ -162,6 +177,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>16</number>
                 <item>NIGHT SCANNER &#40;PIC&#41;</item>
@@ -172,6 +188,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>17</number>
                 <item>NIGHT SCANNER &#40;NFP&#41;</item>
@@ -183,6 +200,7 @@
                
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>18</number>
                 <item>ELT</item>
@@ -193,6 +211,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>19</number>
                 <item>BATTERY SELECTION SWITCH</item>
@@ -203,6 +222,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>20</number>
                 <item>EMERGENCY AIR</item>
@@ -213,6 +233,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>21</number>
                 <item>ENGINE ANTI ICE</item>
@@ -223,6 +244,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>22</number>
                 <item>HYD SYSTEM</item>
@@ -234,6 +256,7 @@
                
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>23</number>
                 <item>FUEL VALVE</item>
@@ -244,6 +267,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>24</number>
                 <item>ALTIMETERS</item>
@@ -254,6 +278,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>25</number>
                 <item>INSTRUMENTS &#38; GUAGES </item>
@@ -264,6 +289,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>26</number>
                 <item>OVERHEAD SWITCHES</item>
@@ -274,6 +300,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>27</number>
                 <item>CIRCUIT BREAKERS</item>
@@ -285,6 +312,7 @@
                
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>28</number>
                 <item>BATTERY MASTER</item>
@@ -295,6 +323,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>29</number>
                 <item>RADIO MASTER</item>
@@ -305,6 +334,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>30</number>
                 <item>FCAUTION / WARNING LIGHTS</item>
@@ -315,6 +345,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>31</number>
                 <item>CAUTION AND WARNING PANEL</item>
@@ -325,6 +356,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>32</number>
                 <item>COLLECTIVE RAISE THEN LOWER</item>
@@ -336,6 +368,7 @@
                
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>33</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
@@ -346,6 +379,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>34</number>
                 <item>FWD FUEL BOOST PUMP CB</item>
@@ -356,6 +390,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>35</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
@@ -366,6 +401,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>36</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
@@ -376,6 +412,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>37</number>
                 <item>OAT</item>
@@ -387,6 +424,7 @@
                
             </step>
             <step>
+            	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>38</number>
                 <item>CLOCK</item>
@@ -402,7 +440,7 @@
         <stage>
         <stagetitle>Cockpit Inspection and Fuel Drain</stagetitle>
         <stagenotes></stagenotes>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>1</number>
                 <item>Doors and cabin</item>
@@ -412,7 +450,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>2</number>
                 <item>Documentation</item>
@@ -422,7 +460,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>3</number>
                 <item>Emergency equipment</item>
@@ -432,7 +470,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>4</number>
                 <item>Battery switch</item>
@@ -442,7 +480,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>5</number>
                 <item>Throttle</item>
@@ -452,7 +490,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>6</number>
                 <item>Fuel valve</item>
@@ -462,7 +500,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>7</number>
                 <item>Radios and Avionics</item>
@@ -472,7 +510,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>8</number>
                 <item>Anti-Collision light</item>
@@ -482,7 +520,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>9</number>
                 <item>Battery switch</item>
@@ -492,7 +530,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>10</number>
                 <item>Fuel quantity</item>
@@ -502,7 +540,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>11</number>
                 <item>Fuel sump drain</item>
@@ -512,7 +550,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>12</number>
                 <item>Fuel Valve</item>
@@ -522,7 +560,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>13</number>
                 <item>Fuel boost pumps</item>
@@ -532,7 +570,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>14</number>
                 <item>Airframe filter drain</item>
@@ -542,7 +580,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>15</number>
                 <item>Airframe filter test</item>
@@ -552,7 +590,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>16</number>
                 <item>Fuel boost pumps</item>
@@ -562,7 +600,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>17</number>
                 <item>Fuel valve</item>
@@ -572,7 +610,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>2</icon>
                 <number>18</number>
                 <item>Internal Cockpit Lights</item>
@@ -582,7 +620,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>2</icon>
                 <number>19</number>
                 <item>External lights</item>
@@ -592,7 +630,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>20</number>
                 <item>Battery switch</item>
@@ -602,7 +640,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon>1</icon>
                 <number>21</number>
                 <item>Loose articles</item>
@@ -620,7 +658,7 @@
         <stage>
         <stagetitle>Post Flight Inspection</stagetitle>
         <stagenotes></stagenotes>
-            <step>
+            <step><numcol></numcol>
                 <icon></icon>
                 <number>1</number>
                 <item>Main blades still turning</item>
@@ -630,7 +668,7 @@
                 <notes>WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon></icon>
                 <number>2</number>
                 <item>MR and DFR</item>
@@ -640,7 +678,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon></icon>
                 <number>3</number>
                 <item>Fuel quantity</item>
@@ -650,7 +688,7 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step>
+            <step><numcol></numcol>
                 <icon></icon>
                 <number>4</number>
                 <item>Exit the helicopter</item>
