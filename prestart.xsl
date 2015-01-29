@@ -55,15 +55,15 @@
                       <xsl:choose> 
                
                       <xsl:when test="numcol = 1">
-                        <td  border="3px" style="background-color:#4682B4"><img src="blackbox.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="blackbox.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 3">
-                        <td style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
                       </xsl:when>
                
                       <xsl:otherwise>
-                        <td style="background-color:#B8860B"></td>
+                        <td style="background-color:#F4A460"></td>
                       </xsl:otherwise>
                
                       </xsl:choose>
@@ -81,7 +81,7 @@
                       </xsl:when>
                    
                       <xsl:otherwise>
-                        <td style="background-color:#B8860B"><xsl:value-of select="number"/></td>
+                        <td style="background-color:#F4A460"><xsl:value-of select="number"/></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
@@ -95,7 +95,7 @@
                       </xsl:when>
           
                       <xsl:otherwise>
-                        <td style="background-color:#B8860B"><xsl:value-of select="item"/></td>
+                        <td style="background-color:#F4A460"><xsl:value-of select="item"/></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
@@ -114,7 +114,7 @@
                       </xsl:when>
                       
                       <xsl:otherwise>
-                        <td style="background-color:#B8860B"><input type="checkbox" name="checklist" /></td>
+                        <td style="background-color:#F4A460"><input type="checkbox" name="checklist" /></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
@@ -131,7 +131,7 @@
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 1">
-                      <td style="background-color:#B8860B"><xsl:value-of select="action"/>
+                      <td style="background-color:#F4A460"><xsl:value-of select="action"/>
                       	
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
