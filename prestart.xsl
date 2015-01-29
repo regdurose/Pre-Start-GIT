@@ -51,7 +51,7 @@
                   <xsl:for-each select="step">
                     <tr>
                     
-               
+                      <!--  Column 1 NIFR/ Multipul Liftoffs   -->
                       <xsl:choose> 
                
                       <xsl:when test="numcol = 1">
@@ -70,16 +70,14 @@
                
                
                
-               
+                      <!--  Column 2 Number Color   -->
                   
                       <xsl:choose>
                       
-                      <xsl:when test="numcol = 1">
-                        <td style="background-color:#008080"><xsl:value-of select="number"/></td>
-                      </xsl:when>
+                   
                         
-                      <xsl:when test="numcol = 3">
-                        <td style="background-color:#3CB371"><xsl:value-of select="number"/></td>
+                      <xsl:when test="icon = 2">
+                        <td style="background-color:#008080"><xsl:value-of select="number"/></td>
                       </xsl:when>
                    
                       <xsl:otherwise>
@@ -88,15 +86,51 @@
                       
                       </xsl:choose>
                       
-                      <td><xsl:value-of select="item"/></td>
-                      <td><input type="checkbox" name="checklist" /></td>
+                      <!--  Column 3 Item Color   -->	
+                      
+                      <xsl:choose>
+                      
+                      <xsl:when test="icon = 2">
+                        <td style="background-color:#008080"><xsl:value-of select="item"/></td>
+                      </xsl:when>
+          
+                      <xsl:otherwise>
+                        <td style="background-color:#B8860B"><xsl:value-of select="item"/></td>
+                      </xsl:otherwise>
+                      
+                      </xsl:choose>
+                       
+                      
+                      
+                      
+                      
+                      
+                      
                       
                       <xsl:choose>
                       	
+                      <xsl:when test="icon = 2">
+                        <td style="background-color:#008080"><input type="checkbox" name="checklist" /></td>
+                      </xsl:when>
+                      
+                      <xsl:otherwise>
+                        <td style="background-color:#B8860B"><input type="checkbox" name="checklist" /></td>
+                      </xsl:otherwise>
+                      
+                      </xsl:choose>
+                       
+                      
+
+                      
+                     
+                       
+                       
+                      <!--  Column 4 Action  -->	
+                      
+                      
+                      <xsl:choose>
                       	
-                      	
-                      	
-                      	<xsl:when test="icon = 1">
+                      <xsl:when test="icon = 1">
                       <td style="background-color:#B8860B"><xsl:value-of select="action"/>
                       	
                       	<xsl:if test="warning !=''">
