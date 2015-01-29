@@ -64,7 +64,11 @@
 	text-align:center;
 }
 
-
+.txt_centre
+{
+	
+	text-align:center;
+}
 
 .checklist-first
 {
@@ -253,14 +257,15 @@ div {
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
 
 
-          <div class="ui-content" data-role="main">
+
+         <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h1>
                   Preflight Inspection
                   <img class="capimg" src="whitelogo.bmp" />
                </h1>
                <div data-role="collapsible">
-                  <h2>
+                  <h2 class="txt_centre">
                      PRE START - ALL
                      <img class="capimg" src="whitelogo.bmp" />
                   </h2>
@@ -716,7 +721,7 @@ div {
                   </form>
                </div>
                <div data-role="collapsible">
-                  <h2>
+                  <h2 class="txt_centre">
                      PRE START - NIFR
                      <img class="capimg" src="whitelogo.bmp" />
                   </h2>
@@ -831,7 +836,7 @@ div {
                   </form>
                </div>
                <div data-role="collapsible">
-                  <h2>
+                  <h2 class="txt_centre">
                      PRE START - MULTIPLE L/OFFS, LDNGS &amp; CIRS
                      <img class="capimg" src="whitelogo.bmp" />
                   </h2>
@@ -1044,6 +1049,319 @@ div {
                      </table>
                   </form>
                </div>
+               <div data-role="collapsible">
+                  <h2 class="txt_centre">
+                     START
+                     <img class="capimg" src="whitelogo.bmp" />
+                  </h2>
+                  <form method="post">
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:3%" />
+                           <col style="width:5%" />
+                           <col class="checklist-first" style="width:18%" />
+                           <col style="width:5%" />
+                           <col style="width:70%" />
+                        </colgroup>
+                        <thead>
+                           <tr>
+                              <th scope="col">
+                                 <h3 />
+                              </th>
+                              <th scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th scope="col">
+                                 <input value="Reset" type="reset" />
+                              </th>
+                              <th scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">1</td>
+                              <td style="background-color:#F4A460">AREA</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">CLEAR</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">2</td>
+                              <td style="background-color:#F4A460">BLADES</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">UNITED &amp; OFFSET (10 &amp; 4 OCLOCK)</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">3</td>
+                              <td style="background-color:#F4A460">THROTTLE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">CONFIRM OFF</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">4</td>
+                              <td style="background-color:#F4A460">VOLTS</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">MIN 24 VOLTS, MIN 19 VOLTS DURING START</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">5</td>
+                              <td style="background-color:#F4A460">CLOCKS</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">NOTE</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">6</td>
+                              <td style="background-color:#F4A460">START BUTTON</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">PRESS &amp; HOLD</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">7</td>
+                              <td style="background-color:#F4A460">N1 GAS PRODUCER</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">INCREASING</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">8</td>
+                              <td style="background-color:#F4A460">COMPRESSOR</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">LISTEN</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">9</td>
+                              <td style="background-color:#F4A460">THROTTLE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">
+                                 PASSING 15% N1 SET TO IDLE
+                                 <p class="warning">
+                                    <img class="capimg" src="warning.png" />
+                                    TOT BELOW 150 C
+                                 </p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">10</td>
+                              <td style="background-color:#F4A460">TOT</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">MONITOR 810-840 bhs (810-927 BELL) FOR 10 SECS DURING START MAX PEAK 927 ON START</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">11</td>
+                              <td style="background-color:#F4A460">ENGINE OIL PRESSURE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">INCREASING</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">12</td>
+                              <td style="background-color:#F4A460">ROTORS TURNING</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">BY 25% N1</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">13</td>
+                              <td style="background-color:#F4A460">STARTER BUTTON</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">AT 58% N1 RELEASE STARTER</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">14</td>
+                              <td style="background-color:#F4A460">ENGINE &amp; TRANS OIL PRESSURE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">INCREASING</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">15</td>
+                              <td style="background-color:#F4A460">CAUTION / WARNING PANEL</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">ENG OUT &amp; TRANS OIL PRESS LIGHTS OUT</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">16</td>
+                              <td style="background-color:#F4A460">WAIT 1 MINUTE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">UNLESS ENGINE SHUTDOWN LESS THAN 15 MINUTES AGO</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">17</td>
+                              <td style="background-color:#F4A460">EXTERNAL POWER CONNECTED?</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">BATTERY MASTER ON - DISCONNECT EXTERNAL POWER</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">18</td>
+                              <td style="background-color:#F4A460">THROTTLE</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">INCREASE TO 70% N1</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">19</td>
+                              <td style="background-color:#F4A460">GENERATOR</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">ON - CHECK LOAD METER AND VOLT METER</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h2 class="txt_centre">
+                     AFTER START
+                     <img class="capimg" src="whitelogo.bmp" />
+                  </h2>
+                  <form method="post">
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:3%" />
+                           <col style="width:5%" />
+                           <col class="checklist-first" style="width:18%" />
+                           <col style="width:5%" />
+                           <col style="width:70%" />
+                        </colgroup>
+                        <thead>
+                           <tr>
+                              <th scope="col">
+                                 <h3 />
+                              </th>
+                              <th scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th scope="col">
+                                 <input value="Reset" type="reset" />
+                              </th>
+                              <th scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">1</td>
+                              <td style="background-color:#F4A460">AVIONICS</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">ON - RADALT/ASPEN MFP &amp; PFD</td>
+                           </tr>
+                           <tr>
+                              <td style="background-color:#3CB371" class="checklist-1-border">
+                                 <img src="blacktriangle.png" />
+                              </td>
+                              <td style="background-color:#F4A460">2</td>
+                              <td style="background-color:#F4A460">LIGHTING (DAY)</td>
+                              <td style="background-color:#F4A460">
+                                 <input name="checklist" type="checkbox" />
+                              </td>
+                              <td style="background-color:#F4A460">AS REQD</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
             </div>
             <div data-role="collapsible">
                <h1>
@@ -1051,7 +1369,7 @@ div {
                   <img class="capimg" src="whitelogo.bmp" />
                </h1>
                <div data-role="collapsible">
-                  <h2>
+                  <h2 class="txt_centre">
                      Post Flight Inspection
                      <img class="capimg" src="whitelogo.bmp" />
                   </h2>
@@ -1151,6 +1469,8 @@ div {
       </div>
    </body>
 </html>
+
+
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       
    </body>

@@ -712,6 +712,256 @@
             
         </stage>
         
+      <stage>
+        <stagetitle>START</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AREA</item>
+                <action>CLEAR</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>BLADES</item>
+                <action>UNITED &amp; OFFSET (10 &amp; 4 OCLOCK)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>THROTTLE</item>
+                <action>CONFIRM OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>VOLTS</item>
+                <action>MIN 24 VOLTS, MIN 19 VOLTS DURING START</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>CLOCKS</item>
+                <action>NOTE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>START BUTTON</item>
+                <action>PRESS &amp; HOLD </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>N1 GAS PRODUCER</item>
+                <action>INCREASING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>COMPRESSOR</item>
+                <action>LISTEN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>THROTTLE</item>
+                <action>PASSING 15% N1 SET TO IDLE</action>
+                <warning>TOT BELOW 150 C</warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>TOT</item>
+                <action>MONITOR 810-840 bhs (810-927 BELL) FOR 10 SECS DURING START MAX PEAK 927 ON START</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>ENGINE OIL PRESSURE</item>
+                <action>INCREASING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>ROTORS TURNING</item>
+                <action>BY 25% N1</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>STARTER BUTTON</item>
+                <action>AT 58% N1 RELEASE STARTER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>ENGINE &amp; TRANS OIL PRESSURE</item>
+                <action>INCREASING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>CAUTION / WARNING PANEL</item>
+                <action>ENG OUT &amp; TRANS OIL PRESS LIGHTS OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>WAIT 1 MINUTE</item>
+                <action>UNLESS ENGINE SHUTDOWN LESS THAN 15 MINUTES AGO</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>EXTERNAL POWER CONNECTED?</item>
+                <action>BATTERY MASTER ON - DISCONNECT EXTERNAL POWER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>THROTTLE</item>
+                <action>INCREASE TO 70% N1</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>GENERATOR</item>
+                <action>ON - CHECK LOAD METER AND VOLT METER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+        </stage> 
+       
+       
+       <stage>
+        <stagetitle>AFTER START</stagetitle>
+        <stagenotes>HELLO</stagenotes>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AVIONICS</item>
+                <action>ON - RADALT/ASPEN MFP &amp; PFD</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>LIGHTING (DAY)</item>
+                <action>AS REQD</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+     
+            
+        </stage> 
+       
         
     </phase>
 	<phase>

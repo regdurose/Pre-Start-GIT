@@ -24,7 +24,8 @@
         <h1><xsl:value-of select="phasetitle"/><img src = "whitelogo.bmp" class = "capimg"></img></h1>
             <xsl:for-each select="stage">
             <div data-role="collapsible">
-                <h2><xsl:value-of select="stagetitle"/><img src = "whitelogo.bmp" class = "capimg"></img></h2>
+                <h2 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "whitelogo.bmp" class = "capimg"></img></h2>
+                
                 <form method="post">
                 <table id="checklist" summary="Checklist">
                 <colgroup>
