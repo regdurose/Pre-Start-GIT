@@ -63,7 +63,7 @@
                       </xsl:when>
                
                       <xsl:otherwise>
-                        <td style="background-color:#F4A460"></td>
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="icon_globe.png"/></td>
                       </xsl:otherwise>
                
                       </xsl:choose>
