@@ -21,10 +21,10 @@
     
       <xsl:for-each select="checklist/phase">
       	<div data-role="collapsible">
-        <h1><xsl:value-of select="phasetitle"/><img src = "whitelogo.bmp" class = "capimg"></img></h1>
+        <h1><xsl:value-of select="phasetitle"/><img src = "logo png.png" class = "capimg"></img></h1>
             <xsl:for-each select="stage">
             <div data-role="collapsible">
-                <h2 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "whitelogo.bmp" class = "capimg"></img></h2>
+                <h2 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img></h2>
                 
                 <form method="post">
                 <table id="checklist" summary="Checklist">
@@ -61,7 +61,7 @@
                       
                       <xsl:when test="numcol = 3">
                         <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
-                      </xsl:when>
+                      </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
                         <td class="checklist-1-border" style="background-color:#f4a460"><img src="h.png"/></td>
