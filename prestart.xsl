@@ -101,13 +101,6 @@
                       
                       </xsl:choose>
                        
-                      
-                      
-                      
-                      
-                      
-                      
-                      
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 2">
@@ -128,11 +121,27 @@
                        
                       <!--  Column 4 Action  -->	
                       
-                      
+                     
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 1">
                       <td style="background-color:#F4A460"><xsl:value-of select="action"/>
+                      
+                           <xsl:if test="action2 !=''">
+                      <p><xsl:value-of select="action2"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action3 !=''">
+                      <p><xsl:value-of select="action3"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action4 !=''">
+                      <p><xsl:value-of select="action4"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action5 !=''">
+                      <p><xsl:value-of select="action5"/></p>
+                      </xsl:if>
                       	
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
@@ -147,17 +156,36 @@
                        <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
                         </xsl:if>
                         
-<!--                              Display only when selected                                                        -->
                         <xsl:if test="infnotes !=''">
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
-                            
-                        </xsl:if>
+                          </xsl:if>
+                          
+                 
+                          
                         </td>
                         </xsl:when>
                         
                       <xsl:otherwise>
                       	
                       <td style="background-color:#4682B4"><xsl:value-of select="action"/>
+                      
+                      
+                      <xsl:if test="action2 !=''">
+                      <p><xsl:value-of select="action2"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action3 !=''">
+                      <p><xsl:value-of select="action3"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action4 !=''">
+                      <p><xsl:value-of select="action4"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action5 !=''">
+                      <p><xsl:value-of select="action5"/></p>
+                      </xsl:if>
+                      
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
@@ -175,11 +203,22 @@
                         <xsl:if test="infnotes !=''">
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
                             </xsl:if>
+                            
+                      
+                          
+                            
                         </td>
                         </xsl:otherwise>
                       
-                      
                       </xsl:choose>
+                    
+                      
+                      
+                    
+                      
+                    
+                    
+                    
                     </tr>
                   </xsl:for-each>
                 </tbody>

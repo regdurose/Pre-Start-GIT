@@ -962,6 +962,318 @@
             
         </stage> 
        
+        <stage>
+        <stagetitle>ENGINE RUN-UP</stagetitle>
+        <stagetitle>NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>CONTROL LOCKS</item>
+                <action>CONFIRM RELEASED AND STOWED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>HYD SWITCH</item>
+                <action>OFF / ON (NO HARD OVER)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>THROTTLE</item>
+                <action>ADVANCE TO FULL (40% MAX TQ)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>N2 BEEP</item>
+                <action>CHECK BEEP RANGE 97%-102%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ANTI-ICE</item>
+                <action>ON - NOTE TOT RISE - OFF - TOT DECREASE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>PITOT HEAT</item>
+                <action>ON - NOTE LOAD METER INCREASE - OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2 </numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>EMERG AIR</item>
+                <action>OPEN - NO CHANGE IN TOT - CLOSE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FRICTIONS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>CYCLIC</item>
+                <action>MOVEMENT, FEEL AND TPP - NORMAL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>HYDRAULIC SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>CYCLIC</item>
+                <action>X PATTERN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>COLLECTIVE</item>
+                <action>CHECK</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>HYDRAULIC CB OUT</item>
+                <action>HYDRAULICS RESTORED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>HYDRAULIC CB | SWITCH</item>
+                <action>IN | ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>PILOT THROTTLE</item>
+                <action>CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>CO-PILOT THROTTLE</item>
+                <action>THROTTLEFULL | CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>HELISAS AUTO PILOT</item>
+                <action>CYCLIC FORCE TRIM BUTTON - ON 2 SECS</action>
+                <action2>SAS LIGHT - ON (GREEN)</action2>
+                <action3>MOVE CYCLIC - RELEASE CYCLIC RETURNS TO ORIGINAL POSITION</action3>
+                <action4>CYCLIC FORCE TRIM - CHECK</action4>
+                <action5>AFCS RELEASE BUTTON - CHECK</action5>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>ATIS</item>
+                <action>CONFIRMED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>AI's</item>
+                <action>CHECKED, FLAGS AWAY</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>ALTIMETERS</item>
+                <action>QNH SET | ALTIMETERS CHECKED (100 / 75 / 60)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>21</number>
+                <item>ASSIGNED ALTITUDE INDICATOR</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>22</number>
+                <item>COMPASS</item>
+                <action>HSI AND COMPASS ALIGHNED (10 degrees)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>   
+                <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>23</number>
+                <item>RADIOS</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>24</number>
+                <item>NAVAIDS</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>25</number>
+                <item>RAD ALT</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>26</number>
+                <item>THROTTLE</item>
+                <action>FULL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+        </stage> 
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     </phase>
 	<phase>
