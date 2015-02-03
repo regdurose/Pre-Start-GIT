@@ -62,7 +62,24 @@
                       <xsl:when test="numcol = 3">
                         <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
                       </xsl:when>
-               
+                      
+                      <xsl:when test="numcol = 4">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="h.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 5">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="e.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 6">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="f.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 7">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="r.png"/></td>
+                      </xsl:when>
+                      
+                      
                       <xsl:otherwise>
                         <td class="checklist-1-border" style="background-color:#f4a460"><img src="icon_globe.png"/></td>
                       </xsl:otherwise>

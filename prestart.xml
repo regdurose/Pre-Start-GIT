@@ -1268,6 +1268,140 @@
         
         
         
+        <stage>
+        <stagetitle>PRE-LIFTOFF CHECKS | PRE-LANDING CHECKS</stagetitle>
+        <stagetitle>NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+            	<numcol>4</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>HATCHES</item>
+                <action>SECURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>HARNESS</item>
+                <action>SECURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>HOMEWORK</item>
+                <action>SAR, ATIS)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>HELIPAD</item>
+                <action>CLEAR</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>5</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ENGINES &amp; INSTRUMENTS</item>
+                <action>WARNINGS &amp; CAUTIONS</action>
+                <action2>T'S &amp; P'S'</action2>
+                <action3>THROTTLE FULL, N2 - 100%</action3>
+                <action4>INSTRUMENTS SET AS REQD, NO FLAGS</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>FUEL</item>
+                <action>AMOUNT, TIME ON GROUND CONFIRMED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6 </numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>FRICTION / LOCKS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FORCE TRIM / AUTOPILOT</item>
+                <action>SET AS REQUIRED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>RADIOS AND RADIATION</item>
+                <action>RADIOS, NAVIGATION AIDS AND TRANSPONDER SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>RISKS</item>
+                <action>THREAT ERROR MANAGEMENT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>11</number>
+                <item>LIGHTS</item>
+                <action>LANDING AND NIGHT SCANNER AS REQUIRED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+            
+        </stage> 
+       
         
         
         
