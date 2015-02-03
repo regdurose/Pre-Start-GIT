@@ -81,7 +81,7 @@
                       
                       
                       <xsl:otherwise>
-                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="icon_globe.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="glossyglobe.png"/></td>
                       </xsl:otherwise>
                
                       </xsl:choose>
