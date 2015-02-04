@@ -37,18 +37,18 @@
                 </colgroup>
                 <thead>
                   <tr>
-                    <th scope="col"><h3></h3></th>
-                    <th scope="col"><h3>No</h3></th>
-                    <th scope="col"><h3>Item</h3></th>
-                    <th scope="col"><input type="reset" value="Reset" /></th>
-                    <th scope="col"><h3>Action</h3></th>
+                    <th style="background-color: #ffc926" scope="col"><h3></h3></th>
+                    <th style="background-color: #ffc926" scope="col"><h3>No</h3></th>
+                    <th style="background-color: #ffc926" scope="col"><h3>Item</h3></th>
+                    <th style="background-color: #ffc926" scope="col"><input type="reset" value="Reset" data-icon="back"/></th>
+                    <th style="background-color: #ffc926" scope="col"><h3>Action</h3></th>
                   </tr>
                   </thead>
                   
                   
                   
                   
-                  <tbody>
+                  <tbody><a href="#pagetwo">Go to Dialog Page</a>
                   <xsl:for-each select="step">
                     <tr>
                     
@@ -247,6 +247,23 @@
        </xsl:for-each>
 
   </div>
+  
+  
+  <div data-role="page" data-dialog="true" id="pagetwo">
+  <div data-role="header">
+    <h1>I'm A Dialog Box!</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>yo</p>
+    <a href="#menu">Go to Page One</a>
+  </div></div>
+  
+  
+  
+  
+  
+  
   <div data-role="footer">
     <h1>Becker Helicopters Copyright 2015</h1>
   </div>
