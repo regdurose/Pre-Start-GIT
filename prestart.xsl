@@ -48,7 +48,7 @@
                   
                   
                   
-                  <tbody><a href="#pagetwo">Go to Dialog Page</a>
+                  <tbody><!-- Dialogue Page if required <a href="#pagetwo">Go to Dialog Page</a>-->
                   <xsl:for-each select="step">
                     <tr>
                     
@@ -249,25 +249,25 @@
   </div>
   
   
-  <div data-role="page" data-dialog="true" id="pagetwo">
-  <div data-role="header">
-    <h1>I'm A Dialog Box!</h1>
-  </div>
 
-  <div data-role="main" class="ui-content">
-    <p>yo</p>
-    <a href="#menu">Go to Page One</a>
-  </div></div>
-  
-  
-  
-  
-  
-  
   <div data-role="footer">
     <h1>Becker Helicopters Copyright 2015</h1>
   </div>
 </div> 
+
+<!--    Page 2 Dialogue Box -->
+  <div data-role="page" data-dialog="true" id="pagetwo">
+  <div data-role="header">
+    <h1>Warning</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.</p>
+    <a href="#pageone">Go to Page One</a>
+  </div></div>
+  
+
+
   </body>
   </html>
 </xsl:template>
