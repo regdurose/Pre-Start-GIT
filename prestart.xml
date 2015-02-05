@@ -1398,15 +1398,285 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
+            </stage> 
             
-            
-        </stage> 
+            <stage>
+                <stagetitle>HOVER CHECKS</stagetitle>
+                <stagetitle>:</stagetitle>
+                <stagenotes></stagenotes>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>CONTROLS</item>
+                <action>FEEL NORMAL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>C OF G</item>
+                <action>FEELS NORMAL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>CAUTION / WARNING LIGHTS</item>
+                <action>OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>TS AND PS</item>
+                <action>NORMAL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>THROTTLE FULL</item>
+                <action>N2 100%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>POWER REQUIRED</item>
+                <action>TORQUE REQUIRED TO HOVER IS % GIVING CAT 1,2,3 OR 4 POWER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2 </numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>PEDAL POSITION</item>
+                <action>NOTED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+           </step>
+           </stage> 
        
         
         
+        <stage>
+                <stagetitle>INSTRUMENT TAXI CHECKS</stagetitle>
+                <stagenotes></stagenotes>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AREA</item>
+                <action>CLEAR</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TURNING LEFT</item>
+                <action>LEFT TURN INDICATED</action>
+                <action2>BALANCE BALL FREE</action2>
+                <action3>COMPASS | HSI NUMBERS DECREASING</action3>
+                <action4>NAVAIDS TRACKING TO STATION</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>TURNING RIGHT</item>
+                <action>RIGHT TURN INDICATED</action>
+                <action2>BALANCE BALL FREE</action2>
+                <action3>COMPASS | HSI NUMBERS DECREASING</action3>
+                <action4>NAVAIDS TRACKING TO STATION</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>VERTICAL CLIMB</item>
+                <action>POWER AVAILABLE</action>
+                <action2>RAD ALT, ISVI's, ALTIMETERs INCREASING</action2>
+                <action3></action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>AI / AH</item>
+                <action>NOSE PITCH UP, DOWN, ROLL LEFT AND RIGHT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>VERTICAL DESCENT</item>
+                <action>CLEAR BELOW</action>
+                <action2>RAD ALT, ISVI's, ALTIMETERs DECREASING</action2>
+                <action3></action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>8</numcol>
+                <notice>To be completed on Transition</notice>
+                <icon></icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <action2></action2>
+                <action3></action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2 </numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>ASI</item>
+                <action>ON TRANSITION AIRSPEED's ALIVE</action>
+                <action2>CONTINUE ONCE TRANSITIONING FORWARD</action2>
+                <action3>IF NOT ALIVE - ABORT TAKE-OFF</action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+           </step>
+           </stage> 
+       
         
-        
-        
+        <stage>
+                <stagetitle>PWPTEM - PRIOR TO TAKE-OFF BRIEF</stagetitle>
+                <stagenotes></stagenotes>
+            <step>
+            	<numcol>12</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>POWER</item>
+                <action>CAT 1,2 3 OR 4 POWER AVAILABLE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>13</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>WIND</item>
+                <action>WIND FROM? - AT ? KNOTS - INTO WIND DEPARTURE ?</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>12</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>PLAN</item>
+                <action>DEPARTURE - STANDARD | CONSTANT ANGLE | OBSTACLE AVOIDANCE</action>
+                <action2>CLIMB TO ? - CONDUCT ? TURN - SET HEADING ?</action2>
+                <action3></action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>10</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>THREATS</item>
+                <action>BRIEF WIRES - OBSTACLES - THREATS</action>
+                <action2>NOMINATE - LAST SAFE POINT OF HOVER</action2>
+                <action3></action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>5</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ERRORS</item>
+                <action>CREW, AIR TRAFFIC, OPERATIONS, INTERNAL, EXTERNAL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>11</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>MANAGEMENT</item>
+                <action>QUESTIONS</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        </stage>
         
         
     </phase>

@@ -59,6 +59,10 @@
                         <td class="checklist-1-border" style="background-color:#4682B4"><img src="blackbox.png"/></td>
                       </xsl:when>
                       
+                      <xsl:when test="numcol = 2">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="blank.png"/></td>
+                       </xsl:when>
+                      
                       <xsl:when test="numcol = 3">
                         <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
                       </xsl:when>a
@@ -79,9 +83,35 @@
                         <td class="checklist-1-border" style="background-color:#f4a460"><img src="r.png"/></td>
                       </xsl:when>
                       
+                      <xsl:when test="numcol = 8">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="p.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 9">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="w.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 10">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="t.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 11">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="m.png"/></td>
+                      </xsl:when>
+                      
+                      <!-- 12 - Multi + Letter P -->
+                      
+                      <xsl:when test="numcol = 12">
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="p.png"/></td>
+                      </xsl:when>
+                      
+                       <!-- 12 - Multi + Letter W -->
+                      <xsl:when test="numcol = 13">
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="w.png"/></td>
+                      </xsl:when>
                       
                       <xsl:otherwise>
-                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="glossyglobe.png"/></td>
+                        <td class="white-bar"></td>
                       </xsl:otherwise>
                
                       </xsl:choose>
