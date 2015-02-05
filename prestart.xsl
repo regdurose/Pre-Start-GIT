@@ -99,14 +99,36 @@
                         <td class="checklist-1-border" style="background-color:#f4a460"><img src="m.png"/></td>
                       </xsl:when>
                       
+                      <xsl:when test="numcol = 12">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="s.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 13">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="a.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 14">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="c.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 15">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="l.png"/></td>
+                      </xsl:when>
+                      
+                      <xsl:when test="numcol = 16">
+                        <td class="checklist-1-border" style="background-color:#f4a460"><img src="o.png"/></td>
+                      </xsl:when>
+                      
+                      
+                      
                       <!-- 12 - Multi + Letter P -->
                       
-                      <xsl:when test="numcol = 12">
+                      <xsl:when test="numcol = 50">
                         <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="p.png"/></td>
                       </xsl:when>
                       
                        <!-- 12 - Multi + Letter W -->
-                      <xsl:when test="numcol = 13">
+                      <xsl:when test="numcol = 51">
                         <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
