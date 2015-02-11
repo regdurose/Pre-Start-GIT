@@ -337,7 +337,7 @@
             	<numcol>3</numcol>
                 <icon>1</icon>
                 <number>30</number>
-                <item>FCAUTION / WARNING LIGHTS</item>
+                <item>CAUTION / WARNING LIGHTS</item>
                 <action>5 WARNING LIGHTS SHOWING</action>
                 <warning></warning>
                 <caution></caution>
@@ -1924,9 +1924,470 @@
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-          
-        </stage>
+          </stage>
         
+    
+           <stage>
+                <stagetitle>PRE-LANDING CHECKS</stagetitle>
+                <stagenotes>HEFFRR (Refer to Pre-Landing Checks)</stagenotes>
+                </stage>
+    
+    <stage>
+        <stagetitle>SHUTDOWN CHECKS</stagetitle>
+        <stagetitle></stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>COLLECTIVE</item>
+                <action>FULLY DOWN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>THROTTLE</item>
+                <action>IDLE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>CYCLIC</item>
+                <action>CENTERED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>CONTROL LOCKS FOR CYCLIC AND COLLECTIVE</item>
+                <action>ON (IF INSTALLED)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>FRICTIONS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>CLOCK</item>
+                <action>SET FOR 2 MIN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>7</number>
+                <item>LANDING LIGHT AND NIGHT SCANNER</item>
+                <action>OFF AND STOWED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>PILOT HEAT</item>
+                <action>CHECK OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>STROBE LIGHTS</item>
+                <action>CHECK OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>FUEL BOOST PUMP CB'S</item>
+                <action>OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>AVIONICS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>TRANSPONDER</item>
+                <action>STANDBY</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>ANTI ICE</item>
+                <action>CHECK OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>THROTTLE</item>
+                <action>AFTER 2 MINUTES - OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>FUEL VALVE SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>GENERATOR</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>TOT</item>
+                <action>MONITOR TO STABILIZE BELOW 400C</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>N1</item>
+                <action>MONITOR TO BE BELOW 10%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>MAIN ROTOR BLADES</item>
+                <action>MONITOR CONTROLS UNTIL COMPLETE STOP</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>POSITION LIGHTS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>21</number>
+                <item>RADIO MASTER</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>22</number>
+                <item>INSTRUMENT LIGHTS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>   
+                <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>23</number>
+                <item>BATTERY MASTER</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>24</number>
+                <item>POST FLIGHT</item>
+                <action>POST FLIGHT PROCEDURE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+    
+    
+     <stage>
+        <stagetitle>Limitations</stagetitle>
+        <stagetitle>Limitations</stagetitle>
+        <stagenotes></stagenotes>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>FUEL</item>
+                <action>91 USG (344 LITRES)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>ENGINE OIL</item>
+                <action>5.2 LITRES MOBILE 254</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>TRANSMISSION OIL</item>
+                <action>4.7 LITRES MOBILE 254</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>TAIL ROTOR GEARBOX OIL</item>
+                <action>0.5 LITRE MOBILE 254</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>HYDRAULIC RESERVOIR</item>
+                <action>0.5 LITRE FLUID 41</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>ENGINE OIL PRESSURE</item>
+                <action>50-130 PSI</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>ENGINE OIL TEMP</item>
+                <action>0 - 107 DEGREES C</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>TRANSMISSION OIL PRESSURE</item>
+                <action>30-70 PSI</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>TRANSMISSION OIL TEMP</item>
+                <action>15 - 110 DEGREES C</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>FUEL PRESSURE</item>
+                <action>4-30 PSI</action>
+                <warning></warning>
+                <caution></caution>
+                <notes>ZERO PSI IF BOTH PUMPS FAIL BELOW 6000FT IS PERMISSABLE</notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>GENERATOR LOAD</item>
+                <action>MAX 70%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>    
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>MINIMUM PILOT WEIGHT Fuel 75USG or less</item>
+                <action>170 LBS (77.1 KG)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>MINIMUM PILOT WEIGHT Fuel above 75USG</item>
+                <action>200 LBS (91 KG)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>EMPTY WEIGHT FOR PLANNING</item>
+                <action>1976.5 LBS (880 KG)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number></number>
+                <item>MAXIMUM AUW</item>
+                <action>3350 LBS (1519.5 KG)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+           </stage>
+    
+    
+    
+    
     </phase>
 	<phase>
     <phasetitle>Post Flight Inspection</phasetitle>
@@ -1982,4 +2443,11 @@
             </step>        
         </stage>
     </phase>  
-</checklist>
+ </checklist>
+ 
+
+
+ 
+ 
+ 
+ 
