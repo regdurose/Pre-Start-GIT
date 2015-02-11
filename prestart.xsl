@@ -38,10 +38,8 @@
                 <thead>
                   <tr>
                     <xsl:choose> 
-                    <xsl:when test="stagetitle = 'Limitations'">
-                     
-                      
-                      </xsl:when>
+                    <xsl:when test="stagetitle = 'Limitations' or stagetitle = 'PRE-LANDING CHECKS'">
+                     </xsl:when>
                     <xsl:otherwise>
                     <th style="background-color: #ffc926" scope="col"><h3></h3></th>
                     <th style="background-color: #ffc926" scope="col"><h3>No</h3></th>

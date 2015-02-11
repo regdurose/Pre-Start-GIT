@@ -44,7 +44,7 @@
 {
 	font-weight: normal;
 	padding: 12px 15px;
-	color: #039;
+	color: #000028;
 	
 }
 #checklist td
@@ -83,7 +83,7 @@
 	color:black;
 	font-weight:bold;
 	background: #000028;
-    font-size: 15px;	
+    	
    
 }
 .notes
@@ -297,7 +297,6 @@ div {
 </table>
   
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
-
 
 
          <div class="ui-content" data-role="main">
@@ -2131,17 +2130,6 @@ div {
                            </tr>
                            <tr>
                               <td style="background-color:#FFA500" class="checklist-1-border">
-                                 <img src="p.png" />
-                              </td>
-                              <td style="background-color:#FFA500" />
-                              <td style="background-color:#FFA500" />
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4" />
-                           </tr>
-                           <tr>
-                              <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
                               <td style="background-color:#FFA500">7</td>
@@ -2153,6 +2141,10 @@ div {
                                  ON TRANSITION AIRSPEED's ALIVE
                                  <p>CONTINUE ONCE TRANSITIONING FORWARD</p>
                                  <p>IF NOT ALIVE - ABORT TAKE-OFF</p>
+                                 <p class="caution">
+                                    <img class="capimg" src="caution.png" />
+                                    To be completed on Transition
+                                 </p>
                               </td>
                            </tr>
                         </tbody>
@@ -2628,25 +2620,17 @@ div {
                            <col style="width:70%" />
                         </colgroup>
                         <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
+                           <tr />
                         </thead>
-                        <tbody />
+                        <tbody>
+                           <tr>
+                              <td style="background-color:#FFA500" class="checklist-1-border" />
+                              <td style="background-color:#ffa500" />
+                              <td style="background-color:#FFA500">H  E  F  F  R  R</td>
+                              <td style="background-color:#FFA500" />
+                              <td style="background-color:#b0e0e6">(Refer to Pre-Landing Checks)</td>
+                           </tr>
+                        </tbody>
                      </table>
                   </form>
                </div>
@@ -2967,12 +2951,7 @@ div {
                            <col style="width:70%" />
                         </colgroup>
                         <thead>
-                           <tr>
-                              <colgroup>
-                                 <col style="width:50%" />
-                                 <col style="width:50%" />
-                              </colgroup>
-                           </tr>
+                           <tr />
                         </thead>
                         <tbody>
                            <tr>
@@ -3091,97 +3070,6 @@ div {
                   </form>
                </div>
             </div>
-            <div data-role="collapsible">
-               <h2>
-                  Post Flight Inspection
-                  <img class="capimg" src="logo png.png" />
-               </h2>
-               <div data-role="collapsible">
-                  <h3 class="txt_centre">
-                     Post Flight Inspection
-                     <img class="capimg" src="logo png.png" />
-                  </h3>
-                  <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:3%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                              <td class="white-bar" />
-                              <td style="background-color:#FFA500">1</td>
-                              <td style="background-color:#FFA500">Main blades still turning</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">
-                                 Wait in the helicopter until the main rotor blades have completely stopped turning
-                                 <p class="notes">
-                                    <img class="capimg" src="notes.png" />
-                                    WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT
-                                 </p>
-                              </td>
-                           </tr>
-                           <tr>
-                              <td class="white-bar" />
-                              <td style="background-color:#FFA500">2</td>
-                              <td style="background-color:#FFA500">MR and DFR</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">Complete the relevant paper work</td>
-                           </tr>
-                           <tr>
-                              <td class="white-bar" />
-                              <td style="background-color:#FFA500">3</td>
-                              <td style="background-color:#FFA500">Fuel quantity</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</td>
-                           </tr>
-                           <tr>
-                              <td class="white-bar" />
-                              <td style="background-color:#FFA500">4</td>
-                              <td style="background-color:#FFA500">Exit the helicopter</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">
-                                 <p class="notes">
-                                    <img class="capimg" src="notes.png" />
-                                    NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.
-                                 </p>
-                              </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                  </form>
-               </div>
-            </div>
          </div>
          <div data-role="footer">
             <h1>Becker Helicopters Copyright 2015</h1>
@@ -3198,6 +3086,7 @@ div {
       </div>
    </body>
 </html>
+
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       
    </body>

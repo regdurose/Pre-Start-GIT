@@ -1569,21 +1569,6 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>8</numcol>
-                <notice>To be completed on Transition</notice>
-                <icon></icon>
-                <number></number>
-                <item></item>
-                <action></action>
-                <action2></action2>
-                <action3></action3>
-                <action4></action4>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
             	<numcol>2 </numcol>
                 <icon>1</icon>
                 <number>7</number>
@@ -1593,7 +1578,7 @@
                 <action3>IF NOT ALIVE - ABORT TAKE-OFF</action3>
                 <action4></action4>
                 <warning></warning>
-                <caution></caution>
+                <caution>To be completed on Transition</caution>
                 <notes></notes>
                 <infnotes></infnotes>
            </step>
@@ -1929,7 +1914,18 @@
     
            <stage>
                 <stagetitle>PRE-LANDING CHECKS</stagetitle>
-                <stagenotes>HEFFRR (Refer to Pre-Landing Checks)</stagenotes>
+                <stagenotes></stagenotes>
+                <step>
+            	<numcol>17</numcol>
+                <icon>3</icon>
+                <number>1</number>
+                <item>H  E  F  F  R  R</item>
+                <action>(Refer to Pre-Landing Checks)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
                 </stage>
     
     <stage>
@@ -2384,11 +2380,11 @@
                
             </step>
            </stage>
+     </phase>
     
     
-    
-    
-    </phase>
+    <!-- not used yet >
+   
 	<phase>
     <phasetitle>Post Flight Inspection</phasetitle>
     <phasenotes>The Post Flight Inspection is done immediately at the end of a flight and prior to returning to the Operations Desk.  It is to ensure that the helicopter has been left in a serviceable condition ready for the next flight by another crew.</phasenotes>
@@ -2442,7 +2438,7 @@
                     <infnotes></infnotes>
             </step>        
         </stage>
-    </phase>  
+    </phase>-->  
  </checklist>
  
 
