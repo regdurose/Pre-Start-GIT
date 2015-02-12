@@ -415,7 +415,7 @@ html .ui-panel-page-container-b {
 	background-color: #000028 /*{b-body-background-color}*/;
 	border-color: #dddddd /*{b-body-border}*/;
 	color: #333333 /*{b-body-color}*/;
-	text-shadow: 0.3px /*{b-body-shadow-x}*/ 0.5px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ #f3f3f3 /*{b-body-shadow-color}*/;
+	text-shadow: 0 /*{b-body-shadow-x}*/ 0.5px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ #f3f3f3 /*{b-body-shadow-color}*/;
 }
 .ui-body-b {
 	border-width: 1px;

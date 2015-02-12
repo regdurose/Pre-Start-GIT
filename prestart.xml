@@ -3,7 +3,7 @@
 <!-- Edited by Becker Helicopters -->
 <checklist>
 	<phase>
-    <phasetitle>Preflight Inspection</phasetitle>
+    <phasetitle>Pre / During / Post Flight Checklists</phasetitle>
     <phasenotes></phasenotes>
         <stage>
         <stagetitle>PRE START - ALL</stagetitle>
@@ -2204,8 +2204,8 @@
     
     
      <stage>
-        <stagetitle>Limitations</stagetitle>
-        <stagetitle>Limitations</stagetitle>
+        <stagetitle>LIMITATIONS</stagetitle>
+        <stagetitle>LIMITATIONS</stagetitle>
         <stagenotes></stagenotes>
             <step>
             	<numcol>17</numcol>
