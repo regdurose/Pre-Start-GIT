@@ -64,7 +64,7 @@
                       <xsl:choose> 
                
                       <xsl:when test="numcol = 1">
-                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="blackbox.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_moon.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
