@@ -25,8 +25,10 @@
             <xsl:for-each select="stage">
             <div data-role="collapsible">
                 <h3 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img></h3>
-                
                 <form method="post">
+                	
+                <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
+                
                 <table id="checklist" summary="Checklist">
                 <colgroup>
                     <col style="width:3%"/>

@@ -7,7 +7,10 @@
     <phasenotes></phasenotes>
         <stage>
         <stagetitle>PRE START - ALL</stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes>
+        <![CDATA[<a class="pad_left_50">Tootsie roll tiramisu macaroon wafer carrot cake.</a> <br />      
+                 <a class="pad_left_50">Danish topping sugar plum tart bonbon caramels cake.</a>]]>
+        </stagenotes>
             <step>
             	<numcol>1</numcol>
                 <icon>2</icon>
