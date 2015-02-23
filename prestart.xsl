@@ -70,11 +70,11 @@
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png" /></td>
                        </xsl:when>
                       
                       <xsl:when test="numcol = 3">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
