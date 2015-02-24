@@ -74,7 +74,7 @@
                        </xsl:when>
                       
                       <xsl:when test="numcol = 3">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#ffa500"><img src="blacktriangle.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
