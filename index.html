@@ -149,6 +149,8 @@
 }
 
 
+
+
 .pad_left_50 {
     float: left;
     padding-left: 50px;
@@ -226,6 +228,8 @@ body div{
     margin: 5px;
 
 }
+
+
 
 #tooltip
 {
@@ -306,6 +310,66 @@ input[type='checkbox']:checked {
 </style>
 
 <!-------------------------------------------- sytle.css complete--------------------------------------------------------->
+
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $(".1").hide(); return false;
+    });
+    $("#show").click(function(){
+        $(".1").show(); return false;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#hide1").click(function(){
+        $(".3").hide(); return false;
+    });
+    $("#show1").click(function(){
+        $(".3").show(); return false;
+    });
+});
+</script>
+
+<SCRIPT>
+    function toggleOption(thisselect) {
+        var selected = thisselect.options[thisselect.selectedIndex].value;
+        toggleRow(selected);
+    }
+
+    function toggleRow(id) {
+      var row = document.getElementById(id);
+      if (row.style.display == '') {
+	     row.style.display = 'none';
+      }
+      else {
+         row.style.display = '';
+      }
+    }
+
+    function showRow(id) {
+      var row = document.getElementById(id);
+      row.style.display = '';
+    }
+
+    function hideRow(id) {
+      var row = document.getElementById(id);
+      row.style.display = 'none';
+    }
+
+    function hideAll() {
+	  hideRow('optionA');
+	  hideRow('optionC');
+	  hideRow('optionC');
+	  hideRow('optionD');
+	}
+
+</SCRIPT>
+
+
+
 <script>
 $( function()
 {
@@ -456,7 +520,7 @@ div {
                </h2>
                <div data-role="collapsible">
                   <h3 class="txt_centre">
-                     PRE START - ALL
+                     PRE START
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
@@ -487,8 +551,12 @@ div {
                               </th>
                            </tr>
                         </thead>
+                        <button style="background-color:lightblue; width:20% ; display: inline; margin-left: 48px" id="hide">Hide NIFR</button>
+                        <button style="background-color:lightblue; width:20% ; display: inline; margin-left: 10px" id="show">Show NIFR</button>
+                        <button style="background-color:lightgreen; width:20% ; display: inline; margin-left: 23px" id="hide1">Hide MULT</button>
+                        <button style="background-color:lightgreen; width:20% ; display: inline; margin-left: 10px" id="show1">Show MULT</button>
                         <tbody>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -499,7 +567,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON (SELECT BAT)</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -510,7 +578,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -521,7 +589,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -532,7 +600,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON, AS REQD</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -543,7 +611,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SECURE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -554,7 +622,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SECURE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -565,7 +633,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SECURE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -576,7 +644,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF (if installed)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -587,7 +655,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ADJUSTED - FULL &amp; FREE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -598,7 +666,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -609,7 +677,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CYCLIC FULL &amp; FREE / CENTERED - FRICTION ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -620,7 +688,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">COLLECTIVE FULL UP AND DOWN - FRICTION ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -631,7 +699,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF - IDLE - FULL - IDLE - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -642,7 +710,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF - IDLE - FULL - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -653,7 +721,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON - TEST - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -664,7 +732,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON - TEST - OFF - STOW (AS REQD)</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -675,7 +743,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON - TEST - OFF - STOW (AS REQD)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -686,7 +754,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ARMED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -697,7 +765,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SELECT BOTH (IF FITTED)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -708,7 +776,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CLOSED AND GUARDED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -719,7 +787,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -730,7 +798,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -741,7 +809,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON AND GUARDED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -752,7 +820,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET FIELD ELEVATION</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -763,7 +831,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECKED</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -774,7 +842,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ALL OFF EXCEPT ANTI-COL ON &amp; MASTER GYRO SWITCH ON</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -785,7 +853,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">IN EXCEPT FUEL BOOST CBs OUT</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -796,7 +864,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON (UNLESS EXTERNAL POWER)</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -807,7 +875,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON - CHECK HELMET WORKING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -818,7 +886,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">5 WARNING LIGHTS SHOWING</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -829,7 +897,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">PUSH TO TEST</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -840,7 +908,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK LOW RPM AUDIO AND LIGHT</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -851,7 +919,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -862,7 +930,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -873,7 +941,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[OUT]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -884,7 +952,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -895,7 +963,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NOTED</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -944,7 +1012,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -955,7 +1023,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON (SELECT BAT)</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -966,7 +1034,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -977,7 +1045,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -988,7 +1056,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON, AS REQD</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -999,7 +1067,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON - TEST - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -1010,7 +1078,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">ON - TEST - OFF - STOW (AS REQD)</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -1059,7 +1127,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1070,7 +1138,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CYCLIC FULL &amp; FREE / CENTERED - FRICTION ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1081,7 +1149,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">COLLECTIVE FULL UP AND DOWN - FRICTION ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1092,7 +1160,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF - IDLE - FULL - IDLE - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1103,7 +1171,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF - IDLE - FULL - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1114,7 +1182,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON AND GUARDED</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1125,7 +1193,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ALL OFF EXCEPT ANTI-COL ON &amp; MASTER GYRO SWITCH ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1136,7 +1204,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON (UNLESS EXTERNAL POWER)</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1147,7 +1215,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON - CHECK HELMET WORKING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1158,7 +1226,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">5 WARNING LIGHTS SHOWING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1169,7 +1237,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK LOW RPM AUDIO AND LIGHT</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1180,7 +1248,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1191,7 +1259,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1202,7 +1270,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[OUT]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1213,7 +1281,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">[IN]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1224,7 +1292,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NOTED</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1273,7 +1341,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1284,7 +1352,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CLEAR</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1295,7 +1363,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">UNITED &amp; OFFSET (10 &amp; 4 OCLOCK)</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1306,7 +1374,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CONFIRM OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1317,7 +1385,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MIN 24 VOLTS, MIN 19 VOLTS DURING START</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1328,7 +1396,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NOTE</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1339,7 +1407,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">PRESS &amp; HOLD</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1350,7 +1418,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1361,7 +1429,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">LISTEN</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1378,7 +1446,7 @@ div {
                                  </p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1389,7 +1457,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MONITOR 810-840 bhs (810-927 BELL) FOR 10 SECS DURING START MAX PEAK 927 ON START</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1400,7 +1468,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1411,7 +1479,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">BY 25% N1</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1422,7 +1490,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">AT 58% N1 RELEASE STARTER</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1433,7 +1501,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1444,7 +1512,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ENG OUT &amp; TRANS OIL PRESS LIGHTS OUT</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1455,7 +1523,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">UNLESS ENGINE SHUTDOWN LESS THAN 15 MINUTES AGO</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1466,7 +1534,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">BATTERY MASTER ON - DISCONNECT EXTERNAL POWER</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1477,7 +1545,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASE TO 70% N1</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1526,7 +1594,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1537,7 +1605,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON - RADALT/ASPEN MFP &amp; PFD</td>
                            </tr>
-                           <tr>
+                           <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
                               </td>
@@ -1586,7 +1654,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1597,7 +1665,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CONFIRM RELEASED AND STOWED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1608,7 +1676,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF / ON (NO HARD OVER)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1619,7 +1687,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ADVANCE TO FULL (40% MAX TQ)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1630,7 +1698,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK BEEP RANGE 97%-102%</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1641,7 +1709,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON - NOTE TOT RISE - OFF - TOT DECREASE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1652,7 +1720,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON - NOTE LOAD METER INCREASE - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2 ">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1663,7 +1731,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OPEN - NO CHANGE IN TOT - CLOSE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1674,7 +1742,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1685,7 +1753,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MOVEMENT, FEEL AND TPP - NORMAL</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1696,7 +1764,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1707,7 +1775,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">X PATTERN</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1718,7 +1786,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1729,7 +1797,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">HYDRAULICS RESTORED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1740,7 +1808,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">IN | ON</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1751,7 +1819,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1762,16 +1830,16 @@ div {
                               </td>
                               <td style="background-color:#FFA500">THROTTLEFULL | CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</td>
                            </tr>
-                           <tr>
-                              <td style="background-color:#FFA500" class="checklist-1-border">
-                                 <img src="trans5050.png" />
+                           <tr class="1">
+                              <td style="background-color:#4682B4" class="checklist-1-border">
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
-                              <td style="background-color:#FFA500">17</td>
-                              <td style="background-color:#FFA500">HELISAS AUTO PILOT</td>
-                              <td style="background-color:#FFA500">
+                              <td style="background-color:#4682B4">17</td>
+                              <td style="background-color:#4682B4">HELISAS AUTO PILOT</td>
+                              <td style="background-color:#4682B4">
                                  <input name="checklist" type="checkbox" />
                               </td>
-                              <td style="background-color:#FFA500">
+                              <td style="background-color:#4682B4">
                                  CYCLIC FORCE TRIM BUTTON - ON 2 SECS
                                  <p>SAS LIGHT - ON (GREEN)</p>
                                  <p>MOVE CYCLIC - RELEASE CYCLIC RETURNS TO ORIGINAL POSITION</p>
@@ -1779,7 +1847,7 @@ div {
                                  <p>AFCS RELEASE BUTTON - CHECK</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1790,7 +1858,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CONFIRMED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1801,7 +1869,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECKED, FLAGS AWAY</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1812,7 +1880,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">QNH SET | ALTIMETERS CHECKED (100 / 75 / 60)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1823,7 +1891,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1834,7 +1902,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">HSI AND COMPASS ALIGHNED (10 degrees)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1845,7 +1913,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1856,7 +1924,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1867,7 +1935,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1916,7 +1984,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="4">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="h.png" />
                               </td>
@@ -1927,7 +1995,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SECURE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1938,7 +2006,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SECURE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1949,7 +2017,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SAR, ATIS</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -1960,7 +2028,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CLEAR</td>
                            </tr>
-                           <tr>
+                           <tr class="5">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="e.png" />
                               </td>
@@ -1976,7 +2044,7 @@ div {
                                  <p>INSTRUMENTS SET AS REQD, NO FLAGS</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="6">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="f.png" />
                               </td>
@@ -1987,7 +2055,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">AMOUNT, TIME ON GROUND CONFIRMED</td>
                            </tr>
-                           <tr>
+                           <tr class="6 ">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="f.png" />
                               </td>
@@ -1998,7 +2066,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2009,7 +2077,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET AS REQUIRED</td>
                            </tr>
-                           <tr>
+                           <tr class="7">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="r.png" />
                               </td>
@@ -2020,7 +2088,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">RADIOS, NAVIGATION AIDS AND TRANSPONDER SET</td>
                            </tr>
-                           <tr>
+                           <tr class="7">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="r.png" />
                               </td>
@@ -2031,7 +2099,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">THREAT ERROR MANAGEMENT</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -2080,7 +2148,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2091,7 +2159,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">FEEL NORMAL</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2102,7 +2170,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">FEELS NORMAL</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2113,7 +2181,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OUT</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2124,7 +2192,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NORMAL</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2135,7 +2203,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">N2 100%</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2146,7 +2214,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">TORQUE REQUIRED TO HOVER IS % GIVING CAT 1,2,3 OR 4 POWER</td>
                            </tr>
-                           <tr>
+                           <tr class="2 ">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2195,7 +2263,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2206,7 +2274,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CLEAR</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2222,7 +2290,7 @@ div {
                                  <p>NAVAIDS TRACKING TO STATION</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2238,7 +2306,7 @@ div {
                                  <p>NAVAIDS TRACKING TO STATION</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2252,7 +2320,7 @@ div {
                                  <p>RAD ALT, ISVI's, ALTIMETERs INCREASING</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2263,7 +2331,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NOSE PITCH UP, DOWN, ROLL LEFT AND RIGHT</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2277,7 +2345,7 @@ div {
                                  <p>RAD ALT, ISVI's, ALTIMETERs DECREASING</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="2 ">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2334,7 +2402,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="50">
                               <td style="background-color:#3CB371" class="checklist-1-border">
                                  <img src="blacktriangle.png" />
                                  <img src="p.png" />
@@ -2346,7 +2414,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CAT 1,2 3 OR 4 POWER AVAILABLE</td>
                            </tr>
-                           <tr>
+                           <tr class="51">
                               <td style="background-color:#3CB371" class="checklist-1-border">
                                  <img src="blacktriangle.png" />
                                  <img src="w.png" />
@@ -2358,7 +2426,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">WIND FROM? - AT? KNOTS - INTO WIND DEPARTURE?</td>
                            </tr>
-                           <tr>
+                           <tr class="50">
                               <td style="background-color:#3CB371" class="checklist-1-border">
                                  <img src="blacktriangle.png" />
                                  <img src="p.png" />
@@ -2373,7 +2441,7 @@ div {
                                  <p>CLIMB TO? - CONDUCT? TURN - SET HEADING?</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2387,7 +2455,7 @@ div {
                                  <p>NOMINATE - LAST SAFE POINT OF HOVER</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="5">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="e.png" />
                               </td>
@@ -2398,7 +2466,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CREW, AIR TRAFFIC, OPERATIONS, INTERNAL, EXTERNAL</td>
                            </tr>
-                           <tr>
+                           <tr class="11">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="m.png" />
                               </td>
@@ -2447,7 +2515,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="8">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="p.png" />
                               </td>
@@ -2458,7 +2526,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500" />
                            </tr>
-                           <tr>
+                           <tr class="12">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="s.png" />
                               </td>
@@ -2469,7 +2537,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500" />
                            </tr>
-                           <tr>
+                           <tr class="9">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="w.png" />
                               </td>
@@ -2480,7 +2548,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500" />
                            </tr>
-                           <tr>
+                           <tr class="13">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="a.png" />
                               </td>
@@ -2491,7 +2559,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500" />
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2502,7 +2570,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500" />
                            </tr>
-                           <tr>
+                           <tr class="8">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="p.png" />
                               </td>
@@ -2551,7 +2619,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2562,7 +2630,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">RADIOS AND NAV AIDS TUNED, CDI SET</td>
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2573,7 +2641,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">TURN ONTO NEXT HEADING</td>
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2587,7 +2655,7 @@ div {
                                  <p>ETA CALCULATED</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2598,7 +2666,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MAKE RADIO CALL</td>
                            </tr>
-                           <tr>
+                           <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="t.png" />
                               </td>
@@ -2647,7 +2715,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="14">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="c.png" />
                               </td>
@@ -2658,7 +2726,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ALIGNED - INTERCEPT TRACK SET - HEADING BUG SET - AUTOPILOT</td>
                            </tr>
-                           <tr>
+                           <tr class="15">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="l.png" />
                               </td>
@@ -2669,7 +2737,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">DEPARTURE TIME - ETA</td>
                            </tr>
-                           <tr>
+                           <tr class="5">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="e.png" />
                               </td>
@@ -2684,7 +2752,7 @@ div {
                                  <p>PITOT HEAT AND ENGINE ANTI ICE AS REQUIRED</p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="13">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="a.png" />
                               </td>
@@ -2695,7 +2763,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">QNH SET - ASSIGNED ALTITUDE SET - VNE CALCULATED</td>
                            </tr>
-                           <tr>
+                           <tr class="7">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="r.png" />
                               </td>
@@ -2706,7 +2774,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">DEPARTURE CALL - FREQ SET - NAVAIDS SET</td>
                            </tr>
-                           <tr>
+                           <tr class="16">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="o.png" />
                               </td>
@@ -2717,7 +2785,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">GROSS ERROR CHECK - WIND, ELEVATION, GEOGRAPHY NOTED</td>
                            </tr>
-                           <tr>
+                           <tr class="6">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="f.png" />
                               </td>
@@ -2728,7 +2796,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">QUANTITY / TIME NOTED - TIME ON THE GROUND CONFIRMED</td>
                            </tr>
-                           <tr>
+                           <tr class="6">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="f.png" />
                               </td>
@@ -2739,7 +2807,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET AS REQUIRED</td>
                            </tr>
-                           <tr>
+                           <tr class="6">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="f.png" />
                               </td>
@@ -2772,7 +2840,7 @@ div {
                            <tr />
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">H  E  F  F  R  R</td>
@@ -2817,7 +2885,7 @@ div {
                            </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2828,7 +2896,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">FULLY DOWN</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2839,7 +2907,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">IDLE</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2850,7 +2918,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CENTERED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2861,7 +2929,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON (IF INSTALLED)</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2872,7 +2940,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ON</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2883,7 +2951,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET FOR 2 MIN</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -2894,7 +2962,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">OFF AND STOWED</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2905,7 +2973,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2916,7 +2984,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2927,7 +2995,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OUT</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2938,7 +3006,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2949,7 +3017,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">STANDBY</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2960,7 +3028,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CHECK OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2971,7 +3039,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">AFTER 2 MINUTES - OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2982,7 +3050,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -2993,7 +3061,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3004,7 +3072,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MONITOR TO STABILIZE BELOW 400C</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3015,7 +3083,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MONITOR TO BE BELOW 10%</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3026,7 +3094,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MONITOR CONTROLS UNTIL COMPLETE STOP</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3037,7 +3105,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3048,7 +3116,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
                               </td>
@@ -3059,7 +3127,7 @@ div {
                               </td>
                               <td style="background-color:#4682B4">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3070,7 +3138,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr>
+                           <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
                                  <img src="trans5050.png" />
                               </td>
@@ -3103,70 +3171,70 @@ div {
                            <tr />
                         </thead>
                         <tbody>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">FUEL</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">91 USG (344 LITRES)</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">ENGINE OIL</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">5.2 LITRES MOBILE 254</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">TRANSMISSION OIL</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">4.7 LITRES MOBILE 254</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">TAIL ROTOR GEARBOX OIL</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">0.5 LITRE MOBILE 254</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">HYDRAULIC RESERVOIR</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">0.5 LITRE FLUID 41</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">ENGINE OIL PRESSURE</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">50-130 PSI</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">ENGINE OIL TEMP</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">0 - 107 DEGREES C</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">TRANSMISSION OIL PRESSURE</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">30-70 PSI</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">TRANSMISSION OIL TEMP</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">15 - 110 DEGREES C</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">FUEL PRESSURE</td>
@@ -3179,35 +3247,35 @@ div {
                                  </p>
                               </td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">GENERATOR LOAD</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">MAX 70%</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">MINIMUM PILOT WEIGHT Fuel 75USG or less</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">170 LBS (77.1 KG)</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">MINIMUM PILOT WEIGHT Fuel above 75USG</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">200 LBS (91 KG)</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">EMPTY WEIGHT FOR PLANNING</td>
                               <td style="background-color:#FFA500" />
                               <td style="background-color:#b0e0e6">1976.5 LBS (880 KG)</td>
                            </tr>
-                           <tr>
+                           <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
                               <td style="background-color:#ffa500" />
                               <td style="background-color:#FFA500">MAXIMUM AUW</td>
@@ -3235,7 +3303,6 @@ div {
       </div>
    </body>
 </html>
-
 
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       

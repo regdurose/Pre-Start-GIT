@@ -6,7 +6,7 @@
     <phasetitle>BELL 206BIII ABREVIATED NORMAL CHECKLIST</phasetitle>
     <phasenotes></phasenotes>
         <stage>
-        <stagetitle>PRE START - ALL</stagetitle>
+        <stagetitle>PRE START</stagetitle>
         <stagenotes>
         <![CDATA[<a class="pad_left_50">Tootsie roll tiramisu macaroon wafer carrot cake.</a> <br />      
                  <a class="pad_left_50">Danish topping sugar plum tart bonbon caramels cake.</a>]]>
@@ -1149,8 +1149,8 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
+            	<numcol>1</numcol>
+                <icon>2</icon>
                 <number>17</number>
                 <item>HELISAS AUTO PILOT</item>
                 <action>CYCLIC FORCE TRIM BUTTON - ON 2 SECS</action>

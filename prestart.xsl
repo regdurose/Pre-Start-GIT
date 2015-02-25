@@ -55,13 +55,26 @@
                   </tr>
                   </thead>
                   
+                  <!--     Start of display steps   -->
                   
-                  
+                   <xsl:choose> 
+               
+                      <xsl:when test="stagetitle ='PRE START'">
+                      <button id="hide" style="background-color:lightblue; width:20% ; display: inline; margin-left: 48px">Hide NIFR</button>
+                        <button id="show" style="background-color:lightblue; width:20% ; display: inline; margin-left: 10px">Show NIFR</button>
+                        <button id="hide1" style="background-color:lightgreen; width:20% ; display: inline; margin-left: 23px">Hide MULT</button>
+                        <button id="show1" style="background-color:lightgreen; width:20% ; display: inline; margin-left: 10px">Show MULT</button>
+                      </xsl:when>
+                   </xsl:choose> 
                   
                   <tbody><!-- Dialogue Page if required <a href="#pagetwo">Go to Dialog Page</a>-->
                   <xsl:for-each select="step">
-                    <tr>
                     
+  
+                  <tr class="{numcol}">
+                  	
+                    	 
+                      
                       <!--  Column 1 NIFR/ Multipul Liftoffs   -->
                       <xsl:choose> 
                
@@ -151,13 +164,10 @@
                       </xsl:choose>
                
                
-               
                       <!--  Column 2 Number Color   -->
                   
                       <xsl:choose>
-                      
-                   
-                        
+                    
                       <xsl:when test="icon = 2">
                         <td style="background-color:#4682B4"><xsl:value-of select="number"/></td>
                       </xsl:when>
@@ -197,23 +207,14 @@
                         <td style="background-color:#FFA500"></td>
                       </xsl:when>
                       
-                      
-                      
                       <xsl:otherwise>
                         <td style="background-color:#FFA500"><input type="checkbox" name="checklist" /></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
-                       
-                      
-
-                      
-                     
-                       
-                       
+                
                       <!--  Column 4 Action  -->	
                       
-                     
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 1">
@@ -251,9 +252,7 @@
                         <xsl:if test="infnotes !=''">
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
                           </xsl:if>
-                          
-                 
-                          
+                         
                         </td>
                         </xsl:when>
                         
@@ -293,17 +292,11 @@
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
                           </xsl:if>
                           
-                 
-                          
+                  
                         </td>
                         </xsl:when>
                         
-                        
-                        
-                        
-                        
-                        
-                        
+                         
                       <xsl:otherwise>
                       	
                       <td style="background-color:#4682B4"><xsl:value-of select="action"/>
@@ -344,8 +337,11 @@
                           </td>
                         </xsl:otherwise>
                       </xsl:choose>
-                    </tr>
+                     </tr>
                   </xsl:for-each>
+                
+                
+                
                 </tbody>
                 </table>
                 </form>
