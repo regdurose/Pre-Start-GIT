@@ -60,9 +60,13 @@
                    <xsl:choose> 
                
                       <xsl:when test="stagetitle ='PRE START'">
-                      <button id="hide" style="background-color:#4682B4; width:20% ; display: inline; margin-left: 48px; color:white; text-shadow:none; font-weight: normal">Toggle NIFR</button>
-                     
-                        <button id="hide1" style="background-color:green; width:20% ; display: inline; margin-left: 23px; color:white; text-shadow:none; font-weight: normal">Toggle MULT</button>
+                      	
+                      <button style="margin-left:50px; vertical-align:middle; background-color:#4682B4; width:20% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide">
+                        <img src="rsz_moon.png";height="50px" width="50px"/>Toggle</button>
+                        	
+                        	
+                       <button style="margin-left:50px; vertical-align:middle; background-color:green; width:20% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide1">
+                        <img src="blacktriangle.png";height="50px" width="50px"/>Toggle</button>
                         
                       </xsl:when>
                    </xsl:choose> 
