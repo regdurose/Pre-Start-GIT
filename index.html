@@ -23,6 +23,9 @@
 <!-------------------------------------------- sytle.css --------------------------------------------------------->
 <style>
 	
+img { 
+    float: right;
+}
 	
 #checklist
 {
@@ -314,7 +317,8 @@ input[type='checkbox']:checked {
 <script>
 $(document).ready(function(){
     $("#hide").click(function(){
-        $(".1").hide(); return false;
+        $(".1").slideToggle("fast"); return false;
+        alert("NIFR Checks Hidden");
     });
     $("#show").click(function(){
         $(".1").show(); return false;
@@ -325,7 +329,7 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
     $("#hide1").click(function(){
-        $(".3").hide(); return false;
+        $(".3").slideToggle("fast"); return false;
     });
     $("#show1").click(function(){
         $(".3").show(); return false;
@@ -511,7 +515,6 @@ div {
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
 
 
-
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h2>
@@ -526,9 +529,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -551,10 +554,16 @@ div {
                               </th>
                            </tr>
                         </thead>
-                        <button style="background-color:lightblue; width:20% ; display: inline; margin-left: 48px" id="hide">Hide NIFR</button>
-                        <button style="background-color:lightblue; width:20% ; display: inline; margin-left: 10px" id="show">Show NIFR</button>
-                        <button style="background-color:lightgreen; width:20% ; display: inline; margin-left: 23px" id="hide1">Hide MULT</button>
-                        <button style="background-color:lightgreen; width:20% ; display: inline; margin-left: 10px" id="show1">Show MULT</button>
+                        <button style="vertical-align:middle; background-color:#4682B4; width:20% ; display: inline; color:white; text-shadow:none; font-weight: normal" id="hide">
+                        <img src="rsz_moon.png" ;height="50px" width="50px"/>Toggle</button>
+                        	
+                        	
+                       <button style="vertical-align:middle; background-color:green; width:20% ; display: inline; color:white; text-shadow:none; font-weight: normal" id="hide1">
+                        <img src="blacktriangle.png" ;height="50px" width="50px"/>Toggle</button>
+                        
+                         	
+                        <!--<button style="background-color:green; width:40% ; display: inline; margin-left: 23px; color:white; text-shadow:none; font-weight: normal" id="hide1">
+                        	<img src="blacktriangle.png" height="50px" width="50px"/>Toggle</button>-->
                         <tbody>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
@@ -980,344 +989,15 @@ div {
                </div>
                <div data-role="collapsible">
                   <h3 class="txt_centre">
-                     PRE START - NIFR
-                     <img class="capimg" src="logo png.png" />
-                  </h3>
-                  <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:3%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">1</td>
-                              <td style="background-color:#4682B4">BATTERY MASTER</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON (SELECT BAT)</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">2</td>
-                              <td style="background-color:#4682B4">ANTI-COLLISION LIGHT</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">3</td>
-                              <td style="background-color:#4682B4">POSITION LIGHTS</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">4</td>
-                              <td style="background-color:#4682B4">INTERNAL INSTRUMENT LIGHTS</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON, AS REQD</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">15</td>
-                              <td style="background-color:#4682B4">LANDING LIGHT</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON - TEST - OFF</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">16</td>
-                              <td style="background-color:#4682B4">NIGHT SCANNER (PIC)</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON - TEST - OFF - STOW (AS REQD)</td>
-                           </tr>
-                           <tr class="1">
-                              <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_moon.png" />
-                              </td>
-                              <td style="background-color:#4682B4">17</td>
-                              <td style="background-color:#4682B4">NIGHT SCANNER (NFP)</td>
-                              <td style="background-color:#4682B4">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#4682B4">ON - TEST - OFF - STOW (AS REQD)</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                  </form>
-               </div>
-               <div data-role="collapsible">
-                  <h3 class="txt_centre">
-                     PRE START - MULTIPLE L/OFFS, LDNGS &amp; CIRS
-                     <img class="capimg" src="logo png.png" />
-                  </h3>
-                  <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:3%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">11</td>
-                              <td style="background-color:#FFA500">CYCLIC</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">CYCLIC FULL &amp; FREE / CENTERED - FRICTION ON</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">12</td>
-                              <td style="background-color:#FFA500">PILOT COLLECTIVE</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">COLLECTIVE FULL UP AND DOWN - FRICTION ON</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">13</td>
-                              <td style="background-color:#FFA500">PILOT THROTTLE</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">OFF - IDLE - FULL - IDLE - OFF</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">14</td>
-                              <td style="background-color:#FFA500">CO-PILOT THROTTLE</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">OFF - IDLE - FULL - OFF</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">23</td>
-                              <td style="background-color:#FFA500">FUEL VALVE</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">ON AND GUARDED</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">26</td>
-                              <td style="background-color:#FFA500">OVERHEAD SWITCHES</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">ALL OFF EXCEPT ANTI-COL ON &amp; MASTER GYRO SWITCH ON</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">28</td>
-                              <td style="background-color:#FFA500">BATTERY MASTER</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">ON (UNLESS EXTERNAL POWER)</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">29</td>
-                              <td style="background-color:#FFA500">RADIO MASTER</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">ON - CHECK HELMET WORKING</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">30</td>
-                              <td style="background-color:#FFA500">FCAUTION / WARNING LIGHTS</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">5 WARNING LIGHTS SHOWING</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">32</td>
-                              <td style="background-color:#FFA500">COLLECTIVE RAISE THEN LOWER</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">CHECK LOW RPM AUDIO AND LIGHT</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">33</td>
-                              <td style="background-color:#FFA500">AFT FUEL BOOST PUMP CB</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">34</td>
-                              <td style="background-color:#FFA500">FWD FUEL BOOST PUMP CB</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">[IN]           CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">35</td>
-                              <td style="background-color:#FFA500">AFT FUEL BOOST PUMP CB</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">[OUT]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">36</td>
-                              <td style="background-color:#FFA500">AFT FUEL BOOST PUMP CB</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">[IN]          CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">37</td>
-                              <td style="background-color:#FFA500">OAT</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">NOTED</td>
-                           </tr>
-                           <tr class="3">
-                              <td style="background-color:#ffa500" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="blacktriangle.png" />
-                              </td>
-                              <td style="background-color:#FFA500">38</td>
-                              <td style="background-color:#FFA500">CLOCK</td>
-                              <td style="background-color:#FFA500">
-                                 <input name="checklist" type="checkbox" />
-                              </td>
-                              <td style="background-color:#FFA500">ZEROED</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                  </form>
-               </div>
-               <div data-role="collapsible">
-                  <h3 class="txt_centre">
                      START
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -1568,9 +1248,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -1628,9 +1308,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -1958,9 +1638,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2122,9 +1802,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2237,9 +1917,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2376,9 +2056,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2489,9 +2169,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2593,9 +2273,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2689,9 +2369,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2830,9 +2510,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -2859,9 +2539,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -3161,9 +2841,9 @@ div {
                   <form method="post">
                      <table summary="Checklist" id="checklist">
                         <colgroup>
-                           <col style="width:3%" />
+                           <col style="width:8%" />
                            <col style="width:5%" />
-                           <col class="checklist-first" style="width:18%" />
+                           <col class="checklist-first" style="width:12%" />
                            <col style="width:5%" />
                            <col style="width:70%" />
                         </colgroup>
@@ -3303,6 +2983,8 @@ div {
       </div>
    </body>
 </html>
+
+
 
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
       

@@ -31,9 +31,9 @@
                 
                 <table id="checklist" summary="Checklist">
                 <colgroup>
-                    <col style="width:3%"/>
+                    <col style="width:8%"/>
                     <col style="width:5%"/>
-                    <col style="width:18%" class="checklist-first" />
+                    <col style="width:12%" class="checklist-first" />
                     <col style="width:5%"/>
                     <col style="width:70%"/>
                 </colgroup>
@@ -60,10 +60,10 @@
                    <xsl:choose> 
                
                       <xsl:when test="stagetitle ='PRE START'">
-                      <button id="hide" style="background-color:lightblue; width:20% ; display: inline; margin-left: 48px">Hide NIFR</button>
-                        <button id="show" style="background-color:lightblue; width:20% ; display: inline; margin-left: 10px">Show NIFR</button>
-                        <button id="hide1" style="background-color:lightgreen; width:20% ; display: inline; margin-left: 23px">Hide MULT</button>
-                        <button id="show1" style="background-color:lightgreen; width:20% ; display: inline; margin-left: 10px">Show MULT</button>
+                      <button id="hide" style="background-color:#4682B4; width:20% ; display: inline; margin-left: 48px; color:white; text-shadow:none; font-weight: normal">Toggle NIFR</button>
+                     
+                        <button id="hide1" style="background-color:green; width:20% ; display: inline; margin-left: 23px; color:white; text-shadow:none; font-weight: normal">Toggle MULT</button>
+                        
                       </xsl:when>
                    </xsl:choose> 
                   

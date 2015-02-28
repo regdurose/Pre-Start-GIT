@@ -440,7 +440,7 @@
             
         </stage>
     
-        <stage>
+        <!--<stage>
         <stagetitle>PRE START - NIFR</stagetitle>
         <stagenotes></stagenotes>
             <step>
@@ -713,7 +713,7 @@
                 <infnotes></infnotes>
             </step>
             
-        </stage>
+        </stage>-->
         
       <stage>
         <stagetitle>START</stagetitle>
