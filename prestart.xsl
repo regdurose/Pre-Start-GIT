@@ -61,11 +61,14 @@
                
                       <xsl:when test="stagetitle ='PRE START'">
                       	
-                     <tr><button style="margin-left:5px; margin-right:5px; vertical-align:middle; background-color:#4682B4; width:48% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide"><img src="rsz_moon60.png"/>Toggle</button></tr>
-                        
-                        	
-                        	
-                       <tr><button style="margin-left:10px; vertical-align:middle; background-color:green; width:48% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide1"><img src="rsz_recycling.png"/>Toggle</button></tr>
+                    <tr>
+                           <button id="hide" style="margin-left:5px; margin-right:5px; vertical-align:middle; background-color:#4682B4; width:13% ; display:inline">
+                              <img src="moon50.png" /></button>
+                        </tr>
+                        <tr>
+                           <button id="hide1" style="margin-left:10px; vertical-align:middle; background-color:green; width:13% ; display:inline">
+                              <img src="rsz_recycling.png" /></button>
+                        </tr>
                         
                         
                       </xsl:when>
@@ -83,7 +86,7 @@
                       <xsl:choose> 
                
                       <xsl:when test="numcol = 1">
-                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_moon60.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_mands.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
@@ -153,12 +156,12 @@
                       <!-- 12 - Multi + Letter P -->
                       
                       <xsl:when test="numcol = 50">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_moon60.png"/><img src="p.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_mands.png"/><img src="p.png"/></td>
                       </xsl:when>
                       
                        <!-- 12 - Multi + Letter W -->
                       <xsl:when test="numcol = 51">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_moon60.png"/><img src="w.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_mands.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
                       <xsl:otherwise>
