@@ -63,7 +63,7 @@
                       	
                     <tr>
                            <button id="hide" style="margin-left:5px; margin-right:5px; vertical-align:middle; background-color:#4682B4; width:13% ; display:inline">
-                              <img src="moon50.png" /></button>
+                              <img src="rsz_mands.png" /></button>
                         </tr>
                         <tr>
                            <button id="hide1" style="margin-left:10px; vertical-align:middle; background-color:green; width:13% ; display:inline">
