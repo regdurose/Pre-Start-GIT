@@ -31,7 +31,7 @@
                 
                 <table id="checklist" summary="Checklist">
                 <colgroup>
-                    <col style="width:8%"/>
+                    <col style="width:8%" />
                     <col style="width:5%"/>
                     <col style="width:12%" class="checklist-first" />
                     <col style="width:5%"/>
@@ -61,12 +61,12 @@
                
                       <xsl:when test="stagetitle ='PRE START'">
                       	
-                      <button style="margin-left:50px; vertical-align:middle; background-color:#4682B4; width:20% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide">
-                        <img src="rsz_moon.png";height="50px" width="50px"/>Toggle</button>
+                     <tr><button style="margin-left:5px; margin-right:5px; vertical-align:middle; background-color:#4682B4; width:48% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide"><img src="rsz_moon60.png"/>Toggle</button></tr>
+                        
                         	
                         	
-                       <button style="margin-left:50px; vertical-align:middle; background-color:green; width:20% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide1">
-                        <img src="blacktriangle.png";height="50px" width="50px"/>Toggle</button>
+                       <tr><button style="margin-left:10px; vertical-align:middle; background-color:green; width:48% ; display:inline; color:white; text-shadow:none; font-weight:normal" id="hide1"><img src="rsz_recycling.png"/>Toggle</button></tr>
+                        
                         
                       </xsl:when>
                    </xsl:choose> 
@@ -83,7 +83,7 @@
                       <xsl:choose> 
                
                       <xsl:when test="numcol = 1">
-                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_moon.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_moon60.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
@@ -91,7 +91,7 @@
                        </xsl:when>
                       
                       <xsl:when test="numcol = 3">
-                        <td class="checklist-1-border" style="background-color:#ffa500"><img src="blacktriangle.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#ffa500"><img src="rsz_recycling.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
@@ -153,12 +153,12 @@
                       <!-- 12 - Multi + Letter P -->
                       
                       <xsl:when test="numcol = 50">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="p.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_moon60.png"/><img src="p.png"/></td>
                       </xsl:when>
                       
                        <!-- 12 - Multi + Letter W -->
                       <xsl:when test="numcol = 51">
-                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="blacktriangle.png"/><img src="w.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#3CB371"><img src="rsz_moon60.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
                       <xsl:otherwise>
