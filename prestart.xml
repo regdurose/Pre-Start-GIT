@@ -1149,7 +1149,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>1</numcol>
+            	<numcol>101</numcol>
                 <icon>2</icon>
                 <number>17</number>
                 <item>HELISAS AUTO PILOT</item>
@@ -1391,7 +1391,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>1</numcol>
+            	<numcol>102</numcol>
                 <icon>2</icon>
                 <number>11</number>
                 <item>LIGHTS</item>
@@ -1592,7 +1592,7 @@
                 <stagetitle>PWPTEM - PRIOR TO TAKE-OFF BRIEF</stagetitle>
                 <stagenotes></stagenotes>
             <step>
-            	<numcol>50</numcol>
+            	<numcol>501</numcol>
                 <icon>1</icon>
                 <number>1</number>
                 <item>POWER</item>
@@ -1603,7 +1603,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>51</numcol>
+            	<numcol>511</numcol>
                 <icon>1</icon>
                 <number>2</number>
                 <item>WIND</item>
@@ -1615,7 +1615,7 @@
                
             </step>
             <step>
-            	<numcol>50</numcol>
+            	<numcol>501</numcol>
                 <icon>1</icon>
                 <number>3</number>
                 <item>PLAN</item>
@@ -1740,7 +1740,7 @@
         
         
         <stage>
-                <stagetitle>FIVE T's - WAYPOINT / TURNING CHECK</stagetitle>
+                <stagetitle>FIVE T`s - WAYPOINT / TURNING CHECK</stagetitle>
                 <stagenotes></stagenotes>
             <step>
             	<numcol>10</numcol>
@@ -2003,7 +2003,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>1</numcol>
+            	<numcol>103</numcol>
                 <icon>2</icon>
                 <number>7</number>
                 <item>LANDING LIGHT AND NIGHT SCANNER</item>
@@ -2171,7 +2171,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>1</numcol>
+            	<numcol>103</numcol>
                 <icon>2</icon>
                 <number>22</number>
                 <item>INSTRUMENT LIGHTS</item>

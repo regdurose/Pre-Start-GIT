@@ -294,8 +294,8 @@ input[type='checkbox'] {
     -webkit-appearance:none;
     width:48px;
     height:48px;
-    background-color:#a0a0a0;
-    background-image: url("rsz_joomla.png");
+    background-color:#ffffff;
+    background-image: url("rsz_target-512.png");
     background-repeat: no-repeat;
     background-position: center; 
     border-radius:40px;
@@ -334,6 +334,54 @@ $(document).ready(function(){
     });
 });
 </script>
+
+<script>
+$(document).ready(function(){
+    $("#hide2").click(function(){
+        $(".101").slideToggle("fast"); return false;
+    });
+    $("#show1").click(function(){
+        $(".101").show(); return false;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#hide3").click(function(){
+        $(".102").slideToggle("fast"); return false;
+    });
+    $("#show1").click(function(){
+        $(".102").show(); return false;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#hide4").click(function(){
+        $(".501").slideToggle("fast"); return false;
+    });
+    $("#hide4").click(function(){
+        $(".511").slideToggle("fast"); return false;
+    });
+    $("#show1").click(function(){
+        $(".501").show(); return false;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#hide5").click(function(){
+        $(".103").slideToggle("fast"); return false;
+    });
+    $("#show1").click(function(){
+        $(".103").show(); return false;
+    });
+});
+</script>
+
 
 <SCRIPT>
     function toggleOption(thisselect) {
@@ -512,7 +560,6 @@ div {
 
 <!--_______________INSERT TRANSLATED XML / XSLT CODE FROM HERE____do not change code manually______________-->
 
- 
 
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
@@ -526,43 +573,48 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
+                     <table id="checklist" style="width:99%">
                         <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
                            <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
+                              <th style="background-color: #ffc926; " scope="col" align="center">
+                                 <img src="rsz_mands_30.png" id="hide" />
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>No</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Item</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col">
+                                 <img src="rsz_recycling_30.png" id="hide1" />
                               </th>
                            </tr>
                         </thead>
-                        <tr>
-                           <button style="margin-left:5px; margin-right:5px; vertical-align:middle; background-color:#4682B4; width:13% ; display:inline" id="hide">
-                              <img src="rsz_mands.png" />
-                           </button>
-                        </tr>
-                        <tr>
-                           <button style="margin-left:10px; vertical-align:middle; background-color:green; width:13% ; display:inline" id="hide1">
-                              <img src="rsz_recycling.png" />
-                           </button>
-                        </tr>
+                     </table>
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:8%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
+                        </colgroup>
+                        <thead />
                         <tbody>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
@@ -992,33 +1044,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
@@ -1245,33 +1308,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="3">
                               <td style="background-color:#ffa500" class="checklist-1-border">
@@ -1305,33 +1379,46 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center">
+                                 <img src="rsz_mands_30.png" id="hide2" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -1509,7 +1596,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">THROTTLEFULL | CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</td>
                            </tr>
-                           <tr class="1">
+                           <tr class="101">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
                               </td>
@@ -1635,33 +1722,46 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center">
+                                 <img src="rsz_mands_30.png" id="hide3" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="4">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -1778,7 +1878,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">THREAT ERROR MANAGEMENT</td>
                            </tr>
-                           <tr class="1">
+                           <tr class="102">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
                               </td>
@@ -1799,33 +1899,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -1914,33 +2025,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -2053,37 +2175,50 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
+                     <table id="checklist" style="width:99%">
                         <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
                            <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>No</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Item</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col">
+                                 <img src="rsz_recycling_30.png" id="hide4" />
                               </th>
                            </tr>
                         </thead>
+                     </table>
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:8%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
+                        </colgroup>
+                        <thead />
                         <tbody>
-                           <tr class="50">
-                              <td style="background-color:#3CB371" class="checklist-1-border">
-                                 <img src="rsz_mands.png" />
+                           <tr class="501">
+                              <td style="background-color:#FFA500" class="checklist-1-border">
+                                 <img src="rsz_recycling.png" />
                                  <img src="p.png" />
                               </td>
                               <td style="background-color:#FFA500">1</td>
@@ -2093,9 +2228,9 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CAT 1,2 3 OR 4 POWER AVAILABLE</td>
                            </tr>
-                           <tr class="51">
-                              <td style="background-color:#3CB371" class="checklist-1-border">
-                                 <img src="rsz_mands.png" />
+                           <tr class="511">
+                              <td style="background-color:#FFA500" class="checklist-1-border">
+                                 <img src="rsz_recycling.png" />
                                  <img src="w.png" />
                               </td>
                               <td style="background-color:#FFA500">2</td>
@@ -2105,9 +2240,9 @@ div {
                               </td>
                               <td style="background-color:#FFA500">WIND FROM? - AT? KNOTS - INTO WIND DEPARTURE?</td>
                            </tr>
-                           <tr class="50">
-                              <td style="background-color:#3CB371" class="checklist-1-border">
-                                 <img src="rsz_mands.png" />
+                           <tr class="501">
+                              <td style="background-color:#FFA500" class="checklist-1-border">
+                                 <img src="rsz_recycling.png" />
                                  <img src="p.png" />
                               </td>
                               <td style="background-color:#FFA500">3</td>
@@ -2166,33 +2301,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="8">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -2266,37 +2412,48 @@ div {
                </div>
                <div data-role="collapsible">
                   <h3 class="txt_centre">
-                     FIVE T's - WAYPOINT / TURNING CHECK
+                     FIVE T`s - WAYPOINT / TURNING CHECK
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Nos</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="10">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -2366,33 +2523,44 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr>
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>No</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Item</h3>
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
+                              </th>
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                           </tr>
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>No</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Item</h3>
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3>Action</h3>
-                              </th>
-                           </tr>
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="14">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -2507,17 +2675,29 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr />
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr />
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
@@ -2536,33 +2716,46 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table summary="Checklist" id="checklist">
-                        <colgroup>
-                           <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
-                        </colgroup>
+                     <table id="checklist" style="width:99%">
                         <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
                            <tr>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <h3 />
-                              </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col" align="center" />
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>No</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Item</h3>
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
-                                 <input data-icon="back" value="Reset" type="reset" />
+                              <th style="background-color: #ffc926; " scope="col">
+                                 <input type="reset" value="Reset" data-icon="back" />
                               </th>
-                              <th scope="col" style="background-color: #ffc926">
+                              <th style="background-color: #ffc926; " scope="col">
                                  <h3>Action</h3>
+                              </th>
+                              <th style="background-color: #ffc926;" align="center" scope="col">
+                                 <img src="rsz_mands_30.png" id="hide5" />
                               </th>
                            </tr>
                         </thead>
+                     </table>
+                     <table summary="Checklist" id="checklist">
+                        <colgroup>
+                           <col style="width:8%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
+                        </colgroup>
+                        <thead />
                         <tbody>
                            <tr class="2">
                               <td style="background-color:#FFA500" class="checklist-1-border">
@@ -2630,7 +2823,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">SET FOR 2 MIN</td>
                            </tr>
-                           <tr class="1">
+                           <tr class="103">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
                               </td>
@@ -2795,7 +2988,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">OFF</td>
                            </tr>
-                           <tr class="1">
+                           <tr class="103">
                               <td style="background-color:#4682B4" class="checklist-1-border">
                                  <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
                               </td>
@@ -2838,17 +3031,29 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
+                     <table id="checklist" style="width:99%">
+                        <thead>
+                           <colgroup>
+                              <col style="width:8%" />
+                              <col style="width:8%" />
+                              <col style="width:17%" class="checklist-first" />
+                              <col style="width:18%" />
+                              <col style="width:40%" />
+                              <col style="width:10%" />
+                           </colgroup>
+                           <tr />
+                        </thead>
+                     </table>
                      <table summary="Checklist" id="checklist">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:5%" />
-                           <col class="checklist-first" style="width:12%" />
-                           <col style="width:5%" />
-                           <col style="width:70%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:10%" />
                         </colgroup>
-                        <thead>
-                           <tr />
-                        </thead>
+                        <thead />
                         <tbody>
                            <tr class="17">
                               <td style="background-color:#FFA500" class="checklist-1-border" />
