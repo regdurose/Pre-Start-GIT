@@ -719,7 +719,7 @@
         <stagetitle>START</stagetitle>
         <stagenotes></stagenotes>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>1</number>
                 <item>AREA</item>
@@ -730,7 +730,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>2</number>
                 <item>BLADES</item>
@@ -742,7 +742,7 @@
                
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>3</number>
                 <item>THROTTLE</item>
@@ -753,7 +753,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>4</number>
                 <item>VOLTS</item>
@@ -764,7 +764,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>5</number>
                 <item>CLOCKS</item>
@@ -775,7 +775,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>6</number>
                 <item>START BUTTON</item>
@@ -786,7 +786,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>7</number>
                 <item>N1 GAS PRODUCER</item>
@@ -798,7 +798,7 @@
                
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>8</number>
                 <item>COMPRESSOR</item>
@@ -809,7 +809,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>9</number>
                 <item>THROTTLE</item>
@@ -820,7 +820,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>10</number>
                 <item>TOT</item>
@@ -831,7 +831,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>11</number>
                 <item>ENGINE OIL PRESSURE</item>
@@ -842,7 +842,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>12</number>
                 <item>ROTORS TURNING</item>
@@ -854,7 +854,7 @@
                
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>13</number>
                 <item>STARTER BUTTON</item>
@@ -865,7 +865,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>14</number>
                 <item>ENGINE &amp; TRANS OIL PRESSURE</item>
@@ -876,7 +876,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>15</number>
                 <item>CAUTION / WARNING PANEL</item>
@@ -887,7 +887,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>16</number>
                 <item>WAIT 1 MINUTE</item>
@@ -898,7 +898,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>17</number>
                 <item>EXTERNAL POWER CONNECTED?</item>
@@ -910,7 +910,7 @@
                
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>18</number>
                 <item>THROTTLE</item>
@@ -921,7 +921,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>3</numcol>
+            	<numcol>302</numcol>
                 <icon>1</icon>
                 <number>19</number>
                 <item>GENERATOR</item>

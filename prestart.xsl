@@ -29,16 +29,16 @@
                 	
                 <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
                 
-                <table style="width:99%" id="checklist">
+                <table style="width:100%" id="checklist" >
                 <thead>
                   <colgroup>
-                           <col style="width:8%" />
-                           <col style="width:8%" />
-                           <col class="checklist-first" style="width:17%" />
-                           <col style="width:18%" />
-                           <col style="width:40%" />
-                           <col style="width:10%" />
-                        </colgroup>
+                              <col style="width:8%" />
+                              <col style="width:12%" />
+                              <col class="checklist-first" style="width:12%" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
+                              <col style="width:10%" />
+                           </colgroup>
                   <tr>
                     <xsl:choose> 
                     <xsl:when test="stagetitle = 'LIMITATIONS' or stagetitle = 'PRE-LANDING CHECKS'">
@@ -155,7 +155,7 @@
                 
                 
                 
-                <table id="checklist" summary="Checklist">
+                <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
                               <col style="width:8%" />
                               <col style="width:8%" />
@@ -189,7 +189,7 @@
                         <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png" /></td>
                        </xsl:when>
                       
-                      <xsl:when test="numcol = '3' or numcol = '301'">
+                      <xsl:when test="numcol = '3' or numcol = '301' or numcol = '302'">
                         <td class="checklist-1-border" style="background-color:#ffa500"><img src="rsz_recycling.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       

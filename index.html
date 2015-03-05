@@ -54,10 +54,10 @@ img {
 {
 	vertical-align: top;
 	padding: 10px 15px 10px 10px;
-	color: #ffffff;
-	border-top: 3px solid #000028;
+	color: #000000;
+	border-top: 2px solid #000028;
 	background: #FFD700;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #ffffff;
 	
 }
 
@@ -382,7 +382,16 @@ $(document).ready(function(){
 });
 </script>
 
-
+<script>
+$(document).ready(function(){
+    $("#hide6").click(function(){
+        $(".302").slideToggle("fast"); return false;
+    });
+    $("#show1").click(function(){
+        $(".302").show(); return false;
+    });
+});
+</script>
 <SCRIPT>
     function toggleOption(thisselect) {
         var selected = thisselect.options[thisselect.selectedIndex].value;
@@ -573,14 +582,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -605,7 +614,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -1044,14 +1053,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -1068,11 +1077,13 @@ div {
                               <th style="background-color: #ffc926; " scope="col">
                                  <h3>Action</h3>
                               </th>
-                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                              <th style="background-color: #ffc926;" align="center" scope="col">
+                                 <img src="rsz_recycling_30.png" id="hide6" />
+                              </th>
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -1083,7 +1094,7 @@ div {
                         </colgroup>
                         <thead />
                         <tbody>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1094,7 +1105,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CLEAR</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1105,7 +1116,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">UNITED &amp; OFFSET (10 &amp; 4 OCLOCK)</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1116,7 +1127,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">CONFIRM OFF</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1127,7 +1138,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MIN 24 VOLTS, MIN 19 VOLTS DURING START</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1138,7 +1149,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">NOTE</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1149,7 +1160,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">PRESS &amp; HOLD</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1160,7 +1171,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1171,7 +1182,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">LISTEN</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1188,7 +1199,7 @@ div {
                                  </p>
                               </td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1199,7 +1210,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">MONITOR 810-840 bhs (810-927 BELL) FOR 10 SECS DURING START MAX PEAK 927 ON START</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1210,7 +1221,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1221,7 +1232,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">BY 25% N1</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1232,7 +1243,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">AT 58% N1 RELEASE STARTER</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1243,7 +1254,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASING</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1254,7 +1265,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">ENG OUT &amp; TRANS OIL PRESS LIGHTS OUT</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1265,7 +1276,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">UNLESS ENGINE SHUTDOWN LESS THAN 15 MINUTES AGO</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1276,7 +1287,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">BATTERY MASTER ON - DISCONNECT EXTERNAL POWER</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1287,7 +1298,7 @@ div {
                               </td>
                               <td style="background-color:#FFA500">INCREASE TO 70% N1</td>
                            </tr>
-                           <tr class="3">
+                           <tr class="302">
                               <td style="background-color:#ffa500" class="checklist-1-border">
                                  <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
                               </td>
@@ -1308,14 +1319,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -1332,11 +1343,13 @@ div {
                               <th style="background-color: #ffc926; " scope="col">
                                  <h3>Action</h3>
                               </th>
-                              <th style="background-color: #ffc926;" align="center" scope="col" />
+                              <th style="background-color: #ffc926;" align="center" scope="col">
+                                 <img src="rsz_recycling_30.png" id="hide6" />
+                              </th>
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -1379,14 +1392,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -1409,7 +1422,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -1722,14 +1735,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -1752,7 +1765,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -1899,14 +1912,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -1927,7 +1940,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2025,14 +2038,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2053,7 +2066,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2175,14 +2188,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2205,7 +2218,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2301,14 +2314,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2329,7 +2342,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2416,14 +2429,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2444,7 +2457,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2523,14 +2536,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2551,7 +2564,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2675,20 +2688,20 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr />
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -2716,14 +2729,14 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr>
@@ -2746,7 +2759,7 @@ div {
                            </tr>
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -3031,20 +3044,20 @@ div {
                      <img class="capimg" src="logo png.png" />
                   </h3>
                   <form method="post">
-                     <table id="checklist" style="width:99%">
+                     <table id="checklist" style="width:100%">
                         <thead>
                            <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col style="width:17%" class="checklist-first" />
-                              <col style="width:18%" />
-                              <col style="width:40%" />
+                              <col style="width:12%" />
+                              <col style="width:12%" class="checklist-first" />
+                              <col style="width:26%" />
+                              <col style="width:32%" />
                               <col style="width:10%" />
                            </colgroup>
                            <tr />
                         </thead>
                      </table>
-                     <table summary="Checklist" id="checklist">
+                     <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
                            <col style="width:8%" />
@@ -3187,7 +3200,6 @@ div {
       </div>
    </body>
 </html>
-
 
 
     <!--_______________INSERT TRANSLATED XML / XSLT CODE TO HERE__________________-->
