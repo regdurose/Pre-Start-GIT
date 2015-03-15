@@ -45,7 +45,7 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'START' or stagetitle = 'AFTER START'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="trans5050.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
