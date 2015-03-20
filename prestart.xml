@@ -57,7 +57,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>5</number>
                 <item>CABIN INTERIOR</item>
@@ -68,7 +68,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>6</number>
                 <item>SEAT BELTS</item>
@@ -79,7 +79,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>7</number>
                 <item>CABIN DOORS</item>
@@ -91,7 +91,7 @@
                
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>8</number>
                 <item>CONTROL LOCKS</item>
@@ -102,7 +102,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>9</number>
                 <item>PEDALS</item>
@@ -113,7 +113,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>10</number>
                 <item>FRICTIONS</item>
@@ -203,7 +203,7 @@
                
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>18</number>
                 <item>ELT</item>
@@ -214,7 +214,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>19</number>
                 <item>BATTERY SELECTION SWITCH</item>
@@ -225,7 +225,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>20</number>
                 <item>EMERGENCY AIR</item>
@@ -236,7 +236,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>21</number>
                 <item>ENGINE ANTI ICE</item>
@@ -247,7 +247,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>22</number>
                 <item>HYD SYSTEM</item>
@@ -270,7 +270,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>24</number>
                 <item>ALTIMETERS</item>
@@ -281,7 +281,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>25</number>
                 <item>INSTRUMENTS &#38; GUAGES </item>
@@ -303,7 +303,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>27</number>
                 <item>CIRCUIT BREAKERS</item>
@@ -348,7 +348,7 @@
                 <infnotes></infnotes>
             </step>
             <step>
-            	<numcol>2</numcol>
+            	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>31</number>
                 <item>CAUTION AND WARNING PANEL</item>

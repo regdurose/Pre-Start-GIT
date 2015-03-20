@@ -45,23 +45,36 @@
                     <xsl:when test="stagetitle = 'LIMITATIONS' or stagetitle = 'PRE-LANDING CHECKS'">
                      </xsl:when>
                      
+                     <xsl:when test="stagetitle = 'PRE START'">
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
+                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide7" src="rsz_recycling_30.png" /></th>
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'START'">
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
+                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
+                     </xsl:when>
+                     
+                     
+                     
                      <xsl:when test="stagetitle = 'AFTER START'">
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide1" src="rsz_recycling_30.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
                      
-                     <xsl:when test="stagetitle = 'START'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide6" src="rsz_recycling_30.png" /></th>
-                     </xsl:when>
+                     
                      
                      <xsl:when test="stagetitle = 'ENGINE RUN-UP'">
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide2" src="rsz_mands_30.png" /></th>
@@ -82,7 +95,7 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'HOVER CHECKS'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
@@ -91,7 +104,7 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'INSTRUMENT TAXI CHECKS'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
@@ -100,12 +113,12 @@
                      </xsl:when>
                      
                     <xsl:when test="stagetitle = 'PWPTEM - PRIOR TO TAKE-OFF BRIEF'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide4" src="rsz_recycling_30.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide8" src="rsz_recycling_30.png" /></th>
                      </xsl:when>
                     
                     <xsl:when test="stagetitle = 'PSWATP - CONFINED AREA | UNPREPARED HLS CHECK'">
@@ -119,7 +132,7 @@
                     
                     
                     <xsl:when test="stagetitle = 'FIVE T`s - WAYPOINT / TURNING CHECK'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
@@ -128,7 +141,7 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'CLEAROFF CHECK - DEPARTURE AND ENROUTE'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
@@ -137,7 +150,7 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'SHUTDOWN CHECKS'">
-                     	<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
+                     	<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
@@ -190,6 +203,11 @@
                       
                       <!--  Column 1 NIFR/ Multipul Liftoffs   -->
                       <xsl:choose> 
+               
+                       <xsl:when test="numcol = '60'">
+                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png" /></td>
+                       </xsl:when>
+               
                
                       <xsl:when test="numcol = '1' or numcol = '101' or numcol = '102' or numcol = '103'">
                         <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_mands.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
