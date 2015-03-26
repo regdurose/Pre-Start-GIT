@@ -58,7 +58,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -69,7 +69,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -80,7 +80,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide2" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -89,7 +89,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -98,7 +98,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -107,7 +107,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -116,7 +116,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide8" src="rsz_recycling_30.png" /></th>
                      </xsl:when>
@@ -125,7 +125,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -135,7 +135,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -144,7 +144,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
                      </xsl:when>
@@ -153,7 +153,7 @@
                      	<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide5" src="rsz_mands_30.png" /></th>
                      </xsl:when>
@@ -162,7 +162,7 @@
                            <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide1" src="rsz_recycling_30.png" /></th>
                     </xsl:otherwise>
