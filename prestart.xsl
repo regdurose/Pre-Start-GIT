@@ -24,20 +24,20 @@
         <h2><xsl:value-of select="phasetitle"/><img src = "logo png.png" class = "capimg"></img></h2>
             <xsl:for-each select="stage">
             <div data-role="collapsible">
-                <h3 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img><button type="button"
-                 style="width: 13%; height: 10%; float: right; font-size: 10px; background-color: #FFD700; text-align: center" onclick="myFunction()">Collapse All</button></h3>
-                <form method="post">
+                <h3 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img>
+                <img onclick="myFunction()" src="rsz_collapse.png" style="width: 6%; height: 6%; float: right;  text-align: center"></img></h3>
+                <form method="post" id="tick">
                 	
                 <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
                 
                 <table style="width:100%" id="checklist" >
                 <thead>
                   <colgroup>
+                              <col style="width:10%" />
                               <col style="width:8%" />
-                              <col style="width:12%" />
-                              <col class="checklist-first" style="width:12%" />
-                              <col style="width:26%" />
-                              <col style="width:32%" />
+                              <col class="checklist-first" style="width:26%" />
+                              <col style="width:4%" />
+                              <col style="width:46%" />
                               <col style="width:10%" />
                            </colgroup>
                   <tr>
@@ -49,7 +49,7 @@
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><input data-icon="back" value="Reset" type="reset"/></th>
+                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
                            <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide7" src="rsz_recycling_30.png" /></th>
                      </xsl:when>
@@ -121,7 +121,7 @@
                            <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide8" src="rsz_recycling_30.png" /></th>
                      </xsl:when>
                     
-                    <xsl:when test="stagetitle = 'PSWATP - CONFINED AREA | UNPREPARED HLS CHECK'">
+                    <xsl:when test="stagetitle = 'PSWATP - CONFINED AREA | UNPREP HLS CHECK'">
                      	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>

@@ -82,6 +82,17 @@
             	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>7</number>
+                <item>HELMETS</item>
+                <action>WORKING</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
                 <item>CABIN DOORS</item>
                 <action>SECURE</action>
                 <warning></warning>
@@ -93,7 +104,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>8</number>
+                <number>9</number>
                 <item>CONTROL LOCKS</item>
                 <action>OFF &#40;if installed&#41;</action>
                 <warning></warning>
@@ -104,7 +115,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>9</number>
+                <number>10</number>
                 <item>PEDALS</item>
                 <action>ADJUSTED &#45; FULL &amp; FREE</action>
                 <warning></warning>
@@ -115,7 +126,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>10</number>
+                <number>11</number>
                 <item>FRICTIONS</item>
                 <action>OFF</action>
                 <warning></warning>
@@ -126,7 +137,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>11</number>
+                <number>12</number>
                 <item>CYCLIC</item>
                 <action>CYCLIC FULL &amp; FREE / CENTERED &#45; FRICTION ON</action>
                 <warning></warning>
@@ -137,7 +148,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>12</number>
+                <number>13</number>
                 <item>PILOT COLLECTIVE</item>
                 <action>COLLECTIVE FULL UP AND DOWN &#45; FRICTION ON</action>
                 <warning></warning>
@@ -149,7 +160,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>13</number>
+                <number>14</number>
                 <item>PILOT THROTTLE</item>
                 <action>OFF &#45; IDLE &#45; FULL &#45; IDLE &#45; OFF</action>
                 <warning></warning>
@@ -160,7 +171,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>14</number>
+                <number>15</number>
                 <item>CO&#45;PILOT THROTTLE</item>
                 <action>OFF &#45; IDLE &#45; FULL &#45; OFF</action>
                 <warning></warning>
@@ -171,7 +182,7 @@
             <step>
             	<numcol>1</numcol>
                 <icon>2</icon>
-                <number>15</number>
+                <number>16</number>
                 <item>LANDING LIGHT</item>
                 <action>ON &#45; TEST &#45; OFF</action>
                 <warning></warning>
@@ -182,7 +193,7 @@
             <step>
             	<numcol>1</numcol>
                 <icon>2</icon>
-                <number>16</number>
+                <number>17</number>
                 <item>NIGHT SCANNER &#40;PIC&#41;</item>
                 <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
                 <warning></warning>
@@ -193,7 +204,7 @@
             <step>
             	<numcol>1</numcol>
                 <icon>2</icon>
-                <number>17</number>
+                <number>18</number>
                 <item>NIGHT SCANNER &#40;NFP&#41;</item>
                 <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
                 <warning></warning>
@@ -205,7 +216,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>18</number>
+                <number>19</number>
                 <item>ELT</item>
                 <action>ARMED</action>
                 <warning></warning>
@@ -216,7 +227,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>19</number>
+                <number>20</number>
                 <item>BATTERY SELECTION SWITCH</item>
                 <action>SELECT BOTH &#40;IF FITTED&#41;</action>
                 <warning></warning>
@@ -227,7 +238,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>20</number>
+                <number>21</number>
                 <item>EMERGENCY AIR</item>
                 <action>CLOSED AND GUARDED</action>
                 <warning></warning>
@@ -238,7 +249,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>21</number>
+                <number>22</number>
                 <item>ENGINE ANTI ICE</item>
                 <action>OFF</action>
                 <warning></warning>
@@ -249,7 +260,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>22</number>
+                <number>23</number>
                 <item>HYD SYSTEM</item>
                 <action>ON</action>
                 <warning></warning>
@@ -261,7 +272,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>23</number>
+                <number>24</number>
                 <item>FUEL VALVE</item>
                 <action>ON AND GUARDED</action>
                 <warning></warning>
@@ -272,7 +283,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>24</number>
+                <number>25</number>
                 <item>ALTIMETERS</item>
                 <action>SET FIELD ELEVATION</action>
                 <warning></warning>
@@ -283,7 +294,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>25</number>
+                <number>26</number>
                 <item>INSTRUMENTS &#38; GUAGES </item>
                 <action>CHECKED</action>
                 <warning></warning>
@@ -294,7 +305,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>26</number>
+                <number>27</number>
                 <item>OVERHEAD SWITCHES</item>
                 <action>ALL OFF EXCEPT ANTI&#45;COL ON &#38; MASTER GYRO SWITCH ON</action>
                 <warning></warning>
@@ -305,7 +316,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>27</number>
+                <number>28</number>
                 <item>CIRCUIT BREAKERS</item>
                 <action>IN EXCEPT FUEL BOOST CBs OUT</action>
                 <warning></warning>
@@ -317,7 +328,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>28</number>
+                <number>29</number>
                 <item>BATTERY MASTER</item>
                 <action>ON (UNLESS EXTERNAL POWER)</action>
                 <warning></warning>
@@ -328,7 +339,18 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>29</number>
+                <number>30</number>
+                <item>MASTER GYRO SWITCH</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>31</number>
                 <item>RADIO MASTER</item>
                 <action>ON - CHECK HELMET WORKING</action>
                 <warning></warning>
@@ -339,7 +361,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>30</number>
+                <number>32</number>
                 <item>CAUTION / WARNING LIGHTS</item>
                 <action>5 WARNING LIGHTS SHOWING</action>
                 <warning></warning>
@@ -350,7 +372,7 @@
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>
-                <number>31</number>
+                <number>33</number>
                 <item>CAUTION AND WARNING PANEL</item>
                 <action>PUSH TO TEST</action>
                 <warning></warning>
@@ -361,7 +383,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>32</number>
+                <number>34</number>
                 <item>COLLECTIVE RAISE THEN LOWER</item>
                 <action>CHECK LOW RPM AUDIO AND LIGHT</action>
                 <warning></warning>
@@ -373,7 +395,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>33</number>
+                <number>35</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
                 <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
                 <warning></warning>
@@ -384,7 +406,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>34</number>
+                <number>36</number>
                 <item>FWD FUEL BOOST PUMP CB</item>
                 <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
                 <warning></warning>
@@ -395,7 +417,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>35</number>
+                <number>37</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
                 <action>&#91;OUT&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
                 <warning></warning>
@@ -406,7 +428,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>36</number>
+                <number>38</number>
                 <item>AFT FUEL BOOST PUMP CB</item>
                 <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
                 <warning></warning>
@@ -417,7 +439,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>37</number>
+                <number>39</number>
                 <item>OAT</item>
                 <action>NOTED</action>
                 <warning></warning>
@@ -429,7 +451,7 @@
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
-                <number>38</number>
+                <number>40</number>
                 <item>CLOCK</item>
                 <action>ZEROED</action>
                 <warning></warning>
@@ -440,280 +462,7 @@
             
         </stage>
     
-        <!--<stage>
-        <stagetitle>PRE START - NIFR</stagetitle>
-        <stagenotes></stagenotes>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>1</number>
-                <item>BATTERY MASTER</item>
-                <action>ON &#40;SELECT BAT&#41;</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>2</number>
-                <item>ANTI-COLLISION LIGHT</item>
-                <action>ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-               
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>3</number>
-                <item>POSITION LIGHTS</item>
-                <action>ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>4</number>
-                <item>INTERNAL INSTRUMENT LIGHTS</item>
-                <action>ON, AS REQD</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>15</number>
-                <item>LANDING LIGHT</item>
-                <action>ON &#45; TEST &#45; OFF</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>16</number>
-                <item>NIGHT SCANNER &#40;PIC&#41;</item>
-                <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>1</numcol>
-                <icon>2</icon>
-                <number>17</number>
-                <item>NIGHT SCANNER &#40;NFP&#41;</item>
-                <action>ON &#45; TEST &#45; OFF &#45; STOW &#40;AS REQD&#41;</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-               
-            </step>
-            
-        </stage>
-        
-        <stage>
-        <stagetitle>PRE START - MULTIPLE L/OFFS, LDNGS &amp; CIRS</stagetitle>
-        <stagenotes></stagenotes>
-            
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>11</number>
-                <item>CYCLIC</item>
-                <action>CYCLIC FULL &amp; FREE / CENTERED &#45; FRICTION ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>12</number>
-                <item>PILOT COLLECTIVE</item>
-                <action>COLLECTIVE FULL UP AND DOWN &#45; FRICTION ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-               
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>13</number>
-                <item>PILOT THROTTLE</item>
-                <action>OFF &#45; IDLE &#45; FULL &#45; IDLE &#45; OFF</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>14</number>
-                <item>CO&#45;PILOT THROTTLE</item>
-                <action>OFF &#45; IDLE &#45; FULL &#45; OFF</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>23</number>
-                <item>FUEL VALVE</item>
-                <action>ON AND GUARDED</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>26</number>
-                <item>OVERHEAD SWITCHES</item>
-                <action>ALL OFF EXCEPT ANTI&#45;COL ON &#38; MASTER GYRO SWITCH ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>28</number>
-                <item>BATTERY MASTER</item>
-                <action>ON (UNLESS EXTERNAL POWER)</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>29</number>
-                <item>RADIO MASTER</item>
-                <action>ON - CHECK HELMET WORKING</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>30</number>
-                <item>FCAUTION / WARNING LIGHTS</item>
-                <action>5 WARNING LIGHTS SHOWING</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>32</number>
-                <item>COLLECTIVE RAISE THEN LOWER</item>
-                <action>CHECK LOW RPM AUDIO AND LIGHT</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-               
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>33</number>
-                <item>AFT FUEL BOOST PUMP CB</item>
-                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>34</number>
-                <item>FWD FUEL BOOST PUMP CB</item>
-                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32; CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>35</number>
-                <item>AFT FUEL BOOST PUMP CB</item>
-                <action>&#91;OUT&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT ON</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>36</number>
-                <item>AFT FUEL BOOST PUMP CB</item>
-                <action>&#91;IN&#93; &#32; &#32; &#32; &#32; &#32;CHECK PRESSURE - FUEL PUMP CAUTION LIGHT OFF</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>37</number>
-                <item>OAT</item>
-                <action>NOTED</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-               
-            </step>
-            <step>
-            	<numcol>3</numcol>
-                <icon>1</icon>
-                <number>38</number>
-                <item>CLOCK</item>
-                <action>ZEROED</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            
-        </stage>-->
+       
         
       <stage>
         <stagetitle>START</stagetitle>
@@ -1130,6 +879,17 @@
             	<numcol>2</numcol>
                 <icon>1</icon>
                 <number>15</number>
+                <item>FRICTIONS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>16</number>
                 <item>PILOT THROTTLE</item>
                 <action>CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</action>
                 <warning></warning>
@@ -1140,7 +900,7 @@
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
-                <number>16</number>
+                <number>17</number>
                 <item>CO-PILOT THROTTLE</item>
                 <action>THROTTLEFULL | CHOP THROTTLE TO IDLE - NOTE N1 63%-65% IN MORE THAN 3 SECONDS</action>
                 <warning></warning>
@@ -1151,7 +911,7 @@
             <step>
             	<numcol>101</numcol>
                 <icon>2</icon>
-                <number>17</number>
+                <number>18</number>
                 <item>HELISAS AUTO PILOT</item>
                 <action>CYCLIC FORCE TRIM BUTTON - ON 2 SECS</action>
                 <action2>SAS LIGHT - ON (GREEN)</action2>
@@ -1167,62 +927,7 @@
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
-                <number>18</number>
-                <item>ATIS</item>
-                <action>CONFIRMED</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
                 <number>19</number>
-                <item>AI's</item>
-                <action>CHECKED, FLAGS AWAY</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
-                <number>20</number>
-                <item>ALTIMETERS</item>
-                <action>QNH SET | ALTIMETERS CHECKED (100 / 75 / 60)</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
-                <number>21</number>
-                <item>ASSIGNED ALTITUDE INDICATOR</item>
-                <action>SET</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>
-            <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
-                <number>22</number>
-                <item>COMPASS</item>
-                <action>HSI AND COMPASS ALIGHNED (10 degrees)</action>
-                <warning></warning>
-                <caution></caution>
-                <notes></notes>
-                <infnotes></infnotes>
-            </step>   
-                <step>
-            	<numcol>2</numcol>
-                <icon>1</icon>
-                <number>23</number>
                 <item>RADIOS</item>
                 <action>SET</action>
                 <warning></warning>
@@ -1233,7 +938,7 @@
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
-                <number>24</number>
+                <number>20</number>
                 <item>NAVAIDS</item>
                 <action>SET</action>
                 <warning></warning>
@@ -1244,7 +949,7 @@
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
-                <number>25</number>
+                <number>21</number>
                 <item>RAD ALT</item>
                 <action>SET</action>
                 <warning></warning>
@@ -1255,7 +960,74 @@
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
+                <number>22</number>
+                <item>ATIS</item>
+                <action>CONFIRMED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>23</number>
+                <item>ASSIGNED ALTITUDE INDICATOR</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>24</number>
+                <item>AI's</item>
+                <action>CHECKED, FLAGS AWAY</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>25</number>
+                <item>ALTIMETERS</item>
+                <action>QNH SET | ALTIMETERS CHECKED (100 / 75 / 60)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
                 <number>26</number>
+                <item>COMPASS</item>
+                <action>HSI AND COMPASS ALIGHNED (10 degrees)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>   
+              <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>27</number>
+                <item>FRICTIONS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>   
+            <step>
+            	<numcol>2</numcol>
+                <icon>1</icon>
+                <number>28</number>
                 <item>THROTTLE</item>
                 <action>FULL</action>
                 <warning></warning>
