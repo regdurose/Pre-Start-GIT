@@ -33,12 +33,21 @@
                 <table style="width:100%" id="checklist" >
                 <thead>
                   <colgroup>
-                              <col style="width:10%" />
+                              
+                           <col style="width:8%" />
+                           <col style="width:8%" />
+                           <col class="checklist-first" style="width:17%" />
+                           <col style="width:18%" />
+                           <col style="width:40%" />
+                           <col style="width:8%" />
+                              
+                            
+                              <!--<col style="width:10%" />
                               <col style="width:8%" />
                               <col class="checklist-first" style="width:26%" />
                               <col style="width:4%" />
                               <col style="width:46%" />
-                              <col style="width:10%" />
+                              <col style="width:10%" />-->
                            </colgroup>
                   <tr>
                     <xsl:choose> 
@@ -46,21 +55,84 @@
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'PRE START'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
+                     	
+                     	<tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide" src="rsz_mands_30_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; padding-right:80px ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; padding-right:180px">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img id="hide7" src="rsz_recycling_30_50.png" /></td>
+                        </tr>
+                     	
+                     	
+                    
+                     	
+                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide7" src="rsz_recycling_30.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide7" src="rsz_recycling_30.png" /></th>-->
+                           
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'START'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; padding-right:80px ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; padding-right:180px">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                        </tr>
+                     	   
+                     	   
+                     	   
+                     	   
+                     
+                     	   
+                     	   
+                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
                      
                      
@@ -205,7 +277,7 @@
                       <xsl:choose> 
                
                        <xsl:when test="numcol = '60'">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png" /></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="trans5050.png" /></td>
                        </xsl:when>
                
                
@@ -214,78 +286,78 @@
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="trans5050.png" /></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="trans5050.png" /></td>
                        </xsl:when>
                       
                       <xsl:when test="numcol = '3' or numcol = '301' or numcol = '302'">
-                        <td class="checklist-1-border" style="background-color:#ffa500"><img src="rsz_recycling.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="h.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="h.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 5">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="e.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="e.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 6">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="f.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="f.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 7">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="r.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="r.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 8">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="p.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="p.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 9">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="w.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="w.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 10">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="t.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="t.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 11">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="m.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="m.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 12">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="s.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="s.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 13">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="a.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="a.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 14">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="c.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="c.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 15">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="l.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="l.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 16">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="o.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="o.png"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 17">
-                        <td class="checklist-1-border" style="background-color:#FFA500"></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"></td>
                       </xsl:when>
                       
                       <!-- 12 - Multi + Letter P -->
                       
                       <xsl:when test="numcol = '50' or numcol = '501'">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="rsz_recycling.png"/><img src="p.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png"/><img src="p.png"/></td>
                       </xsl:when>
                       
                        <!-- 12 - Multi + Letter W -->
                       <xsl:when test="numcol = '51' or numcol = '511'">
-                        <td class="checklist-1-border" style="background-color:#FFA500"><img src="rsz_recycling.png"/><img src="w.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
                       <xsl:otherwise>
@@ -304,12 +376,12 @@
                       </xsl:when>
                    
                       <xsl:when test="icon = 3">
-                        <td style="background-color:#ffa500"></td>
+                        <td style="background-color:#FF8C00"></td>
                       </xsl:when>
                    
                    
                       <xsl:otherwise>
-                        <td style="background-color:#FFA500"><xsl:value-of select="number"/></td>
+                        <td style="background-color:#FF8C00"><xsl:value-of select="number"/></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
@@ -323,11 +395,14 @@
                       </xsl:when>
           
                       <xsl:otherwise>
-                        <td style="background-color:#FFA500"><xsl:value-of select="item"/></td>
+                        <td style="background-color:#FF8C00"><xsl:value-of select="item"/></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
                        
+                      
+                      <!--  Column 4 Action  -->	
+                      
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 2">
@@ -335,21 +410,21 @@
                       </xsl:when>
                       
                       <xsl:when test="icon = 3">
-                        <td style="background-color:#FFA500"></td>
+                        <td style="background-color:#FF8C00"></td>
                       </xsl:when>
                       
                       <xsl:otherwise>
-                        <td style="background-color:#FFA500"><input type="checkbox" name="checklist" /></td>
+                        <td style="background-color:#FF8C00"><input type="checkbox" name="checklist" /></td>
                       </xsl:otherwise>
                       
                       </xsl:choose>
                 
-                      <!--  Column 4 Action  -->	
+                      <!--  Column 5 Action  -->	
                       
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 1">
-                      <td style="background-color:#FFA500"><xsl:value-of select="action"/>
+                      <td style="background-color:#FF8C00"><xsl:value-of select="action"/>
                       
                            <xsl:if test="action2 !=''">
                       <p><xsl:value-of select="action2"/></p>
@@ -468,6 +543,31 @@
                           </td>
                         </xsl:otherwise>
                       </xsl:choose>
+                      
+                        <!--  Column 6 info  -->
+                      
+                      
+                      <xsl:choose>
+                      	
+                      <xsl:when test="icon = 2">
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="trans5050.png" /></td>
+                      </xsl:when>
+                  
+                      <xsl:otherwise>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="trans5050.png" /></td>
+                      </xsl:otherwise>
+                      
+                      </xsl:choose>
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
                      </tr>
                   </xsl:for-each>
                 
