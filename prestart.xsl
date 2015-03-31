@@ -119,7 +119,7 @@
                               
                               <td style="background-color: #ffc926">
                                  <img src="rsz_trans2020.png" /></td>
-                        </tr>
+                          </tr>
                      	   
                      	   
                      	   
@@ -138,23 +138,87 @@
                      
                      
                      <xsl:when test="stagetitle = 'AFTER START'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; padding-right:80px ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; padding-right:180px">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	
+                     	   
+                     	   <!--th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
                      
                      
                      
                      <xsl:when test="stagetitle = 'ENGINE RUN-UP'">
-                     	   <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide2" src="rsz_mands_30.png" /></th>
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide" src="rsz_mands_30_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; padding-right:80px ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; padding-right:180px">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                        </tr>
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   
+                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide2" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
                            <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>
+                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'PRE-LIFTOFF CHECKS | PRE-LANDING CHECKS'">
