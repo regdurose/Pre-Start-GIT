@@ -15,7 +15,7 @@
             	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>1</number>
-                <item>BATTERY MASTER</item>
+                <item>BATTERY MASTERx</item>
                 <action>ON &#40;SELECT BAT&#41;</action>
                 <warning></warning>
                 <caution></caution>
