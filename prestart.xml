@@ -3,7 +3,7 @@
 <!-- Edited by Becker Helicopters xxx-->
 <checklist>
 	<phase>
-    <phasetitle>BELL 206BIII ABREVIATED NORMAL CHECKLIST</phasetitle>
+    <phasetitle>BELL 206BIII ABREVIATED NORMAL CHECKLIST test</phasetitle>
     <phasenotes></phasenotes>
         <stage>
         <stagetitle>PRE START</stagetitle>
@@ -15,7 +15,7 @@
             	<numcol>1</numcol>
                 <icon>2</icon>
                 <number>1</number>
-                <item>BATTERY</item>
+                <item>BATTERY MASTER testing</item>
                 <action>ON &#40;SELECT BAT&#41;</action>
                 <warning></warning>
                 <caution></caution>
