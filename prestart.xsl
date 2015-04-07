@@ -865,7 +865,7 @@
   
 
   <div data-role="footer">
-    <h1>Becker Helicopters Copyright 2015 V1.1</h1>
+    <h1>Becker Helicopters Copyright 2015 V1.3</h1>
   </div>
 </div> 
 
