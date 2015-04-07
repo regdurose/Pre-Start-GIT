@@ -97,7 +97,7 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #ffc926" class="checklist-1-border">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
@@ -117,7 +117,7 @@
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #ffc926" class="checklist-1-border">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
