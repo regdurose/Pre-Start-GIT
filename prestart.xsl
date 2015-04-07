@@ -49,7 +49,7 @@
                               <col style="width:46%" />
                               <col style="width:10%" />-->
                            </colgroup>
-                  <tr>
+                
                     <xsl:choose> 
                     <xsl:when test="stagetitle = 'LIMITATIONS' or stagetitle = 'PRE-LANDING CHECKS'">
                      </xsl:when>
@@ -527,7 +527,7 @@
                
                     </xsl:choose>
                     
-                  </tr>
+                  
                   </thead>
                  </table>
                 
@@ -545,7 +545,7 @@
                               <col style="width:39%" />
                               <col style="width:9%" />
                            </colgroup>
-                <thead></thead>
+               
                   
                   <!--     Start of display steps   -->
                   
