@@ -6,7 +6,7 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>BELL 206BIII Checklist</name>
+    <name>BELL 206III</name>
 
     <description>
         Device ready even handler
