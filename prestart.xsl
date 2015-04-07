@@ -31,7 +31,7 @@
                 <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
                 
                 <table style="width:100%" id="checklist" >
-                <thead>
+                
                   <colgroup>
                               
                               <col style="width:8%" />
@@ -97,7 +97,7 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926" class="checklist-1-border">
+                              <td style="background-color: #ffc926">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
@@ -117,7 +117,7 @@
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926" class="checklist-1-border">
+                              <td style="background-color: #ffc926">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -528,7 +528,7 @@
                     </xsl:choose>
                     
                   
-                  </thead>
+                  
                  </table>
                 
                 
