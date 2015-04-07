@@ -25,7 +25,7 @@
             <xsl:for-each select="stage">
             <div data-role="collapsible">
                 <h3 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img>
-                <img onclick="myFunction()" src="rsz_collapse.png" style="width: 6%; height: 6%; float: right;  text-align: center"></img></h3>
+                <img onclick="myFunction()" src="rsz_collapse.png" style="width: 5%; height: 5%; float: right;  text-align: center"></img></h3>
                 <form method="post" id="tick-{position()}">
                 	
                 <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
