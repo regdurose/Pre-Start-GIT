@@ -329,6 +329,12 @@ input[type='checkbox']:checked {
 
 <!-------------------------------------------- sytle.css complete--------------------------------------------------------->
 
+
+
+
+
+
+
 <script>
 $(document).ready(function(){
     $("#hide").click(function(){
@@ -472,6 +478,21 @@ $(document).ready(function(){
 </SCRIPT>
 
 
+<script>
+	
+	function diffImage(img) 
+{
+   if(img.src.match(/blank/)) img.src = "rsz_mands_30_50.png";
+   else img.src = "reset_50.png";
+}
+	
+	
+</script>
+
+
+
+
+
 
 <script>
 $( function()
@@ -559,7 +580,11 @@ function myFunction() {
 }
 </script>
 
->
+<script>
+function nobar() {
+window.plugin.statusbarOverlay.hide();
+}
+</script>
 
 <script>
 function resetform1() {
@@ -696,6 +721,7 @@ div {
  
 
 
+
          <div class="ui-content" data-role="main">
             <div data-role="collapsible">
                <h2>
@@ -720,7 +746,7 @@ div {
                         </colgroup>
                         <tr>
                            <td style="background-color: #ffc926">
-                              <img src="rsz_mands_30_50.png" id="hide" />
+                              <img src="rsz_mands_30_50.png" id="hide" onclick=diffImage(this)/>
                            </td>
                            <td style="background-color: #ffc926">
                               <h3>No</h3>
