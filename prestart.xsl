@@ -35,11 +35,11 @@
                   <colgroup>
                               
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col class="checklist-first" style="width:22%" />
+                              <col style="width:2%" />
+                              <col class="checklist-first" style="width:28%" />
                               <col style="width:14%" />
-                              <col style="width:39%" />
-                              <col style="width:9%" />
+                              <col style="width:41%" />
+                              <col style="width:7%" />
                               
                             
                               <!--<col style="width:10%" />
@@ -539,11 +539,11 @@
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
                               <col style="width:8%" />
-                              <col style="width:8%" />
-                              <col class="checklist-first" style="width:22%" />
+                              <col style="width:2%" />
+                              <col class="checklist-first" style="width:28%" />
                               <col style="width:14%" />
-                              <col style="width:39%" />
-                              <col style="width:9%" />
+                              <col style="width:41%" />
+                              <col style="width:7%" />
                            </colgroup>
                
                   
@@ -568,7 +568,7 @@
                
                
                       <xsl:when test="numcol = '1' or numcol = '101' or numcol = '102' or numcol = '103'">
-                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_mands.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#4682B4"><img src="rsz_mands_30.png" title="INDICATES NIFR (NOT DAY)" rel="tooltip"/></td>
                       </xsl:when>
                       
                       <xsl:when test="numcol = 2">
@@ -576,7 +576,7 @@
                        </xsl:when>
                       
                       <xsl:when test="numcol = '3' or numcol = '301' or numcol = '302'">
-                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" rel="tooltip"/></td>
                       </xsl:when>a
                       
                       <xsl:when test="numcol = 4">
@@ -638,12 +638,12 @@
                       <!-- 12 - Multi + Letter P -->
                       
                       <xsl:when test="numcol = '50' or numcol = '501'">
-                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png"/><img src="p.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png"/><img src="p.png"/></td>
                       </xsl:when>
                       
                        <!-- 12 - Multi + Letter W -->
                       <xsl:when test="numcol = '51' or numcol = '511'">
-                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling.png"/><img src="w.png"/></td>
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
                       <xsl:otherwise>

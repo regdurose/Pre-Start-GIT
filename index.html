@@ -309,10 +309,10 @@ td#color6 { background-color: #ffc926 }
 
 input[type='checkbox'] {
     -webkit-appearance:none;
-    width:48px;
-    height:48px;
+    width:40px;
+    height:40px;
     background-color:#ffffff;
-    background-image: url("rsz_target-512.png");
+    background-image: url("rsz_target-512_30.png");
     background-repeat: no-repeat;
     background-position: center; 
     border-radius:40px;
@@ -344,6 +344,7 @@ $(document).ready(function(){
     $("#show").click(function(){
         $(".1").show(); return false;
     });
+     $('div#imageContainerimg').attr('src', 'xxxxxx_on.png'); 
 });
 </script>
 
@@ -477,9 +478,30 @@ $(document).ready(function(){
 
 </SCRIPT>
 
+<script>
+$('#my_image').on({
+    'click': function(){
+        $('#my_image').attr('src','xxxxxx_on.png');
+    }
+});
+</script>
+
 
 <script>
-	$(function(){
+		function change() {
+		var image = document.getElementById('hide');
+		if(image_tracker=='f') {
+			image.src ='xxxxxx_off.png';
+			image_tracker = 't';
+		}else{
+			image.src = 'xxxxxx_on.png';
+			image_tracker = 'f';}
+		}	
+</script>
+
+
+<script>
+$(function(){
   $(".img-swap").live('click', function() {
     if ($(this).attr("class") == "img-swap") {
       this.src = this.src.replace("_off","_on");
@@ -490,6 +512,9 @@ $(document).ready(function(){
   });
 });
 </script>
+
+
+
 
 
 
@@ -720,7 +745,7 @@ div {
 </table>
  
 <!------ Insert code here ---------> 
- 
+
 
 
 
@@ -740,15 +765,15 @@ div {
                      <table id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:8%" />
-                           <col style="width:22%" class="checklist-first" />
+                           <col style="width:2%" />
+                           <col style="width:28%" class="checklist-first" />
                            <col style="width:14%" />
-                           <col style="width:39%" />
-                           <col style="width:9%" />
+                           <col style="width:41%" />
+                           <col style="width:7%" />
                         </colgroup>
                         <tr>
                            <td style="background-color: #ffc926">
-                              <img src="xxxxxx_off.png" class="img-swap" id="hide"  />
+                              <img class="img-swap" src="xxxxxx_off.png" id="hide" />
                            </td>
                            <td style="background-color: #ffc926">
                               <h3>No</h3>
@@ -757,7 +782,7 @@ div {
                               <h3>Item</h3>
                            </td>
                            <td style="background-color: #ffc926; ">
-                              <img class=cntr src="reset_50.png" onclick="resetform1()" />
+                              <img src="reset_50.png" onclick="resetform1()" />
                            </td>
                            <td style="background-color: #ffc926; ">
                               <h3>Action</h3>
@@ -770,16 +795,16 @@ div {
                      <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
                            <col style="width:8%" />
-                           <col style="width:8%" />
-                           <col style="width:22%" class="checklist-first" />
+                           <col style="width:2%" />
+                           <col style="width:28%" class="checklist-first" />
                            <col style="width:14%" />
-                           <col style="width:39%" />
-                           <col style="width:9%" />
+                           <col style="width:41%" />
+                           <col style="width:7%" />
                         </colgroup>
                         <tbody>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">1</td>
                               <td style="background-color:#4682B4">BATTERY MASTER</td>
@@ -793,7 +818,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">2</td>
                               <td style="background-color:#4682B4">ANTI-COLLISION LIGHT</td>
@@ -807,7 +832,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">3</td>
                               <td style="background-color:#4682B4">POSITION LIGHTS</td>
@@ -821,7 +846,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">4</td>
                               <td style="background-color:#4682B4">INTERNAL INSTRUMENT LIGHTS</td>
@@ -933,7 +958,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">12</td>
                               <td style="background-color:#FF8C00">CYCLIC</td>
@@ -947,7 +972,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">13</td>
                               <td style="background-color:#FF8C00">PILOT COLLECTIVE</td>
@@ -961,7 +986,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">14</td>
                               <td style="background-color:#FF8C00">PILOT THROTTLE</td>
@@ -975,7 +1000,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">15</td>
                               <td style="background-color:#FF8C00">CO-PILOT THROTTLE</td>
@@ -989,7 +1014,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">16</td>
                               <td style="background-color:#4682B4">LANDING LIGHT</td>
@@ -1003,7 +1028,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">17</td>
                               <td style="background-color:#4682B4">NIGHT SCANNER (PIC)</td>
@@ -1017,7 +1042,7 @@ div {
                            </tr>
                            <tr class="1">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">18</td>
                               <td style="background-color:#4682B4">NIGHT SCANNER (NFP)</td>
@@ -1101,7 +1126,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">24</td>
                               <td style="background-color:#FF8C00">FUEL VALVE</td>
@@ -1143,7 +1168,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">27</td>
                               <td style="background-color:#FF8C00">OVERHEAD SWITCHES</td>
@@ -1171,7 +1196,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">29</td>
                               <td style="background-color:#FF8C00">BATTERY MASTER</td>
@@ -1185,7 +1210,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">30</td>
                               <td style="background-color:#FF8C00">MASTER GYRO SWITCH</td>
@@ -1199,7 +1224,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">31</td>
                               <td style="background-color:#FF8C00">RADIO MASTER</td>
@@ -1213,7 +1238,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">32</td>
                               <td style="background-color:#FF8C00">CAUTION / WARNING LIGHTS</td>
@@ -1241,7 +1266,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">34</td>
                               <td style="background-color:#FF8C00">COLLECTIVE RAISE THEN LOWER</td>
@@ -1255,7 +1280,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">35</td>
                               <td style="background-color:#FF8C00">AFT FUEL BOOST PUMP CB</td>
@@ -1269,7 +1294,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">36</td>
                               <td style="background-color:#FF8C00">FWD FUEL BOOST PUMP CB</td>
@@ -1283,7 +1308,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">37</td>
                               <td style="background-color:#FF8C00">AFT FUEL BOOST PUMP CB</td>
@@ -1297,7 +1322,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">38</td>
                               <td style="background-color:#FF8C00">AFT FUEL BOOST PUMP CB</td>
@@ -1311,7 +1336,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">39</td>
                               <td style="background-color:#FF8C00">OAT</td>
@@ -1325,7 +1350,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">40</td>
                               <td style="background-color:#FF8C00">CLOCK</td>
@@ -1390,7 +1415,7 @@ div {
                         <tbody>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">1</td>
                               <td style="background-color:#FF8C00">AREA</td>
@@ -1404,7 +1429,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">2</td>
                               <td style="background-color:#FF8C00">BLADES</td>
@@ -1418,7 +1443,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">3</td>
                               <td style="background-color:#FF8C00">THROTTLE</td>
@@ -1432,7 +1457,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">4</td>
                               <td style="background-color:#FF8C00">VOLTS</td>
@@ -1446,7 +1471,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">5</td>
                               <td style="background-color:#FF8C00">CLOCKS</td>
@@ -1460,7 +1485,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">6</td>
                               <td style="background-color:#FF8C00">START BUTTON</td>
@@ -1474,7 +1499,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">7</td>
                               <td style="background-color:#FF8C00">N1 GAS PRODUCER</td>
@@ -1488,7 +1513,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">8</td>
                               <td style="background-color:#FF8C00">COMPRESSOR</td>
@@ -1502,7 +1527,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">9</td>
                               <td style="background-color:#FF8C00">THROTTLE</td>
@@ -1522,7 +1547,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">10</td>
                               <td style="background-color:#FF8C00">TOT</td>
@@ -1536,7 +1561,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">11</td>
                               <td style="background-color:#FF8C00">ENGINE OIL PRESSURE</td>
@@ -1550,7 +1575,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">12</td>
                               <td style="background-color:#FF8C00">ROTORS TURNING</td>
@@ -1564,7 +1589,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">13</td>
                               <td style="background-color:#FF8C00">STARTER BUTTON</td>
@@ -1578,7 +1603,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">14</td>
                               <td style="background-color:#FF8C00">ENGINE &amp; TRANS OIL PRESSURE</td>
@@ -1592,7 +1617,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">15</td>
                               <td style="background-color:#FF8C00">CAUTION / WARNING PANEL</td>
@@ -1606,7 +1631,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">16</td>
                               <td style="background-color:#FF8C00">WAIT 1 MINUTE</td>
@@ -1620,7 +1645,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">17</td>
                               <td style="background-color:#FF8C00">EXTERNAL POWER CONNECTED?</td>
@@ -1634,7 +1659,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">18</td>
                               <td style="background-color:#FF8C00">THROTTLE</td>
@@ -1648,7 +1673,7 @@ div {
                            </tr>
                            <tr class="302">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">19</td>
                               <td style="background-color:#FF8C00">GENERATOR</td>
@@ -1713,7 +1738,7 @@ div {
                         <tbody>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">1</td>
                               <td style="background-color:#FF8C00">AVIONICS</td>
@@ -1727,7 +1752,7 @@ div {
                            </tr>
                            <tr class="3">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling.png" />
+                                 <img rel="tooltip" title="ABBREVIATED CHECKS DURING MULTIPUL LIFT-OFFS, LANDINGS AND CIRCUITS" src="rsz_recycling_30.png" />
                               </td>
                               <td style="background-color:#FF8C00">2</td>
                               <td style="background-color:#FF8C00">LIGHTING (DAY)</td>
@@ -2030,7 +2055,7 @@ div {
                            </tr>
                            <tr class="101">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">18</td>
                               <td style="background-color:#4682B4">HELISAS AUTO PILOT</td>
@@ -2386,7 +2411,7 @@ div {
                            </tr>
                            <tr class="102">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">11</td>
                               <td style="background-color:#4682B4">LIGHTS</td>
@@ -2773,7 +2798,7 @@ div {
                         <tbody>
                            <tr class="501">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img src="rsz_recycling.png" />
+                                 <img src="rsz_recycling_30.png" />
                                  <img src="p.png" />
                               </td>
                               <td style="background-color:#FF8C00">1</td>
@@ -2788,7 +2813,7 @@ div {
                            </tr>
                            <tr class="511">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img src="rsz_recycling.png" />
+                                 <img src="rsz_recycling_30.png" />
                                  <img src="w.png" />
                               </td>
                               <td style="background-color:#FF8C00">2</td>
@@ -2803,7 +2828,7 @@ div {
                            </tr>
                            <tr class="501">
                               <td style="background-color:#FF8C00" class="checklist-1-border">
-                                 <img src="rsz_recycling.png" />
+                                 <img src="rsz_recycling_30.png" />
                                  <img src="p.png" />
                               </td>
                               <td style="background-color:#FF8C00">3</td>
@@ -3482,7 +3507,7 @@ div {
                            </tr>
                            <tr class="103">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">7</td>
                               <td style="background-color:#4682B4">LANDING LIGHT AND NIGHT SCANNER</td>
@@ -3692,7 +3717,7 @@ div {
                            </tr>
                            <tr class="103">
                               <td style="background-color:#4682B4" class="checklist-1-border">
-                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands.png" />
+                                 <img rel="tooltip" title="INDICATES NIFR (NOT DAY)" src="rsz_mands_30.png" />
                               </td>
                               <td style="background-color:#4682B4">22</td>
                               <td style="background-color:#4682B4">INSTRUMENT LIGHTS</td>
@@ -3926,7 +3951,7 @@ div {
             </div>
          </div>
          <div data-role="footer">
-            <h1>Becker Helicopters Copyright 2015 V1.1</h1>
+            <h1>Becker Helicopters Copyright 2015 V1.3</h1>
          </div>
       </div>
       <div id="pagetwo" data-dialog="true" data-role="page">
@@ -3940,6 +3965,7 @@ div {
       </div>
    </body>
 </html>
+
 
 
 
