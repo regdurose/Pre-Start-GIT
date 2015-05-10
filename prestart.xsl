@@ -749,7 +749,7 @@
                         </xsl:when>
                         
                         <xsl:when test="icon = 3">
-                      <td style="background-color:#008080"><xsl:value-of select="action"/>
+                      <td style="background-color:#009900"><xsl:value-of select="action"/>
                       
                            <xsl:if test="action2 !=''">
                       <p><xsl:value-of select="action2"/></p>
