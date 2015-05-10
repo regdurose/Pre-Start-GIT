@@ -34,9 +34,9 @@
                 
                   <colgroup>
                               
-                              <col style="width:8%" />
-                              <col style="width:2%" />
-                              <col class="checklist-first" style="width:28%" />
+                              <col style="width:13%" />
+                              <col style="width:4%" />
+                              <col class="checklist-first" style="width:21%" />
                               <col style="width:14%" />
                               <col style="width:41%" />
                               <col style="width:7%" />
@@ -538,9 +538,9 @@
                 
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
-                              <col style="width:8%" />
+                              <col style="width:15%" />
                               <col style="width:2%" />
-                              <col class="checklist-first" style="width:28%" />
+                              <col class="checklist-first" style="width:21%" />
                               <col style="width:14%" />
                               <col style="width:41%" />
                               <col style="width:7%" />
