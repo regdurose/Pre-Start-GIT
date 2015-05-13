@@ -12,10 +12,7 @@
     <phasenotes></phasenotes>
         <stage>
         <stagetitle>PRE START</stagetitle>
-        <stagenotes>
-        <![CDATA[<a class="pad_left_50">Tootsie roll tiramisu macaroon wafer carrot cake.</a> <br />      
-                 <a class="pad_left_50">Danish topping sugar plum tart bonbon caramels cake.</a>]]>
-        </stagenotes>
+        <stagenotes></stagenotes><formnum>form-1</formnum>
             <step>
             	<numcol>1</numcol>
                 <icon>2</icon>
@@ -471,7 +468,7 @@
         
       <stage>
         <stagetitle>START</stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes></stagenotes><formnum>form-2</formnum>
             <step>
             	<numcol>302</numcol>
                 <icon>1</icon>
@@ -691,7 +688,7 @@
        
        <stage>
         <stagetitle>AFTER START</stagetitle>
-        <stagenotes>HELLO</stagenotes>
+        <stagenotes>HELLO</stagenotes><formnum>form-3</formnum>
             <step>
             	<numcol>3</numcol>
                 <icon>1</icon>
@@ -722,7 +719,7 @@
         <stage>
         <stagetitle>ENGINE RUN-UP</stagetitle>
         <stagetitle>NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY</stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes></stagenotes><formnum>form-4</formnum>
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
@@ -1051,7 +1048,7 @@
         <stage>
         <stagetitle>PRE-LIFTOFF CHECKS | PRE-LANDING CHECKS</stagetitle>
         <stagetitle>NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY</stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes></stagenotes><formnum>form-5</formnum>
             <step>
             	<numcol>4</numcol>
                 <icon>1</icon>
@@ -1183,7 +1180,7 @@
             <stage>
                 <stagetitle>HOVER CHECKS</stagetitle>
                 <stagetitle>:</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-6</formnum>
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
@@ -1268,7 +1265,7 @@
         
         <stage>
                 <stagetitle>INSTRUMENT TAXI CHECKS</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-7</formnum>
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
@@ -1367,7 +1364,7 @@
         
         <stage>
                 <stagetitle>PWPTEM - PRIOR TO TAKE-OFF BRIEF</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-8</formnum>
             <step>
             	<numcol>501</numcol>
                 <icon>1</icon>
@@ -1445,7 +1442,7 @@
         
         <stage>
                 <stagetitle>PSWATP - CONFINED AREA | UNPREP HLS CHECK</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-9</formnum>
             <step>
             	<numcol>8</numcol>
                 <icon>1</icon>
@@ -1518,7 +1515,7 @@
         
         <stage>
                 <stagetitle>FIVE T`s - WAYPOINT / TURNING CHECK</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-10</formnum>
             <step>
             	<numcol>10</numcol>
                 <icon>1</icon>
@@ -1584,7 +1581,7 @@
         
         <stage>
                 <stagetitle>CLEAROFF CHECK - DEPARTURE AND ENROUTE</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-11</formnum>
             <step>
             	<numcol>14</numcol>
                 <icon>1</icon>
@@ -1694,7 +1691,7 @@
     
            <stage>
                 <stagetitle>PRE-LANDING CHECKS</stagetitle>
-                <stagenotes></stagenotes>
+                <stagenotes></stagenotes><formnum>form-12</formnum>
                 <step>
             	<numcol>17</numcol>
                 <icon>3</icon>
@@ -1711,7 +1708,7 @@
     <stage>
         <stagetitle>SHUTDOWN CHECKS</stagetitle>
         <stagetitle></stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes></stagenotes><formnum>form-13</formnum>
             <step>
             	<numcol>2</numcol>
                 <icon>1</icon>
@@ -1986,7 +1983,7 @@
      <stage>
         <stagetitle>LIMITATIONS</stagetitle>
         <stagetitle>LIMITATIONS</stagetitle>
-        <stagenotes></stagenotes>
+        <stagenotes></stagenotes><formnum>form-14</formnum>
             <step>
             	<numcol>17</numcol>
                 <icon>3</icon>
@@ -2162,63 +2159,2651 @@
            </stage>
      </phase>
     
-    
-    <!-- not used yet >
-   
-	<phase>
-    <phasetitle>Post Flight Inspection</phasetitle>
-    <phasenotes>The Post Flight Inspection is done immediately at the end of a flight and prior to returning to the Operations Desk.  It is to ensure that the helicopter has been left in a serviceable condition ready for the next flight by another crew.</phasenotes>
+
+<phase>
+    <phasetitle>BELL 206BIII EXPANDED NORMAL CHECKLIST</phasetitle>
+    <phasenotes></phasenotes>
         <stage>
-        <stagetitle>Post Flight Inspection</stagetitle>
-        <stagenotes></stagenotes>
-            <step><numcol></numcol>
-                <icon></icon>
+        <stagetitle>PRE FLIGHT INS - GENERAL INSPECTION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-15</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
                 <number>1</number>
-                <item>Main blades still turning</item>
-                <action>Wait in the helicopter until the main rotor blades have completely stopped turning</action>
+                <item>AIRCRAFT</item>
+                <action>When walking to the helicopter note its general condition and how it is sitting on the ground. Look for fluids on the fuselage or the ground. Look for anything unusual that catches your eye</action>
                 <warning></warning>
                 <caution></caution>
-                <notes>WARNING:  ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</notes>
+                <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step><numcol></numcol>
-                <icon></icon>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
                 <number>2</number>
-                <item>MR and DFR</item>
+                <item>DOORS</item>
+                <action>On or Off as required. Door pins, gas struts and retaining straps are installed. If fitted with jetisonable front doors, ensure the release pins on both the crew doors project at least 1/2 inch (13mm) through the door lugs with the jettison handle in the correct position</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>GLASS</item>
+                <action>Windows are cleaned, window sliders are intact</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>DUAL CONTROLS</item>
+                <action>Fitted correctly and the locking pins and canon plugs are in place</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>COVERS</item>
+                <action>Ensure the covers, earthing lead front tie down, pitot cover, engine intake and exhaust covers are all removed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+            
+            
+        <stage>
+        <stagetitle>PRE FLIGHT INS - COCKPIT INS AND FUEL DRAIN</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-16</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>DOORS AND CABIN</item>
+                <action>Check the general condition of the cockpit, instruments, radios, harnesses and controls</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>DOCUMENTATION</item>
+                <action>Ensure Maintenance Release, Flight Manual and Daily Flight Record are available and certified </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>EMERGENCY EQUIPMENT</item>
+                <action>Check fire extinguisher, first aid kit, survival equipment is on board</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>BATTER SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>THROTTLE</item>
+                <action>Closed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>FUEL VALVE</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>RADIOS AND AVIONICS</item>
+                <action>OFF </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>ANTI-COLLISION LIGHTS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>BATTERY SWITCH</item>
+                <action>ON (move to BAT)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>FUEL QUANTITY</item>
+                <action>Check</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>FUEL SUMP DRAIN</item>
+                <action>Depress button and check fuel for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>FUEL VALVE</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>FUEL BOOSTER PUMPS</item>
+                <action>ON (circuit breakers IN and check fuel pressure) </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>AIRFRAME FILTER DRAIN</item>
+                <action>Take sample and check for water or contaminants</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>AIRFRAME FILTER TEST</item>
+                <action>Press test button and check for A/F Filter caution light</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>OFF (circuit breakers OUT)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>FUEL VALVE</item>
+                <action>OFF </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>18</number>
+                <item>INTERNAL COCKPIT LIGHTS</item>
+                <action>Check that all internal lights are working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>19</number>
+                <item>EXTERNAL LIGHTS</item>
+                <action>Check all external lights are working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>BATTERY SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>21</number>
+                <item>LOOSE ARTICLES</item>
+                <action>Ensure all loose articles such as helmet bags, cargo etc. are secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+
+
+         <stage>
+        <stagetitle>EXTERIOR INS - FUSELAGE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-17</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>DOORS AND CABIN</item>
+                <action>Progressively check the fuselage condition and in particular look for ripples,cracks, voids and chaffing</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+
+
+
+        <stage>
+        <stagetitle>EXTERIOR INS - FUSELAGE RIGHT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-18</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>RIGHT STATIC PORT</item>
+                <action>Unobstructed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>CABIN DOORS</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>WINDOWS</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>LANDING GEAR (SKIDS)</item>
+                <action>Caution and security. Check landing gear for cracks, tube deflection, loose rivets, rubber bushes and saddle clampscorrectly located.</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>PASSENGER COMPARTMENT5 </item>
+                <action>Condition and security</action>
+                <action2>1. First aid kit - Condition and security</action2>
+                <action3>2. Headsets - As required</action3>
+                <action4>3. Harnesses - Condition and security. Check attachment points</action4>
+                <action5>4. Loose items - Secure</action5>
+                <action6>5. Cushions - Condition and security</action6>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>FUEL CAP</item>
+                <action>Visually check contents and ensure cap chain are secure</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>FUSELAGE</item>
+                <action>General condition and security </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>CABIN ROOF, TRANSMISSION FARING, ENGINE INLET AREA</item>
+                <action>Condition and security, cleaned of all debris</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>HYDRAULIC RESERVOIR</item>
+                <action>Check level (full to 1/2 full). Check cap and pin security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>HYDRAULIC FILTER</item>
+                <action>Check bypass indicator is IN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>HYDRAULIC SERVO ACTUATORS</item>
+                <action>Condition, security and leaks. Pivot bolts can be rotated.</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>ACCESS PANEL</item>
+                <action>Closed and secure </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+
+
+ <stage>
+        <stagetitle>EXTERIOR INS - TRANSMISSION AREA RIGHT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-19</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TRANSMISSION ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TRANSMISSION OIL LEVEL</item>
+                <action>Check. (Oil level 1/2 to just visible). If on a slope it may give a false indication</action>
+                <warning></warning>
+                <caution>WHEN OIL LEVEL IN THE TRANSMISSION IS VERY LOW, IT MAY INDICATE AN OIL LEAK FROM THE TRANSMISSION SYSTEM TO THE ENGINE OIL SYSTEM.  
+                	TO ESTABLISH IT IS NOT OIL DRAINING TO THE FREEWHEEL UNIT, TURN MAIN ROTOR BLADES BACKWARDS.  IF LEVEL IS STILL LOW, CHECK THE ENGINE OIL RESERVOIR BY REMOVING THE OIL FILLER CAP.
+                	   IF IT OVERFLOWS, MAINTENANCE ACTION IS REQUIRED BEFORE FLIGHT</caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>TRANSMISSION</item>
+                <action>Condition and security</action>
+                <action2>1.	Pylon support link (MOUNT) — No cracks, self-locking nuts secure</action2>
+                <action3>2.	Drag pin and cup — Condition</action3>
+                <action4>3.	Isolation mount cover and bearing — Condition and security</action4>
+                <action5>4.	Fire wall — Condition</action5>
+                <action6>5.	Main drive shaft (old style). Check condition and TEMP-PLATES - Check for signs of grease discharge which will ground the aircraft</action6>
+                <action7>6.	Main drive shaft (new style). The KAYFLEX coupling has no TEMP-PLATES or grease points. Check for general condition and all nuts and bolts are secure</action7>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>TRANSMISSION ACCESS PANEL</item>
+                <action>Closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+           </stage>
+
+
+ <stage>
+        <stagetitle>EXTERIOR INS - AIR INTAKE AREA RIGHT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-20</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AIR INDUCTION COWLING</item>
+                <action>Secured, all plugs and covers removed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ENGINE AIR INTAKE FILTER</item>
+                <action>Condition, cleanliness and clear of obstructions</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            </stage>
+            
+            
+            <stage>
+        <stagetitle>EXTERIOR INS - ENGINE BAY RIGHT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-21</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ENGINE ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>MAIN DRIVE SHAFT</item>
+                <action>Main drive shaft (old style). Check condition and TEMP-PLATES</action>
+                <action2>Check for signs of grease discharge which will ground the aircraft</action2>
+                <action3>Main drive shaft (new style). The KAYFLEX coupling has no TEMP-PLATES or grease points. Check for general condition and all nuts and bolts are secure</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>GENERAL CONDITION</item>
+                <action>1.	Engine condition, security of attachments, no oil or air leaks</action>
+                <action2>2.	Engine mounts, secure and condition</action2>
+                <action3>3.	Bleed valve is OPEN</action3>
+                <action4>4.	Compressor wash tap is CLOSED and wire clip in place</action4>
+                <action5>5.	Compressor casing - Condition and security</action5>
+                <action6>6.	Air discharge tubes - Condition and security. Check for any gas leaks around the joins</action6>
+                <action7>7.	Combustion section - Abnormal discolouration</action7>
+                <action8>8.	Turbine section - Discolouration and security</action8>
+                <action9>9.	Exhaust stack - Cover removed, security</action9>
+                <action10>10.	Gas producer fuel control - Condition and security</action10>
+                <action11>11.	Fuel and oil lines – No leaks</action11>
+                <action12>12.	Starter generator - Condition and wiring and cooling scoop clear of obstructions</action12>
+                <action13>13.	Heat shield — Security</action13>
+                <action14>14.	Engine deck — Evidence of leaks</action14>
+                <action15>15.	Throttle linkages - split pins in place</action15>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ENGINE ACCESS PANEL</item>
+                <action>Closed and secured.</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ENGINE OIL TANK ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>OIL LEVEL</item>
+                <action>Check quantity. No lower than 1.5 on the dip stick and should be checked within 20 minutes of shutdown. You may get false readings if checking prior to the first flight of the day</action>
+                <action2>If it overflows cross check with the transmission oil level and consult an instructor or engineer</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>OIL TANK CAP</item>
+                <action>This can be very difficult to replace. Ensure the lever is rotated full OPEN then line up the markings before trying to close the cap. Pilots must use a ladder and take time to ensure the oil cap is replaced properly before flight </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>ENGINE OIL TANK ACCESS PANEL</item>
+                <action>Closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+</stage>
+
+
+<stage>
+        <stagetitle>EXTERIOR INS - TAILBOOM RIGHT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-22</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TAIL BOOM ATTACHMENT POINT</item>
+                <action>Condition and security. Check no metal contact between the tail boom and fuselage skin.  There should be a small gap</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>STRUCTURAL INSPECTION PANEL</item>
+                <action>Secure, all bolts are tight</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>TAIL BOOM</item>
+                <action>Condition, no bare metal, scratches or dents</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>HORIZONTAL STABILIZER</item>
+                <action>Condition and security:</action>
+                <action2>1.	Drain holes — Clear</action2>
+                <action3>2.	Attachment bolt – Secure</action3>
+                <action4>3.	Attachment clamp – Not touching</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>TAIL ROTOR DRIVESHAFT COVER</item>
+                <action>Condition and security particularly look for creases or ripples on the top surface</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>POSITION LIGHTS AND STROBES</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>BLADE TIE DOWN</item>
+                <action>Remove and rotate the blades to the 10 and 4 o’clock position ready for starting</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>VERTICAL FIN</item>
+                <action>Condition and security. Check the four (4) attachment bolts</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>TAIL STINGER</item>
+                <action>Condition and security. Check attachment bolt</action>
+                <action2>Check counter weight security</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>REAR POSITION LIGHT</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+</stage>
+
+
+
+
+
+<stage>
+        <stagetitle>EXTERIOR INS - TAILBOOM LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-23</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TAIL ROTOR GEAR BOX</item>
+                <action>Oil level (1/2 to just visible) no leaks</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TAIL ROTOR GEAR BOX</item>
+                <action>Condition and security</action>
+                <action2>1.	Chip detector wiring — Condition</action2>
+                <action3>2.	Gearbox oil cap — Secure</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>TAIL ROTOR BLADES AND ASSEMBLY</item>
+                <action>Condition and security</action>
+                <action2>Evidence of wear or chafing around the pitch links, bearing or mechanisms</action2>
+                <action3>No movement of the balance wheel</action3>
+                <action4>Tail rotor blades – no cracks, dents, chips or delamination</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>TAIL BOOM</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>HORIZONTAL STABILIZER</item>
+                <action>Condition and security</action>
+                <action2>1.	Drain holes — Clear</action2>
+                <action3>2.	Attachment bolt – Secure</action3>
+                <action4>3.	Attachment clamp – Not touching</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>POSITION LIGHTS AND STROBES</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+     
+</stage>
+
+<stage>
+        <stagetitle>EXTERIOR INS - FUSELAGE LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-24</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>BAGGAGE COMPARTMENT</item>
+                <action>All items inside are secure</action>
+                <action2>Secondary battery cover secure</action2>
+                <action3>Baggage door closed and secured</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>FUSELAGE</item>
+                <action>Condition. Look for rippling or distortion of the skin</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>OIL FILTER ACCESS DOOR</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>OIL FAN COMPARTMENT</item>
+                <action>Check condition and security of:</action>
+                <action2>1.	Oil cooler fan — Condition and security</action2>
+                <action3>2.	Drive shaft — Condition and security</action3>
+                <action4>3.	Shear pin — Free to rotate</action4>
+                <action5>4.	Oil lines — No leaks</action5>
+                <action6>5.	Facet oil filter – Check the Red Button has not extended</action6>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+             <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>OIL ACCESS DOOR</item>
+                <action>Close</action>
+                <action4>Tail rotor blades – no cracks, dents, chips or delamination</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+     </stage>       
+
+<stage>
+        <stagetitle>EXTERIOR INS - ENGINE BAY LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-25</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ENGINE ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>MAIN DRIVE SHAFT</item>
+                <action>Main drive shaft (old style). Check condition and TEMP-PLATES Check for signs of grease discharge which will ground the aircraft</action>
+                <action2>Main drive shaft (new style). The KAYFLEX coupling has no TEMP-PLATES or grease points. Check for general condition and all nuts and bolts are secure</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>GENERAL CONDITION</item>
+                <action>1.	Engine condition, security of attachments, no oil or air leaks</action>
+                <action2>2.	Engine mounts, secure and condition</action2>
+                <action3>3.	Compressor wash tap is CLOSED and wire clip in place</action3>
+                <action4>4.	Compressor casing - Condition and security</action4>
+                <action5>5.	Air discharge tubes - Condition and security. Check for any gas leaks around the joins</action5>
+                <action6>6.	Combustion section - Abnormal discolouration</action6>
+                <action7>7.	Turbine section - Discolouration and security</action7>
+                <action8>8.	Exhaust stack - Cover removed, security</action8>
+                <action9>9.	Linear actuator and governor control linkage check condition and security</action9>
+                <action10>10.	Fuel and oil lines – No leaks</action10>
+                <action11>11.	Engine anti-ice valve and linkage – condition and security</action11>
+                <action12>12.	Tail rotor driveshaft is able to slide backwards and forwards.  All bolts and nuts are secure on the Thomas coupling</action12>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ENGINE ACCESS PANEL</item>
+                <action>Closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+             <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>OIL ACCESS DOOR</item>
+                <action>Close</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+     </stage>       
+
+<stage>
+        <stagetitle>EXTERIOR INS - AIR INTAKE AREA LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-26</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AIR INDUCTION COWLING</item>
+                <action>Secured, all plugs and covers removed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>ENGINE AIR INTAKE FILTER</item>
+                <action>Condition, cleanliness and clear of obstructions</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+   </stage> 
+   
+   <stage>
+        <stagetitle>EXTERIOR INS - TRANSMISSION LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-27</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TRANSMISSION ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TRANSMISSION</item>
+                <action>Condition and security:</action>
+                <action2>1.	Pylon support link (MOUNT) — No cracks, self-locking nuts secure</action2>
+                <action3>2.	Drag pin and cup — Condition</action3>
+                <action4>3.	Isolation mount cover and bearing — Condition and security</action4>
+                <action5>4.	Fire wall — Condition</action5>
+                <action6>5.	Main drive shaft (old style). Check condition and TEMP-PLATES. Check for signs of grease discharge which will ground the aircraft</action6>
+                <action7>6.	Main drive shaft (new style). The KAYFLEX coupling has no TEMP-PLATES or grease points. Check for general condition and all nuts and bolts are secure</action7>
+                <action8>7.	Check the transmission oil filter bypass indicator is IN</action8>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>TRANSMISSION ACCESS PANEL</item>
+                <action>Closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ROTOR HEAD INSPECTION</item>
+                <action>Condition and security of:</action>
+                <action2>1.	Main rotor hub and yoke – check for excessive grease</action2> 
+                <action3>2.	Blade grips and blade bolts - wear and excessive grease</action3>
+                <action4>3.	Pillow blocks</action4>
+                <action5>4.	Dynamic flapping restraints and springs - freedom of movement</action5>
+                <action6>5.	Pitch horn and trunnion bearing</action6>
+                <action7>6.	Main rotor pitch change links - excessive axial or radial movement</action7>
+                <action8>8.	Scissor links - excessive play</action8>
+                <action9>9.	Control linkages</action9>
+                <action10>10.	Isolation mount travel</action10>
+                <action11>11.	The top of the transmission - check the transmission oil cooler is clean</action11>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+           
+     </stage>       
+
+   <stage>
+        <stagetitle>EXTERIOR INS - FUSELAGE LEFT SIDE</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-28</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>RIGHT STATIC PORT</item>
+                <action>Unobstructed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>CABIN DOORS</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>WINDOWS</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>LANDING GEAR (SKIDS)</item>
+                <action>Condition and security. Check landing gear for cracks, tube deflection, loose rivets, rubber bushes and saddle clamps correctly located</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>PASSANGER COMPARTMENT</item>
+                <action>Condition and security:</action>
+                <action2>1.	Harness — Condition and security.  Check attachment points</action2> 
+                <action3>2.	Loose items — Secure</action3>
+                <action4>3.	Cushions — Condition and security</action4><warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>FUSELAGE</item>
+                <action>General condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>CABIN ROOF, TRANSMISSION FARING, ENGINE INLET AREA</item>
+                <action>Condition and security, cleaned of all debris</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>ACCESS PANEL</item>
+                <action>Open</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>FORWARD COWLING</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+</stage>
+
+   
+   <stage>
+        <stagetitle>EXTERIOR INS - FUSELAGE FRONT</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-29</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>WIRE STRIKE KIT</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>WINDOWS</item>
+                <action>Condition, security and cleanliness</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>RAM AIR GRILL</item>
+                <action>Unobstructed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>BATTERY ACCESS PANEL</item>
+                <action>Secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>PITOT TUBE</item>
+                <action>Cover removed and stowed in the pilots door pocket</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>EXTERNAL POWER</item>
+                <action>Panel closed unless being used</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>LANDING AND SEARCH LIGHTS</item>
+                <action>Condition and security</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>VENT LINES</item>
+                <action>Attached and sealed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>FUSELAGE UNDERSIDE</item>
+                <action>General condition</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+</stage>
+
+   
+   <stage>
+        <stagetitle>POST FLIGHT INSPECTION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-30</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>MAIN BLADES STILL TURNING</item>
+                <action>Wait in the helicopter until the main rotor blades have completely stopped turning</action>
+                <warning>ATTEMPTING TO CATCH THE MAIN ROTOR BLADE WHILE IT IS STILL TURNING CAN CAUSE INJURY TO PERSONNEL AND DAMAGE TO THE AIRCRAFT</warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>MR AND DFR</item>
                 <action>Complete the relevant paper work</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step><numcol></numcol>
-                <icon></icon>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
                 <number>3</number>
-                <item>Fuel quantity</item>
+                <item>FUEL QUANTITY</item>
                 <action>Note the remaining fuel quantity and calculate the next fuel load to inform the refueller</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
                 <infnotes></infnotes>
             </step>
-            <step><numcol></numcol>
-                <icon></icon>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
                 <number>4</number>
-                <item>Exit the helicopter</item>
-                <action></action>
+                <item>EXIT THE HELICOPTER</item>
+                <action>1.	Secure the doors</action>
+                <action1>2.	Tie down the main rotor blades</action1>
+                <action2>3.	Cover the instrument console</action2>
+                <action3>4.	Cover the pitot tube</action3>
+                <action4>5.	Cover the aircraft if it is the last flight of the day</action4>
+                <action5>6.	Conduct a walk around inspection looking for damage to the fuselage and rotor blades. Inspect for any oil leaks</action5>
                 <warning></warning>
                 <caution></caution>
-                    <sub>Secure the doors</sub>
-                    <sub>Tie down the main rotor blades</sub>
-                    <sub>Cover the instrument console</sub>
-                    <sub>Cover the pitot tube</sub>
-                    <sub>Cover the aircraft if it is the last flight of the day</sub>
-                    <sub>Conduct a walk around inspection looking for damage to the fuselage and rotor blades.  Inspect for oil leaks.</sub>
-                <notes>NOTE:  IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE.</notes>
-                    <infnotes></infnotes>
-            </step>        
-        </stage>
-    </phase>-->  
+                <notes>IT IS PREFERABLE TO TURN THE MAIN ROTOR BLADES BACKWARDS WHEN TYING THEM DOWN.  THIS IS TO HELP ELEVIATE TURBINE RUB OR CARBON BUILD UP ON THE LABYRINTH SEAL.
+                	  IT IS NOT MANDATORY BUT A PREFFERED PROCEDURE.  IF RESISTENCE IS FELT WHILE MANUALLY TURNING THE BLADES DO NOT FORCE IT BUT SEEK MAINTENANCE ASSISTENCE</notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>FUEL</item>
+                <action>Arrange for a refuel as required and note the amount of fuel loaded into the helicopter in the DFR</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>TRANSMISSION</item>
+                <action>Check the oil level and replenish if required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>HYDRAULICS</item>
+                <action>Check the oil level and replenish if required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>ENGINE</item>
+                <action>Check the oil level and replenish if required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>PAPERWORK</item>
+                <action>Return to base and complete:</action>
+                <action2>•	SAR board</action2> 
+                <action3>•	Authorisation sheet</action3>
+                <action4>•	Debrief</action4>
+                <action5>•	Aircraft issues register</action5>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+</stage>
+
+   
+    <stage>
+        <stagetitle>TURN AROUND INSPECTION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-31</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>MR AND DFR</item>
+                <action>On hand and signed off</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>FUEL QUANTITY</item>
+                <action>Sufficient for the sortie. Refer to the DFR and cross check with the fuel quantity gauge</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>WALK AROUND</item>
+                <action>1.	Remove covers, plugs and any safety flags and stow</action>
+                <action2>2.	Remove instrument console cover</action2> 
+                <action3>3.	Remove and stow pitot cover</action3>
+                <action4>4.	Secure the doors</action4>
+                <action5>5.	Un-tie the main rotor blades and rotate to the 10 and 4 o’clock position ready for start</action5>
+                <action6>6.	Conduct a walk around inspection looking for damage to the fuselage and rotor blades. Inspect for any oil leaks</action6>
+                <action7>7.	Ensure all cowls and inspection hatches are closed</action7>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+   
+   </stage>
+   
+   
+   
+   <stage>
+        <stagetitle>TURN AROUND - COCKPIT INSPECTION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-32</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>THROTTLE</item>
+                <action>Closed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>FUEL VALVE SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>RADIO AND AVIONICS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ANTI-COLLISION LIGHT</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>OFF (circuit breakers OUT)</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>BATTERY SWITCH</item>
+                <action>ON (select BAT)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>7</number>
+                <item>INTERNAL COCKPIT LIGHTS</item>
+                <action>Check that all internal lights are workingy</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>8</number>
+                <item>EXTERNAL LIGHTS</item>
+                <action>Check all external lights are working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>FUEL QUANTITY</item>
+                <action>Check quantity sufficient for the sortie</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>FUEL SUMP BUTTON</item>
+                <action>Depress button and take fuel sample</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>FUEL VALVE SWITCH</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>ON (circuit breakers IN)</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>AIRFRAME FILTER</item>
+                <action>Take fuel sample</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>OFF (circuit breakers OUT)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>FUEL VALVE SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>BATTERY SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+</stage>
+
+<stage>
+        <stagetitle>TURN AROUND - LEVELS CHECK</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-33</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>HYDRAULIC</item>
+                <action>Check oil level</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TRANSMISSION</item>
+                <action>Check oil level</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ENGINE</item>
+                <action>Check oil level</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>FUEL</item>
+                <action>Open the fuel cap and visually inspect the level then close the fuel cap</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ACCESS PANELS</item>
+                <action>Ensure all access panels are secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+   
+   </stage>
+   
+   
+
+<stage>
+        <stagetitle>TURN AROUND - ENGINE CHECK</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-34</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ENGINE RIGHT SIDE</item>
+                <action>Open the engine cowl and have a general check of the condition and security of the engine then close the engine cowl</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>ENGINE LEFT SIDE</item>
+                <action>Open the engine cowl and have a general check of the condition and security of the engine then close the engine cowl</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+          
+   
+   </stage>
+   
+   
+<stage>
+        <stagetitle>TURN AROUND - AIR INLET CHECK</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-35</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ENGINE AIR INTAKE</item>
+                <action>Check for obstructions both left and right side</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+   
+   </stage>
+
+
+
+
+<stage>
+        <stagetitle>TURN AROUND - FUSELAGE FRONT</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-36</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>BATTERY COMPARTMENT</item>
+                <action>Closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>EXTERNAL POWER</item>
+                <action>Closed and secured unless being used</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>LANDING LIGHTS AND SEARCH LIGHTS</item>
+                <action>Check oil level</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>WINDOWS</item>
+                <action>Condition and security and cleanliness</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+   </stage>
+
+<stage>
+        <stagetitle>COMPRESSOR RINSE - PREPARATION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-37</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>BATTERY SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>EXTERNAL POWER</item>
+                <action>PLUG IN</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>POWER SUPPLIED</item>
+                <action>CONFIRM indications (there is no need to turn the battery on)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>BLEED AIR VALVE</item>
+                <action>Open the left hand engine cowl and insert the wedge that will force the bleed valve piston down</action>
+                <action2>The ‘REMOVE BEFORE FLIGHT’ tag shall be exposed</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+           <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>PC LINE TAPS (2 OF)</item>
+                <action>There are 2 taps, one on each side of the engine. Open both engine access panels to gain access to the taps</action>
+                <action2>Disengage spring clip and turn the tap 90 degrees to close</action2>
+                <action3>The ‘REMOVE BEFORE FLIGHT’ tags shall be attached in a prominent place while the taps are closed</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>WATER HOSE</item>
+                <action>Turn on and purge the water hose line so you know there are no particles in the hose prior to connecting it to the compressor rinse attachment</action>
+                <action2>Turn off the water</action2>
+                <action3>Open the left hand transmission access panel</action3>
+                <action4>CONNECT the hose to the hose fitting. Check that it is LOCKED IN.</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+   </stage>
+
+
+
+<stage>
+        <stagetitle>COMPRESSOR RINSE - PILOT IN THE COCKPIT</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-39</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>IGNITION CB</item>
+                <action>OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>FUEL BOOST PUMP CBs</item>
+                <action>OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>FUEL VALVE</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>THROTTLE</item>
+                <action>CONFIRM CLOSED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>STARTER</item>
+                <action>PRESS to motor the starter motor</action>
+                <action2>Allow the N1 to reach 5% then give the command “WATER ON” to the pilot at the rinse cart</action2>
+                <action3>Allow the N1 to reach 10-12% N1 or run for 5 seconds (+5 seconds) whichever comes first  </action3>
+                <action4>Repeat the above procedure another two times</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>PILOT AT THEW RINSE CART</item>
+                <action>When given the command “WATER ON” by the pilot at the controls, the pilot at the rinse cart will turn on the water to the hose</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>STOP</item>
+                <action>After the third time that the starter was engaged, release the starter and allow the engine to spool down</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>CONFIRM WATER DISCHARGE</item>
+                <action>Confirm that water is draining from the engine into the engine pan</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>GIVE THE COMMAND</item>
+                <action>“WATER OFF” to the pilot controlling the rinse cart</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>PAUSE</item>
+                <action>Wait for 60 seconds to allow excess water to naturally drain from the engine</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>STARTER</item>
+                <action>After 60 seconds engage the starter to purge any excess water from the engine</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>WATER HOSE</item>
+                <action>DISCONNECT – stowed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>EXTERNAL POWER</item>
+                <action>REMOVED and stowed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>PC LINE TAPS (2 OF)</item>
+                <action>Turn taps 90 degrees to open and re-engage spring clip.</action>
+                <action2>‘REMOVE BEFORE FLIGHT’ tags – removed and stowed</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>BLEED AIR VALVE</item>
+                <action>Remove Wedge – Stowed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>COWLINGS</item>
+                <action>Ensure closed and secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>MAINTENANCE RELEASE</item>
+                <action>Enter R in maintenance release</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>RINSE CART</item>
+                <action>Returned to engineering</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>START</item>
+                <action>Commence a normal start </action>
+                <action2>After start Engine Anti-Ice to be on for 2 minutes to dry out the air lines and purge any water remaining in the anti-ice system </action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>TIME</item>
+                <action>A normal start shall be done within 20 minutes of the compressor rinse to dry the engine regardless of if the helicopter was programmed for a sortie or not</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+   </stage>
+
+
+<stage>
+        <stagetitle>ENGINE START &amp; STOP PROCS - BEFORE START CHECKS</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-40</formnum>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>1</number>
+                <item>BATTERY SWITCH</item>
+                <action>ON (select BAT)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>2</number>
+                <item>ANTO-COLLISION LIGHT</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>3</number>
+                <item>POSITION LIGHTS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>4</number>
+                <item>INTERNAL INSTRUMENT LIGHTS</item>
+                <action>ON, as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>CABIN INTERIOR</item>
+                <action>Clean and secure</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>SEAT BELTS</item>
+                <action>On and secure</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>HELMETS</item>
+                <action>Plugged in and working</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>CABIN DOORS</item>
+                <action>Secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>CONTROL LOCKS</item>
+                <action>OFF or removed (if installed)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>PEDALS</item>
+                <action>Adjusted</action>
+                <action2>Full and free movement</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>FRICTIONS</item>
+                <action>Cyclic and collective frictions OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>CYCLIC</item>
+                <action>Full and free movement. Re-centred and friction ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>COLLECTIVE</item>
+                <action>Full and free movement. Full down and friction ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>THROTTLE (PIC)</item>
+                <action>OFF | IDLE | FULL | IDLE | OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>THROTTLE (NFP)</item>
+                <action>OFF | IDLE | FULL | IDLE | OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>16</number>
+                <item>LANDING LIGHTS</item>
+                <action>ON | TEST | OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>17</number>
+                <item>NIGHT SCANNER (PIC)</item>
+                <action>ON | TEST | OFF | STOW (as required)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>18</number>
+                <item>NIGHT SCANNER (NFP)</item>
+                <action>Isolation Selection switch activate (if installed)</action>
+                <action2>ON | TEST | OFF | STOW (as required)</action2>
+                <action3>Isolation Selection switch activate back to PIC (if installed)</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>ELT</item>
+                <action>Commence a normal start </action>
+                <action2>After start Engine Anti-Ice to be on for 2 minutes to dry out the air lines and purge any water remaining in the anti-ice system </action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>BATTERY SELECTION SWITCH</item>
+                <action>BOTH (if fitted)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>21</number>
+                <item>EMER AIR</item>
+                <action>CLOSED and GUARDED (if fitted)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>22</number>
+                <item>ENG ANTI-ICE</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>23</number>
+                <item>HYD SYS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>24</number>
+                <item>FUEL VALVE</item>
+                <action>ON and GUARDED</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>25</number>
+                <item>ALTIMETER/S</item>
+                <action>Set to field elevation</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>26</number>
+                <item>INSTRUMENTS AND GUAGES</item>
+                <action>In their static position and no damage</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>27</number>
+                <item>OVEREHEAD SWITCHES</item>
+                <action>ALL OFF except ANTI COL ON</action>
+                <action2>(Day only - if Night some will be on)</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>28</number>
+                <item>CIRCUIT BREAKERS</item>
+                <action>All IN except FUEL BOOST circuit breakers OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>29</number>
+                <item>BATTERY MASTER</item>
+                <action>ON (select BAT) - Unless using EXTERNAL POWER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>30</number>
+                <item>MASTER GYRO SWITCH</item>
+                <action>ON (select BAT) - Unless using EXTERNAL POWER</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>31</number>
+                <item>RADIO MASTER</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>32</number>
+                <item>WARNING LIGHTS</item>
+                <action>The following warning lights should be showing:</action>
+                <action2>•	TRANS OIL PRESS</action2>
+                <action3>•	ENG OUT</action3>
+                <action4>•	ROTOR LOW RPM</action4>
+                <action5>•	FUEL PUMP</action5>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>33</number>
+                <item>CONFIRM AUDIO WARNING</item>
+                <action>Check Low RPM warning horn by raising the collective slightly then lowering it</action>
+                <action2>If fitted, some helicopters have an aural warning system giving the following messages:</action2>
+                <action3>•	Eng out</action3>
+                <action4>•	Check Generator</action4>
+                <action5>•	Altitude alert</action5>
+                <action6>•	Terrain Terrain</action6>
+                <action7>•	100 Feet</action7>
+                <action8>•	Auto pilot disconnect</action8>
+                <action9>Press the acknowledge button to cancel</action9>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>34</number>
+                <item>CAUTION/WARNING PANEL</item>
+                <action>PRESS to TEST all the Caution and Warning lights on the main Caution / Warning Panel</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>35</number>
+                <item>AFT FUEL BOOST PUMP</item>
+                <action>Circuit breaker IN – Check pressure indication</action>
+                <action2>FUEL PUMP Caution Light remains ON</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>36</number>
+                <item>FWD FUEL BOOST PUMP</item>
+                <action>Circuit breaker IN – Check pressure indication</action>
+                <action2>FUEL PUMP Caution Light should be OFF</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>37</number>
+                <item>AFT FUEL BOOST PUMP</item>
+                <action>Circuit breaker OUT – Check pressure remains</action>
+                <action2>FUEL PUMP Caution Light comes ON</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>38</number>
+                <item>AFT FUEL BOOST PUMP</item>
+                <action>Circuit breaker IN</action>
+                <action2>FUEL PUMP Caution Light should be OFF</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>39</number>
+                <item>OAT</item>
+                <action>Noted prior to start </action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>40</number>
+                <item>CLOCK</item>
+                <action>Zeroed for start.  The clock on the ADF may be used for the start</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+   </stage>
+
+</phase>
+
  </checklist>
  
 

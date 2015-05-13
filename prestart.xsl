@@ -26,7 +26,7 @@
             <div data-role="collapsible">
                 <h3 class="txt_centre"><xsl:value-of select="stagetitle"/><img src = "logo png.png" class = "capimg"></img>
                 <img onclick="myFunction()" src="rsz_collapse.png" style="width: 5%; height: 5%; float: right;  text-align: center"></img></h3>
-                <form method="post" id="tick-{position()}">
+                <form method="post" id="{formnum}">
                 	
                 <!--<xsl:value-of select="stagenotes" disable-output-escaping="yes"/>-->
                 
@@ -51,6 +51,8 @@
                            </colgroup>
                 
                     <xsl:choose> 
+                    	
+                    	
                     <xsl:when test="stagetitle = 'LIMITATIONS' or stagetitle = 'PRE-LANDING CHECKS'">
                      </xsl:when>
                      
@@ -58,7 +60,7 @@
                      	
                      	<tr >
                               <td style="background-color: #ffc926">
-                                 <img id="hide" src="rsz_mands_30_50.png" />
+                                 <img id="hide" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
                               <td style="background-color: #ffc926">
@@ -82,14 +84,6 @@
                         </tr>
                      	
                      	
-                    
-                     	
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide7" src="rsz_recycling_30.png" /></th>-->
                            
                      </xsl:when>
                      
@@ -121,18 +115,7 @@
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
-                     	   
-                     	   
-                     	   
-                     
-                     	   
-                     	   
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+
                      </xsl:when>
                      
                      
@@ -165,14 +148,7 @@
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
-                     	
-                     	   
-                     	   <!--th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+                     
                      </xsl:when>
                      
                      
@@ -182,7 +158,7 @@
                      	   
                      	   <tr >
                               <td style="background-color: #ffc926">
-                                 <img id="hide2" src="rsz_mands_30_50.png" />
+                                 <img id="hide2" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
                               <td style="background-color: #ffc926">
@@ -202,16 +178,10 @@
                               </td>
                               
                               <td style="background-color: #ffc926">
-                                 <img src="rsz_trans2020.png" /></td>
+                                 <img rel="tooltip" title="NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY" src="inf_50.png" /></td>
                         </tr>
                      	   
                      	
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide2" src="rsz_mands_30.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'PRE-LIFTOFF CHECKS | PRE-LANDING CHECKS'">
@@ -219,7 +189,7 @@
                      	   
                      	    <tr >
                               <td style="background-color: #ffc926">
-                                 <img id="hide3" src="rsz_mands_30_50.png" />
+                                 <img id="hide3" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
                               <td style="background-color: #ffc926">
@@ -243,14 +213,6 @@
                         </tr>
                      	   
                      	   
-                   
-                     	   
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_mands_30.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'HOVER CHECKS'">
@@ -282,13 +244,14 @@
                           </tr>
                      	   
                      	 
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
                      </xsl:when>
+                     
+                     
+                     
+                     
+                     
+                     
+                     
                      
                      <xsl:when test="stagetitle = 'INSTRUMENT TAXI CHECKS'">
                      	   
@@ -319,12 +282,7 @@
                           </tr>
                      	   
                      	  
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+                     	
                      </xsl:when>
                      
                     <xsl:when test="stagetitle = 'PWPTEM - PRIOR TO TAKE-OFF BRIEF'">
@@ -355,12 +313,6 @@
                         </tr>
                      	   
                      	
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide8" src="rsz_recycling_30.png" /></th>-->
                      </xsl:when>
                     
                     <xsl:when test="stagetitle = 'PSWATP - CONFINED AREA | UNPREP HLS CHECK'">
@@ -391,12 +343,7 @@
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img id="hide3" src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+               
                      </xsl:when>
                     
                     
@@ -428,17 +375,10 @@
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
-                     	
-                     	   
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+                     
                      </xsl:when>
                      
-                     <xsl:when test="stagetitle = 'CLEAROFF CHECK - DEPARTURE AND ENROUTE'">
+                     <xsl:when test="stagetitle = 'CLEAROFF CHECK &#10; - DEPARTURE AND ENROUTE'">
                      	   
                      	   
                      	   
@@ -469,19 +409,14 @@
                           </tr>
                      	   
                      	   
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img src="rsz_trans2020.png" /></th>-->
+                     	
                      </xsl:when>
                      
                      <xsl:when test="stagetitle = 'SHUTDOWN CHECKS'">
                      	   
                      	   <tr >
                               <td style="background-color: #ffc926">
-                                  <img id="hide5" src="rsz_mands_30_50.png" />
+                                  <img id="hide5" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
                               <td style="background-color: #ffc926">
@@ -493,7 +428,7 @@
                               </td>
                               
                               <td style="background-color: #ffc926; ">
-                                 <img onclick="resetform12()" src="reset_50.png" />
+                                 <img onclick="resetform13()" src="reset_50.png" />
                               </td>
                               
                               <td style="background-color: #ffc926; ">
@@ -503,18 +438,855 @@
                               <td style="background-color: #ffc926">
                                  <img src="rsz_trans2020.png" /></td>
                         </tr>
-                     	   
-                     	   
-                     	   
-                     	   
-                     	   
-                     	   <!--<th align="center" scope="col" style="background-color: #ffc926; "><img src="rsz_trans2020.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide5" src="rsz_mands_30.png" /></th>-->
+                     
+                     	
                      </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'PRE FLIGHT INS - GENERAL INSPECTION'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform15()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     	 
+                     	 
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'PRE FLIGHT INS - COCKPIT INS AND FUEL DRAIN'">
+                     	
+                    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide16" src="rsz_mands_30_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform16()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926;">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                        </tr>
+                     	
+                           
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - FUSELAGE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform17()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - FUSELAGE RIGHT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform18()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - TRANSMISSION AREA RIGHT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform19()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                    
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - AIR INTAKE AREA RIGHT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform20()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                      <xsl:when test="stagetitle = 'EXTERIOR INS - ENGINE BAY RIGHT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform21()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - TAILBOOM RIGHT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform22()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - TAILBOOM LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform23()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - FUSELAGE LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform24()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                      <xsl:when test="stagetitle = 'EXTERIOR INS - ENGINE BAY LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform25()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - AIR INTAKE AREA LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform26()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - TRANSMISSION LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform27()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'EXTERIOR INS - FUSELAGE LEFT SIDE'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform28()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                         <xsl:when test="stagetitle = 'EXTERIOR INS - FUSELAGE FRONT'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform29()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'POST FLIGHT INSPECTION'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform30()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The Post Flight Inspection is done immediately at the end of a flight and prior to returning to the Operations Desk.  It is to ensure that the helicopter has been left in a serviceable condition ready for the next flight by another crew." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND INSPECTION'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform31()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
+                                 	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND - COCKPIT INSPECTION'">
+                     	
+                    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide32" src="rsz_mands_30_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform32()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926;">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection. 
+                                 	The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                        </tr>
+                     	
+                           
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND - LEVELS CHECK'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform33()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
+                                 	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND - ENGINE CHECK'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform34()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
+                                 	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND - AIR INLET CHECK'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform35()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
+                                 	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     
+                     
+                     
+                     
+                     <xsl:when test="stagetitle = 'TURN AROUND - FUSELAGE FRONT'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform36()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
+                                 	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'COMPRESSOR RINSE - PREPARATION'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform37()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
+                                 	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
+                                 	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
+                                 	   controlling the tap that allows water to flow into the compressor. The main rotor blades may remain tied down during the compressor wash.
+                                          " src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                     <xsl:when test="stagetitle = 'COMPRESSOR RINSE - PREPARATION'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform38()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
+                                 	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
+                                 	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
+                                 	   controlling the tap that allows water to flow into the compressor. The main rotor blades may remain tied down during the compressor wash.
+                                          " src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                    
+                    <xsl:when test="stagetitle = 'COMPRESSOR RINSE - PILOT IN THE COCKPIT'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform39()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
+                                 	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
+                                 	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
+                                 	   controlling the tap that allows water to flow into the compressor. The main rotor blades may remain tied down during the compressor wash.
+                                          " src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                    
+                    
+           <xsl:when test="stagetitle = 'ENGINE START &amp; STOP PROCS - BEFORE START CHECKS'">
+                     	
+                     	<tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide40" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926;  ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform40()" src="reset_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img id="hide40a" src="rsz_recycling_30_50.png" /></td>
+                        </tr>
+                     	
+                     	
+                           
+                     </xsl:when>
+                    
+                    
+                    
+                    
+                    
+                    
                     
                     <xsl:otherwise>
                            <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
@@ -712,7 +1484,7 @@
                       <xsl:when test="icon = 1">
                       <td style="background-color:#FF8C00"><xsl:value-of select="action"/>
                       
-                           <xsl:if test="action2 !=''">
+                      <xsl:if test="action2 !=''">
                       <p><xsl:value-of select="action2"/></p>
                       </xsl:if>
                       
@@ -727,7 +1499,49 @@
                       <xsl:if test="action5 !=''">
                       <p><xsl:value-of select="action5"/></p>
                       </xsl:if>
+                      
+                      <xsl:if test="action6 !=''">
+                      <p><xsl:value-of select="action6"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action7 !=''">
+                      <p><xsl:value-of select="action7"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action8 !=''">
+                      <p><xsl:value-of select="action8"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action9 !=''">
+                      <p><xsl:value-of select="action9"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action10 !=''">
+                      <p><xsl:value-of select="action10"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action11 !=''">
+                      <p><xsl:value-of select="action11"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action12 !=''">
+                      <p><xsl:value-of select="action12"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action13 !=''">
+                      <p><xsl:value-of select="action13"/></p>
+                      </xsl:if>
+                      
+                      <xsl:if test="action14 !=''">
+                      <p><xsl:value-of select="action14"/></p>
+                      </xsl:if>
                       	
+                      <xsl:if test="action15 !=''">
+                      <p><xsl:value-of select="action15"/></p>
+                      </xsl:if>
+                      
+                      
+                      
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
@@ -850,7 +1664,7 @@
                      </tr>
                   </xsl:for-each>
                 
-                
+               
                 
                 </tbody>
                 </table>
@@ -865,7 +1679,7 @@
   
 
   <div data-role="footer">
-    <h1>Becker Helicopters Copyright 2015 V1.3</h1>
+    <h1>Becker Helicopters Copyright 2015 V1.5</h1>
   </div>
 </div> 
 
