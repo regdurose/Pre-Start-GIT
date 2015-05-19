@@ -80,7 +80,7 @@
                               </td>
                               
                               <td style="background-color: #ffc926">
-                                 <img id="hide7" src="rsz_recycling_30_50.png" /></td>
+                                 <img id="hide7" src="rsz_recycling_30_50.png" onclick="changeImage2(this)"/></td>
                         </tr>
                      	
                      	
@@ -309,7 +309,7 @@
                               </td>
                               
                               <td style="background-color: #ffc926">
-                                 <img id="hide8" src="rsz_recycling_30_50.png" /></td>
+                                 <img id="hide8" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	   
                      	
@@ -378,7 +378,7 @@
                      
                      </xsl:when>
                      
-                     <xsl:when test="stagetitle = 'CLEAROFF CHECK &#10; - DEPARTURE AND ENROUTE'">
+                     <xsl:when test="stagetitle = 'CLEAROFF CHECK - DEPARTURE AND ENROUTE'">
                      	   
                      	   
                      	   
@@ -480,7 +480,7 @@
                      	
                     <tr >
                               <td style="background-color: #ffc926">
-                                 <img id="hide16" src="rsz_mands_30_50.png" />
+                                 <img id="hide16" src="rsz_mands_30_50.png" onclick="changeImage2(this)" />
                               </td>
                               
                               <td style="background-color: #ffc926">
@@ -1275,19 +1275,331 @@
                               </td>
                               
                               <td style="background-color: #ffc926">
-                                 <img id="hide40a" src="rsz_recycling_30_50.png" /></td>
+                                 <img id="hide40a" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	
                      	
                            
                      </xsl:when>
                     
-                    
-                    
-                    
-                    
-                    
-                    
+                   
+                    <xsl:when test="stagetitle = 'ABORT START PRECEDURE REVISION'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform41()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img rel="tooltip" title="To be verbally confirmed between the cockpit crew prior to engine start at the discretion of the instructor or whenever the pilot wants to be reminded of the procedure." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     
+                     </xsl:when>
+                     
+                   <xsl:when test="stagetitle = 'ENGINE STARTING'">
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926;  ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform42()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img id="hide42" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
+                        </tr>
+                     	   
+                     	
+                     </xsl:when>
+                   
+                   <xsl:when test="stagetitle = 'AFTER ENGINE START'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926;  ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform43()" src="reset_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926;">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img srel="tooltip" title="When conducting multiple lift-offs and landings and multiple circuits, the normal Engine Start and Stop Procedures may be abbreviated." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+
+                     </xsl:when>
+                   
+                   
+                   <xsl:when test="stagetitle = 'ENGINE RUN UP CHECK'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide44" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform44()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926;">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                        </tr>
+                     	   
+                     	   
+                     </xsl:when>
+                   
+                   <xsl:when test="stagetitle = 'ENGINE SHUTDOWN CHECKS'">
+                     	   
+                     	   
+                     	    <tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide45" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform45()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926;">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                        </tr>
+                     	   
+                     	   
+                     </xsl:when>
+                   
+                   
+                   <xsl:when test="stagetitle = 'NORMAL FLIGHT CHECKS'">
+                     	
+                     	<tr >
+                              <td style="background-color: #ffc926">
+                                 <img id="hide46" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926;  ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform46()" src="reset_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img id="hide46a" src="rsz_recycling_30_50.png" onclick="changeImage2(this)"/></td>
+                        </tr>
+                     	
+                     	
+                           
+                     </xsl:when>
+                   
+                   
+                   
+                   <xsl:when test="stagetitle = 'HOVER CHECKS  '">
+                      
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>Nos</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform47()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	   
+                     	
+                     </xsl:when>
+                     
+                   
+                    <xsl:when test="stagetitle = 'INSTRUMENT TAXI CHECKS  '">
+                      
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform48()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	   
+                     	
+                     </xsl:when>
+                   
+                   
+                         <xsl:when test="stagetitle = 'PRE DEPARTURE BRIEF'">
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img srel="tooltip" title="This is a general departure brief and plan between the crew using the acronym PWPTEM pronounced “Pow-tem” prior to take-off." src="inf_50.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926;  ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform49()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img id="hide49" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
+                        </tr>
+                     	   
+                     	
+                     </xsl:when>
+                   
+                   
+                    <xsl:when test="stagetitle = 'DEPARTURE AND ENROUTE CHECK'">
+                      
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform50()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress" src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                     	   
+                     	
+                     </xsl:when>
+                   
+                   
+                   
                     <xsl:otherwise>
                            <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
                            <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
@@ -1418,6 +1730,19 @@
                         <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png"/><img src="w.png"/></td>
                       </xsl:when>
                       
+                      
+                      <!-- 13 - Multi + Letter E -->
+                      <xsl:when test="numcol = '52' or numcol = '512'">
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png"/><img src="e.png"/></td>
+                      </xsl:when>
+                      
+                      
+                      <!-- 14 - Multi + Letter F -->
+                      <xsl:when test="numcol = '53' or numcol = '513'">
+                        <td class="checklist-1-border" style="background-color:#FF8C00"><img src="rsz_recycling_30.png"/><img src="f.png"/></td>
+                      </xsl:when>
+                      
+                      
                       <xsl:otherwise>
                         <td class="white-bar"></td>
                       </xsl:otherwise>
@@ -1482,7 +1807,7 @@
                       <xsl:choose>
                       	
                       <xsl:when test="icon = 1">
-                      <td style="background-color:#FF8C00"><xsl:value-of select="action"/>
+                      <td style="background-color:#FF8C00"><xsl:value-of select="action" disable-output-escaping="yes"/>
                       
                       <xsl:if test="action2 !=''">
                       <p><xsl:value-of select="action2"/></p>
@@ -1546,6 +1871,21 @@
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
                       
+                      <xsl:if test="warning2 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning2" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning3 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning3" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning4 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning4" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning5 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning5" /></p>
+                        </xsl:if>
+                      
+                      
+                     
                       <xsl:if test="caution !=''">
                        <p class="caution"><img src = "caution.png" class = "capimg"></img><xsl:value-of select="caution" /></p>
                         </xsl:if>
@@ -1554,7 +1894,17 @@
                       <xsl:if test="notes !=''">
                        <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
                         </xsl:if>
+                        <xsl:if test="notes2 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes2" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes3 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes3" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes4 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes4" /></p>
+                        </xsl:if>
                         
+                      
                         <xsl:if test="infnotes !=''">
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
                           </xsl:if>
@@ -1584,6 +1934,19 @@
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
+                        
+                        <xsl:if test="warning2 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning2" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning3 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning3" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning4 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning4" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning5 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning5" /></p>
+                        </xsl:if>
                       
                       <xsl:if test="caution !=''">
                        <p class="caution"><img src = "caution.png" class = "capimg"></img><xsl:value-of select="caution" /></p>
@@ -1593,6 +1956,16 @@
                       <xsl:if test="notes !=''">
                        <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
                         </xsl:if>
+                        
+                      <xsl:if test="notes2 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes2" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes3 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes3" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes4 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes4" /></p>
+                        </xsl:if>  
                         
                         <xsl:if test="infnotes !=''">
                            <p class="infnotes"><img src = "infnotes.png" class = "capimg"></img><xsl:value-of select="infnotes" /></p>
@@ -1627,6 +2000,18 @@
                       	<xsl:if test="warning !=''">
                        <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning" /></p>
                         </xsl:if>
+                        <xsl:if test="warning2 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning2" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning3 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning3" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning4 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning4" /></p>
+                        </xsl:if>
+                        <xsl:if test="warning5 !=''">
+                       <p class="warning"><img src = "warning.png" class = "capimg"></img><xsl:value-of select="warning5" /></p>
+                        </xsl:if>
                       
                       <xsl:if test="caution !=''">
                        <p class="caution"><img src = "caution.png" class = "capimg"></img><xsl:value-of select="caution" /></p>
@@ -1635,6 +2020,16 @@
                     
                       <xsl:if test="notes !=''">
                        <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes" /></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="notes2 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes2" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes3 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes3" /></p>
+                        </xsl:if>
+                        <xsl:if test="notes4 !=''">
+                       <p class="notes"><img src = "notes.png" class = "capimg"></img><xsl:value-of select="notes4" /></p>
                         </xsl:if>
                         
                         <xsl:if test="infnotes !=''">
@@ -1679,7 +2074,7 @@
   
 
   <div data-role="footer">
-    <h1>Becker Helicopters Copyright 2015 V1.5</h1>
+    <h1>Becker Helicopters Copyright 2015 V2.0</h1>
   </div>
 </div> 
 

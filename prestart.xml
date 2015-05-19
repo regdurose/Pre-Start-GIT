@@ -1179,7 +1179,6 @@
             
             <stage>
                 <stagetitle>HOVER CHECKS</stagetitle>
-                <stagetitle>:</stagetitle>
                 <stagenotes></stagenotes><formnum>form-6</formnum>
             <step>
             	<numcol>2</numcol>
@@ -4801,6 +4800,1588 @@
             </step>
         
    </stage>
+
+<stage>
+        <stagetitle>ABORT START PRECEDURE REVISION</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-41</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <warning>DURING THE FIRST FEW SECONDS OF THE ENGINE START THE TOT WILL ACCELERATE AT A FAIRLY RAPID RATE AND SHALL BE CLOSELY MONITORED.</warning>
+                <warning2>THE MANUFACTURER LIMITS FOR A HOT START ARE REACHING A MAXIMUM OF 927C OR EXCEEDING 10 SECONDS BETWEEN 810C AND 927C.AT BECKER HELICOPTERS WE HAVE A COMPANY
+                	 LIMIT OF 840C MAXIMUM FOR A HOT START AND A MAXIMUM OF 10 SECONDS BETWEEN 810C AND 840C.  IF DURING THE START THE TOT LOOKS LIKE EXCEEDING 840C OR THE 10 SECONDS 
+                	 BETWEEN 810C AND 840C THEN IMMEDIATELY CONDUCT THE ABORT START PROCEDURE BELOW. IF IN ANY DOUBT, ABORT THE START AND THEN IF NECESSARY TRY AGAIN.
+                </warning2>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <warning>THE MANUFACTURER LIMITS FOR A HOT START ARE REACHING A MAXIMUM OF 927C OR EXCEEDING 10 SECONDS BETWEEN 810C AND 927C.AT BECKER HELICOPTERS WE HAVE A COMPANY
+                	 LIMIT OF 840C MAXIMUM FOR A HOT START AND A MAXIMUM OF 10 SECONDS BETWEEN 810C AND 840C.  IF DURING THE START THE TOT LOOKS LIKE EXCEEDING 840C OR THE 10 SECONDS 
+                	 BETWEEN 810C AND 840C THEN IMMEDIATELY CONDUCT THE ABORT START PROCEDURE BELOW. IF IN ANY DOUBT, ABORT THE START AND THEN IF NECESSARY TRY AGAIN.
+                </warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>ANNOUNCE</item>
+                <action>Either the instructor or the trainee may announce:  ABORT START</action>
+                <action2>The pilot in control of the throttle will immediately conduct the following:</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>STARTER / THROTTLE</item>
+                <action>Continue to PRESS and hold the starter button</action>
+                <action2>Press the INDENT RELEASE button</action2>
+                <action3>Roll the throttle to OFF</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>STARTER</item>
+                <action>Continue to press until the TOT is below 300°C (right hand)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>FUEL VALVE</item>
+                <action>OFF (left hand)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>Circuit breakers OUT - left hand (this may be done by the NFP to assist the FP)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>ENGINE IGNITER</item>
+                <action>Circuit breaker OUT - left hand (this may be done by the NFP to assist the FP)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>TOT</item>
+                <action>Monitor. When stable below 300°C release starter</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>N1</item>
+                <action>Monitor N1 until it is below 10% which will mean the engine driven fuel pump is no longer able to deliver fuel to the engine</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>BATTERY SWITCH</item>
+                <action>OFF when N1 is 0%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>SECOND START</item>
+                <action>Another start may be commenced at the discretion of the PIC when:</action>
+                <action2>•	The TOT is 150°C or less, and</action2>
+                <action3>•	The battery voltage is 24 volts or more, and</action3>
+                <action4>•	The pilot is sure there was no mechanical reason for the HOT START and it is likely to be successful on the second attempt, and</action4>
+                <action5>•	The full start checklist is commenced from the beginning, and</action5>
+                <action6>•	A minimum of 15% N1 is able to be achieved before the throttle is set to IDLE on the second start</action6>
+                <action7>If in any doubt, contact the Chief Pilot / HOS or Engineering for additional advice</action7>
+                <action8>If it was a genuine hot start (not a simulated practice) then enter the event into Air Maestro and the Maintenance Release</action8>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+</stage>
+
+
+<stage>
+        <stagetitle>ENGINE STARTING</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-42</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <warning></warning>
+                <caution>A START SHOULD NOT BE ATTEMPTED AT N1 SPEEDS BELOW 12%.
+DELAYS IN EXCESS OF APPROXIMATELY 3 SECONDS BETWEEN ROLLING THE THROTTLE TO IDLE AND ACTUAL IGNITION MAY CAUSE A HIGH TOT ON START.
+IF NO IGNITION OCCURS WITHIN 20 SECONDS CARRY OUT THE ABORT START PROCEDURE.
+IF N1 DOES NOT ACHIEVE 15% CARRY OUT THE ABORT START PROCEDURE.
+</caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <warning>IF IGNITION DID NOT OCCUR DUE TO THE IGNITOR CIRCUIT BREAKER NOT BEING SET IN THEN DO NOT ATTMEPT ANOTHER START UNLESS:</warning>
+                <warning2>•	A VENTING RUN HAS BEEN DONE WITH THE CIRCUIT BREAKER OUT TO PURGE ANY FUEL IN THE COMBUSTION CHAMBER PRIOR TO THEN CONDUCTING A NORMAL START OR</warning2>
+                <warning3>•	THE SECOND START IS NOT ATTEMPTED FOR AT LEAST 20 MINUTES TO ALLOW THE FUEL IN THE COMBUSTION CHAMBER TO DRAIN AWAY BEFORE A NORMAL START OR</warning3>
+                <warning4>•	THE CIRCUIT BREAKER REMAINS OUT, ANOTHER START IS EFFECTED AND ON REACHING 15% N1 THE IGNITOR CIRCUIT BREAKER IS THEN SET IN BEFORE ROLLING THE THROTTLE TO IDLE. THIS IS NOT A NORMAL START AND SHALL ONLY BE CONDUCTED BY EXPERIENCED INSTRUCTORS</warning4>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action></action>
+                <action2></action2>
+                <warning></warning>
+                <caution></caution>
+                <notes>THE FOLLOWING IS A MANUFACTURERS GUIDE FOR THE DESIRED N1 STARTING SPEED VERSUS THE OUTSIDE AIR TEMPERATURE:</notes>
+                <notes2>15% N1 RPM	WHENEVER THE OAT IS 	ABOVE 7C</notes2>
+                <notes3>13% N1 RPM 	WHENEVER THE OAT IS 	BETWEEN -18 TO +7C</notes3>
+                <notes4>12% N1 RPM 	WHENEVER THE OAT IS 	BELOW -18C</notes4>
+                <infnotes></infnotes>
+            </step>
+          
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AREA</item>
+                <action>Clear</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>BLADES</item>
+                <action>Untied and visible in approximately the 10 and 4 o’clock position</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>THROTTLE</item>
+                <action>Confirmed OFF</action>
+                <action2>If necessary run through again a full OFF | IDLE | FULL | IDLE | OFF</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>VOLTS</item>
+                <action>Check a<![CDATA[<font color='#000099'> minimum of 24 volts before start</font>]]> with no less than 19 after pressing of the starter button></action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>CLOCK</item>
+                <action>Start timer for start</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>STARTER</item>
+                <action>PRESS and HOLD</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>N1</item>
+                <action>Monitor the N1.  It should be rising</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>COMPRESSOR</item>
+                <action>Note the rate at which the compressor spools up</action>
+                <action2>If it sounds slow and is slow, then this is an indication of a flat battery and the start should be aborted prior to light off – use Battery Cart</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>THROTTLE</item>
+                <action>With TOT less than <![CDATA[<font color='#cc0000'>150°C</font>]]> and N1 passing <![CDATA[<font color='#cc0000'>15%</font>]]> set throttle to IDLE</action>
+                <action>Do not attempt a start with N1 speeds less than 12%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>TOT</item>
+                <action>Monitor:  The manufacturers limit is 810-927 for 10 seconds with a maximum of 927 for one second</action>
+                <action2>Typically there will be two (2) peaks during the start. Each helicopter and every start may vary so it is important for the pilot to monitor closely</action2>
+                <action3>If TOT reaches <![CDATA[<font color='#cc0000'>810</font>]]> and is still rising prepare for an ABORT START procedure, ensuring your hands are in the correct position</action3>
+                <action4>If the TOT needle continues to climb past 840, or it stays between 810 and 840 for 10 seconds then conduct the ABORT START Procedure (Company requirement)</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+                <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>ENGINE OIL PRESSURE</item>
+                <action>Increasing</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>MAIN ROTOR BLADES</item>
+                <action>Turning by 25% N1</action>
+                <action2>If not then conduct the ABORT START procedure</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>N1</item>
+                <action>At 58% N1 release the starter</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>TRANSMISSION OIL PRESSURE</item>
+                <action>Increasing</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>WARNING PANEL</item>
+                <action>Engine OUT light OFF</action>
+                <action2>Transmission oil pressure light OUT</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>IDLE</item>
+                <action>If the engine has been shut down for more than 15 minutes, hold the 63-65% N1 IDLE for 1 minute to stabilize the Starter Generator temperature</action>
+                <action2>If the first start of the day or during cold OAT operations, stabilize the engine at IDLE of 63-65% until the engine oil Temperature registers above 0°C</action2>
+                <warning></warning>
+                <caution>AVOID IDLE RPM BETWEEN 50% AND 60% NR (ROTOR RPM) DUE TO RESONANCE IN THE TAIL ROTOR DRIVESHAFT. USE THROTTLE TO ACCELERATE THROUGH THIS RANGE WITHOUT DELAY</caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>EXTERNAL POWER</item>
+                <action>If external power is connected:</action>
+                <action2>•	Battery Switch ON (BAT)</action2>
+                <action3>•	Disconnect external power and secure the cover</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>THROTTLE</item>
+                <action>Set 70% N1</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>GENERATOR</item>
+                <action>ON</action>
+                <action2>Check load meter is reading above 0</action2>
+                <action3>Check volt meter is 27 volts or more</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+</stage>
+
+<stage>
+        <stagetitle>AFTER ENGINE START</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-43</formnum>
+          <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>AVIONICS</item>
+                <action>ASPENS ON</action>
+                <action2>RAD ALT ON</action2>
+                <action3>GARMIN ON</action3>
+                <action4>RADIOS ON</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>LIGHTING </item>
+                <action>ON as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+</stage>
+
+
+<stage>
+        <stagetitle>ENGINE RUN UP CHECK</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-44</formnum>
+          <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>CONTROL LOCKS FOR CYCLIC AND COLLECTIVE</item>
+                <action>Released and stowed (if installed)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>HYD SYS</item>
+                <action>OFF then ON</action>
+                <action2>Check no hard over of the cyclic</action2>
+                <warning>SECURE THE CYCLIC AND THE COLLECTIVE BEFORE TURNING THE HYDRAULIC SYSTEM OFF</warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>THROTTLE</item>
+                <action>Set to FULL</action>
+                <warning></warning>
+                <caution>ENGINE ACCELERATION FROM IDLE TO FULL DURING GROUND OPERATIONS REQUIRES CLOSE MONITORING. A MAXIMUM THROTTLE APPLICATION RATE COMMENSURATE WITH
+                	 A MAXIMUM OF 40% TORQUE IS EQUIVALENT TO APPROXIMATELY 10 SECONDS FROM IDLE TO FULL. THIS SHOULD PREVENT INADVERTANT AIRCRAFT MOVEMENT ON SLIPPERY
+                	  SURFACES OR THE EXCEEDENCE OF ANY AIRCRAFT LIMIT</caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>N2 BEEP</item>
+                <action>Check the N2 beep governor range. 97% to 102%</action>
+                <action2>Set 100% Nr</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ANTI-ICE</item>
+                <action>Select ON and monitor TOT for a rise then OFF checking for a decrease in TOT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>PITOT HEAT</item>
+                <action>Select ON and monitor load meter for a rise then OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>EMERG AIR</item>
+                <action>OPEN the alternate air source for the engine air filter</action>
+                <action2>Monitor TOT: There should be no change (if there is a change, consult maintenance)</action2>
+                <action3>CLOSE Alternate air source</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FRICTIONS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>CYCLIC</item>
+                <action>Move to check tip path plane and proper movement</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>HYD SYS</item>
+                <action>OFF</action>
+                <caution>WITH THE HYDRAULIC BOOST SWITCH IN THE OFF POSITION AND WHEN MANIPULTING THE CONTROLS, BOTH HANDS SHOULD BE ON THE CONTROLS TO PREVENT INADVERTANT MOVEMENT THROUGH INTERMIXING OF THE CONTROLS</caution>
+                <notes>UNCOMMANDED CONTROL MOVEMENT OR ‘MOTORING’ WITH THE HYDRAULIC SYSTEM OFF MAY INDICATE A HYDRAULIC SYSTEM MALFUNCTION</notes>
+                <infnotes></infnotes>
+            </step>
+                <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>CYCLIC</item>
+                <action>Check: Describe an X pattern with the cyclic moving approximately 1 to 2 inches or 30 to 60mm in either direction</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>COLLECTIVE</item>
+                <action>Check: Raise approximately 1 to 2 inches or 30 to 60mm up then lower</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>HYD CIRCUIT BREAKER</item>
+                <action>OUT: Hydraulic system should be restored, then</action>
+                <action2>IN: Hydraulic system should be OFF</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>HYD SYS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>FRICTIONS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>THROTTLE (PIC)</item>
+                <action>Chop to check low IDLE between 63 and 65% N1</action>
+                <action2>Limit from 100% Nr to 63-65% N1 greater than 3 seconds</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>THROTTLE (NFP)</item>
+                <action>Set to FULL then:</action>
+                <action2>Chop to check low IDLE between 63 and 65% N1</action2>
+                <action3>Limit from 100%Nr to 63-65% N1 greater than 3 seconds</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>18</number>
+                <item>HeliSAS AUTOPILOT</item>
+                <action>Functionality check</action>
+                <action2>1.	Master Gyro confirm ON and caged with no OFF FLAGS</action2>
+                <action3>2.	SAS Light ON (Steady WHITE)</action3>
+                <action4>3.	Frictions OFF</action4>
+                <action5>4.	Cyclic Force Trim button – PRESS and hold for 2 Seconds</action5>
+                <action6>5.	SAS Light ON (Steady GREEN)</action6>
+                <action7>6.	Move the cyclic in an X pattern to confirm the ability of the pilot to override the force trim and when released the cyclic returns to the original central position.
+                	  (Do not press the force trim button during this test)</action7>
+                <action8>7.	Displace the cyclic and hold the position.  Press the Cyclic Force Trim button for 1 second- NOTE the cyclic re-centres to new position</action8>
+                <action9>8.	PRESS the Cyclic AFCS Release button once and you will receive an aural warning AUTO PILOT DISCONNECT (if fitted) or three short “beeps” followed by the SAS light ON (Steady WHITE) and the force trim will be OFF</action9>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>RADIOS</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>NAVIGATION AIDS</item>
+                <action>SET and tested</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>21</number>
+                <item>RAD ALT</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>22</number>
+                <item>ATIS</item>
+                <action>Recieved</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+                <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>23</number>
+                <item>AAI</item>
+                <action>SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>24</number>
+                <item>ALTIMETERS</item>
+                <action>QNH SET and checked that each is elevation ±100ft (VFR) or ±60ft (IFR)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>25</number>
+                <item>ALS</item>
+                <action>Checked, OFF Flags away</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>26</number>
+                <item>COMPASS</item>
+                <action>HSI and magnetic compass aligned within 10 degrees</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>27</number>
+                <item>FRICTIONS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>28</number>
+                <item>THROTTLE</item>
+                <action>SET FULL</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+
+
+</stage>
+
+
+<stage>
+        <stagetitle>ENGINE SHUTDOWN CHECKS</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-45</formnum>
+          <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>COLLECTIVE</item>
+                <action>Fully down</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>THROTTLE</item>
+                <action>IDLE</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>CYCLIC</item>
+                <action>Centred</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>CONTROL LOCKS FOR CYCLIC AND COLLECTIVE</item>
+                <action>ON (if installed)</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>FRICTIONS</item>
+                <action>ON</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>CLOCK</item>
+                <action>SET for 2 minutes for the cool down and stabilization</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>7</number>
+                <item>LANDING LIGHT AND NIGHT SCANNER</item>
+                <action>OFF and stowed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>STROBE LIGHTS</item>
+                <action>Check OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>PITOT HEAT</item>
+                <action>Check OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>ANTI-ICE</item>
+                <action>Check OFF</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+                <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>TRANSPONDER</item>
+                <action>STANDBY</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>FUEL BOOST PUMPS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>AVIONICS</item>
+                <action>ASPENS  OFF</action>
+                <action2>RAD ALT OFF</action2>
+                <action3>RADIOS OFF (Wait until blades have stopped in case there is a need to communicate outside the aircraft)</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>THROTTLE</item>
+                <action>After 2 minutes set to OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>FUEL VALVE SWITCH</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>GENERATOR</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>TOT</item>
+                <action>Monitor to stabilize below 400°C</action>
+                <action2>If it does not decrease or starts to increase depress starter to motor and carry out the ABORT START procedure</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>18</number>
+                <item>N1</item>
+                <action>Monitor to ensure it continues to decrease to below 10%</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>19</number>
+                <item>MAIN ROTOR BLADES</item>
+                <action>Come to a complete stop</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>20</number>
+                <item>POSITION LIGHTS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>21</number>
+                <item>INSTRUMENT LIGHTS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>22</number>
+                <item>BATTERY</item>
+                <action>OFF</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+                <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>23</number>
+                <item>POST FLIGHT</item>
+                <action>Conduct the Post flight procedure</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+</stage>
+
+<stage>
+        <stagetitle>NORMAL FLIGHT CHECKS</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-46</formnum>
+          <step>
+            	<numcol>4</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>HATCHES</item>
+                <action>Secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>HARNESS</item>
+                <action>On and Secured</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>HOMEWORK</item>
+                <action>SAR noted, Fuel Time On Ground (FTOG) calculated, ATIS received</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>3</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>HELIPAD</item>
+                <action>Clear and taxi brief given</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>52</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ENGINE AND INSTRUMENTS</item>
+                <action>Caution and Warning lights are out</action>
+                <action2>Ts and Ps are normal</action2>
+                <action3>Throttle FULL, N2 100%</action3>
+                <action4>Assigned altitude indicators (AAI)  and RAD ALT SET</action4>
+                <action5>AIs erect and no OFF flags</action5>
+                <action6>Altimeters set and cross checked (±100ft for VFR.  ±60ft for IFR)</action6>
+                <action7>HSI and Compass aligned within 10 degrees</action7>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>53</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>FUEL</item>
+                <action>Amount of fuel stated. FTOG confirmed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>53</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>FRICTIONS AND LOCKS</item>
+                <action>OFF</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FORCE TRIM AND AUTO PILOT</item>
+                <action>SET as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+<step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>RADIOS AND RADIATION</item>
+                <action>Radios, navigation aids and transponder SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        
+        <step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item>RISKS</item>
+                <action>Threat Error Management. Threats and errors discussed among the crew and mitigating strategies in place while still on the ground. 
+                	This is to assist and speed up the TEM discussion between the crew when at the hover prior to departure and conducting the Pre Departure Brief</action>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+                <step>
+            	<numcol>1</numcol>
+                <icon>2</icon>
+                <number>10</number>
+                <item>LIGHTS</item>
+                <action>Landing lights and Night Scanner ON as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+           </stage>
+
+<stage>
+        <stagetitle>HOVER CHECKS  </stagetitle>
+        <stagenotes></stagenotes>
+        <formnum>form-47</formnum>
+          <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>CONTROLS</item>
+                <action>Feel normal</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>C OF G</item>
+                <action>FeelS normal</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>CAUTION AND WARNING LIGHTS</item>
+                <action>OUT</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>T's AND P's</item>
+                <action>Normal</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>THROTTLE FULL</item>
+                <action>N2 100%</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>POWER REQUIRED</item>
+                <action>Torque required to hover is _____% giving CAT 1, 2, 3 or 4</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+        <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>PEDAL POSITION</item>
+                <action>Noted</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+</stage>
+
+<stage>
+        <stagetitle>INSTRUMENT TAXI CHECKS  </stagetitle>
+        <stagenotes></stagenotes>
+        <formnum>form-48</formnum>
+          <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number></number>
+                <item></item>
+                <action>Optional for DAY VFR at the instructor’s discretion. </action>
+                <action2>Mandatory for IFR, NUA (NVFR) and NVG.</action2>
+                <action3>Commencing at the hover.</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+          <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TURNING LEFT</item>
+                <action>Compass and HSI numbers decreasing</action>
+                <action2>Ball free in the race</action2>
+                <action3>Turn indicated</action3>
+                <action4>AIDs tracking to the station</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>TURNING RIGHT</item>
+                <action>Compass and HSI numbers increasing</action>
+                <action2>Ball free in the race</action2>
+                <action3>Turn indicated</action3>
+                <action4>AIDs tracking to the station</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>VERTICAL CLIMB</item>
+                <action>RAD ALT increasing</action>
+                <action2>IVSIs showing a ROC</action2>
+                <action3>Altimeters increasing</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>AI / AH</item>
+                <action>Pitch UP, DOWN, Roll LEFT and RIGHT indicated</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>VERTICAL DESCENT</item>
+                <action>RAD ALT decreasing</action>
+                <action2>IVSIs showing a ROD</action2>
+                <action3>Altimeters decreasing</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>ASI</item>
+                <action>Airspeed alive CONTINUE once transitioning forward</action>
+                <action2>If it does not come alive then abort the take-off and return to engineering</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+      
+
+</stage>
+
+
+<stage>
+        <stagetitle>PRE DEPARTURE BRIEF</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-49</formnum>
+          
+          <step>
+            	<numcol>501</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>POWER</item>
+                <action>We have CAT 1, 2, 3, or 4 Power available</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>511</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>WIND</item>
+                <action>The wind is coming from xxx at xx knots that gives us an into wind departure</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>501</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>PLAN</item>
+                <action>My plan is to conduct a:</action>
+                <action2>•	Standard airfield departure</action2>
+                <action3>•	Constant angle departure</action3>
+                <action4>•	Obstacle avoidance departure</action4>
+                <action5>And climb straight ahead to XXX feet before conducting a left/right hand turn and setting heading for XXX on climb to XXX</action5>
+                <action6>(Pilot will need to state what they are doing here)</action6>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>10</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>THREATS</item>
+                <action>Brief any wires in the area</action>
+                <action2>Brief any obstacles in the area</action2>
+                <action3>Brief any identified threats relevant to the flight</action3>
+                <action4>Nominate the last safe point of hover in the event of aborting the take-off</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>5</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>ERRORS</item>
+                <action>Brief any errors by the crew, air traffic, operations, internal, or external relevant to the flight</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>11</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>MANAGEMENT</item>
+                <action>Questions:  Ask the crew for their input and cover of any additional TEM points</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+      
+
+</stage>
+
+
+<stage>
+        <stagetitle>DEPARTURE AND ENROUTE CHECK</stagetitle>
+        <stagenotes>
+        </stagenotes><formnum>form-50</formnum>
+          
+          <step>
+            	<numcol>14</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>COMPASS</item>
+                <action>Magnetic compass and HSI are aligned and heading is set to intercept track</action>
+                <action2>Heading bug is set to planned heading</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>15</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>LOG</item>
+                <action>Departure time is logged and the ETA for the next point is calculated</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>5</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ENGINE AND INSTRUMENTS</item>
+                <action>Engine and instruments are Normal</action>
+                <action2>Climb or Cruise power SET</action2>
+                <action3>Pitot heat and engine anti ice as required</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>13</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ALTIMETRY</item>
+                <action>QNH set</action>
+                <action2>Assigned altitude set</action2>
+                <action3>VNE calculated</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>RADIOS</item>
+                <action>Departure call</action>
+                <action2>Next frequencies set</action2>
+                <action3>Navigation aids set</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>16</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>ORIENTATION</item>
+                <action>Gross error check</action>
+                <action2>Wind, elevation, geography noted</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+      
+<step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>FUEL</item>
+                <action>Quantity noted (correct for next leg)</action>
+                <action2>Time on the ground confirmed</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FRICTIONS</item>
+                <action>SET as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>FORCED LANDINGS</item>
+                <action>Discussed and briefed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+      
+</stage>
+
+
 
 </phase>
 
