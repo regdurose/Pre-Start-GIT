@@ -1706,7 +1706,6 @@
     
     <stage>
         <stagetitle>SHUTDOWN CHECKS</stagetitle>
-        <stagetitle></stagetitle>
         <stagenotes></stagenotes><formnum>form-13</formnum>
             <step>
             	<numcol>2</numcol>
@@ -6385,10 +6384,982 @@ IF N1 DOES NOT ACHIEVE 15% CARRY OUT THE ABORT START PROCEDURE.
 
 </phase>
 
- </checklist>
+
+
+
+
+ 
+
+	<phase>
+    <phasetitle>BELL 206BIII INSTRUMENT CHECKLIST</phasetitle>
+    <phasenotes></phasenotes>
+        <stage>
+        <stagetitle>INSTRUMENT PRE-DEPARTURE CHECKS</stagetitle>
+        <stagenotes></stagenotes><formnum>form-51</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>INSTRUMENT FUNCTIONAL CHECKS</item>
+                <action>•	Completed</action>
+                <action2>•	No OFF flags</action2>
+                <action3>•	AIs erect</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>ALTIMETERS</item>
+                <action>•	QNH SET left and right</action>
+                <action2>•	Cross checked and within limits</action2>
+                <action3>•	Single Altimeter installation must be +60 feet of the aerodrome elevation for departure</action3>
+                <action3>•	Dual Altimeter installations each shall be +60 feet of the aerodrome elevation for departure except one may be +75 feet on first leg only.  This +75 difference is not permitted on the second leg and if present the flight may not go ahead.</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ASSIGNED ALTITUDE INDICATOR (AAI)</item>
+                <action>•	SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>RAD ALT</item>
+                <action>•	SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>GPS WAYPOINT</item>
+                <action>•	SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>CDI</item>
+                <action>•	SET to outbound leg</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>VLOC OR GPS</item>
+                <action>•	SET as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>GPS FLIGHT PLAN</item>
+                <action>•	Activated if required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>HEADING BUG</item>
+                <action>•	Set to take-off direction</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>10</number>
+                <item>VOR AND NDB</item>
+                <action>•	Tuned, identified and tested</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>11</number>
+                <item>PILOT HEAT AND ANTI ICE</item>
+                <action>•	As required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>12</number>
+                <item>AIRWAYS CLEARANCE</item>
+                <action>•	Received and reviewed</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>13</number>
+                <item>TRANSPONDER</item>
+                <action>•	SET</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>14</number>
+                <item>RADIO</item>
+                <action>•	Departure frequencies SET</action>
+                <action2>•	Correct radio selected</action2>
+                <action3>•	ATIS/AWIS noted</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>15</number>
+                <item>IVFR DEPARTURE BRIEF</item>
+                <action>•	Power, Wind, Plan, Threat error management</action>
+                <action2>•	Minimum visibility and ceiling</action2>
+                <action3>•	Turn Direction/Altitude</action3>
+                <action4>•	Departure Type</action4>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>16</number>
+                <item>EMERGENCY ON DEPARTURE</item>
+                <action>•	In the event of an emergency VMC, remain VMC and return to land</action>
+                <action2>•	In the event of an emergency IMC, continue to climb and conduct _________ approach</action2>
+                <action3>•	If there is an engine failure on take-off enter autorotation maintaining heading, or on departure enter autorotation and turn into wind.  Conduct normal autorotative landing once visual</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>17</number>
+                <item>AUTO PILOT</item>
+                <action>•	SAS set as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>18</number>
+                <item>RADIO</item>
+                <action>•	Make READY call</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+</stage>
+
+
+<stage>
+                <stagetitle>DEPARTURE AND ENROUTE CHECK  </stagetitle>
+                <stagenotes></stagenotes><formnum>form-52</formnum>
+            <step>
+            	<numcol>14</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>COMPASS</item>
+                <action>•	Magnetic compass and HSI are aligned and heading is set to intercept track.</action>
+                <action2>•	Heading bug is set to planned track.</action2>
+                <action3>•	Auto pilot activated (NAV, HDG, ALT).</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>15</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>LOG</item>
+                <action>•	Departure time is logged and the ETA for the next point is calculated.</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>5</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ENGINE AND INSTRUMENTS</item>
+                <action>•	Engine and instruments are within limits.</action>
+                <action2>•	Climb or Cruise power SET as required.</action2>
+                <action3>•	Pitot heat and engine anti ice as required.</action3>
+                <action4></action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>13</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>ALTIMETRY</item>
+                <action>•	QNH set.</action>
+                <action2>•	Assigned altitude set.</action2>
+                <action3>•	VNE calculated</action3>
+                <action4>•	Auto pilot ALT activated on reaching cruise altitude.</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>7</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>RADIOS</item>
+                <action>•	Departure call.</action>
+                <action2>•	Next frequencies set.</action2>
+                <action3>•	Navigation aids set.</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>16</numcol>
+                <icon>1</icon>
+                <number>6</number>
+                <item>ORIENTATION</item>
+                <action>•	Gross error check.</action>
+                <action2>•	Wind, elevation, geography noted.</action2>
+                <action3>•	LSALT confirmed</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>7</number>
+                <item>FUEL</item>
+                <action>•	Quantity noted (correct for next leg).</action>
+                <action2>•	Time on the ground confirmed.</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>8</number>
+                <item>FRICTIONS</item>
+                <action>•	SET as required</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>6</numcol>
+                <icon>1</icon>
+                <number>9</number>
+                <item>FORCE LANDINGS</item>
+                <action>•	Discussed and briefed.</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+          </stage>
+        
+
+<stage>
+                <stagetitle>INSTRUMENT CHECKLIST INBOUND - BEFORE 30NM INBOUND TO IAF</stagetitle>
+                <stagenotes></stagenotes><formnum>form-53</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>TOP OF DESCENT (TOD) POINT</item>
+                <action>•	Calculate top of descent point (TOD).</action>
+                <action2>•	Calculate distance required to descend from the current altitude to the initial approach altitude at 500 fpm</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>GPS</item>
+                <action>•	Load GPS approach procedure and check RAIM</action>
+                <action2>•	Check the following captions on the GPS</action2>
+                <action3>•	ENR: Enroute greater than 30NM</action3>
+                <action4>•	TERM: Terminal less than 30NM greater than 5NM</action4>
+                <action5><![CDATA[<font color='#41BA04'>LNAV</font>]]>  2 miles from the FAF the CDI begins to transition to 0.3 mile full-scale deflection. 
+                 If the system fails to transition to approach mode by the FAF a missed approach must be flown</action5>
+                <action6>•	Tune | Identify | Test the VOR and ADF if required</action6>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>APPROACH - CHART REVIEW</item>
+                <action>•	Title and date</action>
+                <action2>•	Frequencies briefed and set (Radio &amp; NAV aids)</action2>
+                <action3>•	Sector entry confirmed and briefed</action3>
+                <action4>•	Holding parameters confirmed and briefed</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>APPROACH - PLAN VIEW</item>
+                <action>•	Outbound track confirmed</action>
+                <action2>•	Inbound direction of turn confirmed</action2>
+                <action3>•	Inbound track confirmed</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>APPROACH - PROFILE VIEW</item>
+                <action>•	Initial approach altitude confirmed</action>
+                <action2>•	Inbound turn (time or distance) briefed</action2>
+                <action3>•	Descent profile / FAF checked</action3>
+                <action4>•	Altimetry checks briefed</action4>
+                <action5>•	Minima confirmed (Altitude and visibility) MIN ALT and RAD ALT set</action5>
+                <action6>•	MAPt / DA confirmed and briefed</action6>
+                <action7>•	Aerodrome elevation noted</action7>
+                <action8>•	Final approach track and runway orientation and directions briefed</action8>
+                <action9>•	No circling area noted</action9>
+                <action10>•	Missed approach procedure and next plan briefed</action10>
+                <action11>•	Crew actions at the MAPt / DA briefed</action11>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+          </stage>
+        
+        
+        <stage>
+                <stagetitle>INSTRUMENT CHECKLIST INBOUND - BY 25NM INBOUND TO IAF</stagetitle>
+                <stagenotes></stagenotes><formnum>form-54</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>25NM</item>
+                <action>•	Obtain ATIS / AWIS and SET the QNH</action>
+                <action2>•	Note the time</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>RADIOS</item>
+                <action>•	Comm 1: Set to CTAF and Area or Tower and Ground as applicable</action>
+                <action2>•	Comm 2: Set to Area (maintaining a listening watch) and PAL</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ATC</item>
+                <action>•	Contact ATC and notify TOD point and request diversion to intercept GPS approach or notify intention for aerial work and nominate a SAR time every 30 minutes.  Note the nominated times</action>
+                <action2>•	Request any IFR traffic for descent</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>GPS</item>
+                <action>•	Activate the GPS approach procedure (to HOLD prior to the waypoint press OBS to deactivate or activate the next waypoint), 
+or
+</action>
+                <action2>•	Track to the NAV AID, 
+or
+</action2>
+                <action3>•	Make a GNSS arrival</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>5</number>
+                <item>LIGHTNING</item>
+                <action>•	Landing light, navigation lights and strobes SET as required</action>
+                <action2>•	Commence Descent</action2>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+          </stage>
+        
+          <stage>
+                <stagetitle>INSTRUMENT CHECKLIST INBOUND - 15NM INBOUND TO IAF</stagetitle>
+                <stagenotes></stagenotes><formnum>form-55</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>25NM</item>
+                <action>•	Make CTAF call:  Position | Height | Intentions using VFR language</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+
+            </stage>
+
+            <stage>
+                <stagetitle>INSTRUMENT APPROACH CHECKLIST - 10NM INBOUND TO IAF</stagetitle>
+                <stagenotes></stagenotes><formnum>form-56</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>10NM</item>
+                <action>•	10NM before the IAF conduct the pre-instrument approach checklist</action>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>PRE-INSTRUMENT APPROACH CHECKLIST</item>
+                <action>•	ATIS / AWIS – Confirmed and applied</action>
+                <action2>•	QNH SET.  Altimeters cross checked</action2>
+                <action3>•	Assigned Alt Indicator (AAI), MIN ALT and RAD ALT SET</action3>
+                <action4>•	Compass and HSI cross checked (±10˚)</action4>
+                <action5>•	Heading bug and CDI SET</action5>
+                <action6>•	Approach SELECTED and BRIEFED</action6>
+                <action7>•	Wind applied to the approach</action7>
+                <action8>•	APPROACH AIDS</action8>
+                <action9>   •	GPS approach activated and RAIM checked</action9>
+                <action10>	•	GPS TERM displayed if being used</action10>
+                <action11>	•	VOR/NDB TUNED | IDENTIFIED | TESTED</action11>
+                <action12>	•	VLOC or GPS selected</action12>
+                <action13>•	Orientation to the runway noted and confirmed</action13>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>ILS APPROACH CHECK LIST</item>
+                <action>•	ILS TUNED | IDENTIFIED | TESTED</action>
+                <action2>•	MARKER BEACON – HIGH SENS / MONITOR ON</action2>
+                <action3>•	GPS REFERENCE WAYPOINT SET</action3>
+                <action4>•	CDI VLOC / LOC COURSE SET</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+          </stage>
+        
+<stage>
+                <stagetitle>INSTRUMENT APPROACH CHECKLIST - 5NM INBOUND TO IAF</stagetitle>
+                <stagenotes></stagenotes><formnum>form-56</formnum>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>1</number>
+                <item>5NM</item>
+                <action>•	5NM from the IAF</action>
+                <action2>•	Set the approach configuration (100kts ground speed Bell 206)</action2>
+                <action3>•	CAT A: 70 - 100kts (initial 90 – 150kts)</action3>
+                <action4>•	CAT B: 85 – 130kts (initial 120 – 180kts)</action4>
+                <action5>•	CAT H: 60 – 90kts (initial 70 – 120kts)</action5>
+                <action6>•	Activate the PAL | AFRU</action6>
+                <action7>•	Complete the PRE-LANDING CHECKs</action7>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>2</number>
+                <item>FAF</item>
+                <action>•	GPS LNAV (or APP if older model Garmin430 displayed by 2NM  if conducting GPS approach </action>
+                <action2>•	VOR within half scale deflection</action2>
+                <action3>•	NDB within 5 degrees</action3>
+                <action4>•	Make CTAF call “On Final” for runway XXX</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+               
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>3</number>
+                <item>AT THE MAPT / DA</item>
+                <action>•	If visual, make circling approach and make CTAF call giving intentions or continue on a straight in approach</action>
+                <action2>•	If not visual conduct the missed approach procedure and make CTAF / ATC call with intentions to make another approach, hold, divert or depart</action2>
+                <action3>•	GPS approach press OBS to conduct missed approach</action3>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            <step>
+            	<numcol>60</numcol>
+                <icon>1</icon>
+                <number>4</number>
+                <item>LANDED</item>
+                <action>•	Make normal radio calls</action>
+                <action2>•	Contact ATC to cancel SAR</action2>
+                <action3>•	Landing lights, strobes SET as required</action3>
+                 <action4>•	Pitot heat and engine anti ice OFF</action4>
+                <warning></warning>
+                <caution></caution>
+                <notes></notes>
+                <infnotes></infnotes>
+            </step>
+            
+          </stage>
+          
+          
+          
+
+ </phase>
  
 
 
+
+
+<transphase>
+    <transphasetitle>QUICK REFERENCE</transphasetitle>
+    <transphasenotes></transphasenotes>
+        <transstage>
+        <transstagetitle>TRANSPONDER CODES</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>1200</transnumber>
+                <transitem>VFR in G and E</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>2000</transnumber>
+                <transitem>IFR in G</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>3000</transnumber>
+                <transitem>VFR in A,C &amp; D IFR in E</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>4000</transnumber>
+                <transitem>SAR >15NM offshore in G</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+                <transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>7500</transnumber>
+                <transitem>Hijack (75 taken alive)</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>7600</transnumber>
+                <transitem>Loss of radio (76 need a fix)</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>7700</transnumber>
+                <transitem>General emergency (77 off to heaven)</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            
+         </transstage>
+         
+         <transstage>
+        <transstagetitle>MORSE CODE</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>A</transletter>
+                <transcode>• ▬</transcode>
+                <transletter2>N</transletter2>
+                <transcode2>▬ •</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>B</transletter>
+                <transcode>▬ • • •</transcode>
+                <transletter2>O</transletter2>
+                <transcode2>▬ ▬ ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>C</transletter>
+                <transcode>▬ • ▬ •</transcode>
+                <transletter2>P</transletter2>
+                <transcode2>• ▬ ▬ •</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>D</transletter>
+                <transcode>▬ • •</transcode>
+                <transletter2>Q</transletter2>
+                <transcode2>▬ ▬ • ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>E</transletter>
+                <transcode>•</transcode>
+                <transletter2>R</transletter2>
+                <transcode2>• ▬ •</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>F</transletter>
+                <transcode>• • ▬ •</transcode>
+                <transletter2>S</transletter2>
+                <transcode2>• • •</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>G</transletter>
+                <transcode>▬ ▬ •</transcode>
+                <transletter2>T</transletter2>
+                <transcode2>▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>H</transletter>
+                <transcode>• • • •</transcode>
+                <transletter2>U</transletter2>
+                <transcode2>• • ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>I</transletter>
+                <transcode>• •</transcode>
+                <transletter2>V</transletter2>
+                <transcode2>• • • ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>J</transletter>
+                <transcode>• ▬ ▬ ▬</transcode>
+                <transletter2>W</transletter2>
+                <transcode2>• ▬ ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>K</transletter>
+                <transcode>▬ • ▬</transcode>
+                <transletter2>X</transletter2>
+                <transcode2>▬ • • ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>L</transletter>
+                <transcode>• ▬ • •</transcode>
+                <transletter2>Y</transletter2>
+                <transcode2>▬ • ▬ ▬</transcode2>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>26</transicon>
+                <transletter>M</transletter>
+                <transcode>▬ ▬</transcode>
+                <transletter2>Z</transletter2>
+                <transcode2>▬ ▬ • •</transcode2>
+            </transstep>
+         </transstage>
+         
+         <transstage>
+        <transstagetitle>WIND TABLE TO EXTEND OUTBOUND LEG FOR HOLDING</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>10KTS PLUS</transnumber>
+                <transitem>30 seconds</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>20KTS PLUS</transnumber>
+                <transitem>1 minute</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>30KTS PLUS</transnumber>
+                <transitem>2.5 minutes</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber>40KTS PLUS</transnumber>
+                <transitem>4 minutes</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+                <transnumcol>1</transnumcol>
+                <transicon>25</transicon>
+                <transnumber></transnumber>
+                <transitem>Make base turns at 60° in these conditions.</transitem>
+                <transaction></transaction>
+                <transwarning></transwarning>
+                <transcaution></transcaution>
+                <transnotes></transnotes>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            </transstage>
+            
+            
+            <transstage>
+        <transstagetitle>BEFORETAKE-OFF CONSIDERATIONS (DAP 1-7)</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>27</transicon>
+                <transweather>Multi helicopters PC1 and PC2</transweather>
+                <transvisibility>800m or 500m with rwy edge lighting</transvisibility>
+                <transceiling>Clear of cloud until attaining Vyse or Vmin IMC whichever is greater</transceiling>
+              
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>27</transicon>
+                <transweather>Single helicopters</transweather>
+                <transvisibility>800m</transvisibility>
+                <transceiling>500ft</transceiling>
+               
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>27</transicon>
+                <transweather>Single engine FW</transweather>
+                <transvisibility>2 kilometres or better</transvisibility>
+                <transceiling>300ft or better</transceiling>
+               
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>27</transicon>
+                <transweather>Multi engine FW</transweather>
+                <transvisibility>As above or Landing Minima</transvisibility>
+                <transceiling></transceiling>
+             
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>27</transicon>
+                <transweather>Landing minima</transweather>
+                <transvisibility>As per DAP</transvisibility>
+                <transceiling></transceiling>
+               
+            </transstep>
+         </transstage>
+       
+</transphase>
+ </checklist>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  

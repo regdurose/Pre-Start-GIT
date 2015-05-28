@@ -1594,11 +1594,226 @@
                                  <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress" src="inf_50.png" /></td>
                           </tr>
                      	   
+                      </xsl:when>
+                   
+                   
+                    <xsl:when test="stagetitle = 'INSTRUMENT PRE-DEPARTURE CHECKS'">
+                      
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform51()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img srel="tooltip" title="Because instrument flying at Becker Helicopters is done as a multi crew sortie, the Non Flying Pilot (NFP)
+                                 	 will make the “challenge” by reading out the ITEM.  The crew will then together conduct actions as appropriate but the FP will give 
+                                 	 the “response” by stating what the ACTION was.  In most cases the NFP will be required to do the actions allowing the FP to fly but
+                                 	  the FP will have to give confirmation that the task has been completed." src="inf_50.png" /></td>
+                          </tr>
                      	   
-                     	
+                   </xsl:when>
+                   
+                   <xsl:when test="stagetitle = 'DEPARTURE AND ENROUTE CHECK  '">
+                      
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform52()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress." src="inf_50.png" /></td>
+                          </tr>
+                     	   
+                   </xsl:when>
+                   
+                   
+                   <xsl:when test="stagetitle = 'INSTRUMENT CHECKLIST INBOUND - BEFORE 30NM INBOUND TO IAF'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform53()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	 
+                     </xsl:when>
+                     
+                   
+                   <xsl:when test="stagetitle = 'INSTRUMENT CHECKLIST INBOUND - BY 25NM INBOUND TO IAF'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform54()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	 
+                     </xsl:when>
+                     
+                                <xsl:when test="stagetitle = 'INSTRUMENT CHECKLIST INBOUND - BY 15NM INBOUND TO IAF'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform55()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	 
                      </xsl:when>
                    
+                   <xsl:when test="stagetitle = 'INSTRUMENT APPROACH CHECKLIST - 10NM INBOUND TO IAF'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform56()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	 
+                     </xsl:when>
                    
+                   <xsl:when test="stagetitle = 'INSTRUMENT APPROACH CHECKLIST - 5NM INBOUND TO IAF'">
+                     	   
+                     	   
+                     	   <tr >
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" />
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <h3>No</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Item</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <img onclick="resetform56()" src="reset_50.png" />
+                             </td>
+                              
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Action</h3>
+                              </td>
+                              
+                              <td style="background-color: #ffc926">
+                                 <img src="rsz_trans2020.png" /></td>
+                          </tr>
+                     	   
+                     	 
+                     </xsl:when>
                    
                     <xsl:otherwise>
                            <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
@@ -1616,7 +1831,8 @@
                  </table>
                 
                 
-                
+
+          
                 
                 
                 
@@ -2072,9 +2288,391 @@
   </div>
   
   
+  <!-- part two -->      
+  <div data-role="main" class="ui-content">
+    
+    
+      <xsl:for-each select="checklist/transphase">
+      	<div data-role="collapsible">
+        <h2><xsl:value-of select="transphasetitle"/><img src = "logo png.png" class = "capimg"></img></h2>
+            <xsl:for-each select="transstage">
+            <div data-role="collapsible">
+                <h3 class="txt_centre"><xsl:value-of select="transstagetitle"/><img src = "logo png.png" class = "capimg"></img>
+                <img onclick="myFunction()" src="rsz_collapse.png" style="width: 5%; height: 5%; float: right;  text-align: center"></img></h3>
+                <form method="post" id="{formnum}">
+                	
+               
+<!--===============================================header transponder================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'TRANSPONDER CODES'">
+                
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:40%" />
+                              <col style="width:60%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>Transponder Code</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Use</h3>
+                              </td>
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data transponder====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'TRANSPONDER CODES'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:40%" />
+                              <col style="width:60%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                    
+                      <xsl:when test="transicon = 25">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transnumber"/></td>
+                      </xsl:when>
+                   
+                     
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      
+                      <xsl:when test="transicon = 25">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transitem"/></td>
+                      </xsl:when>
+          
+                      </xsl:choose>
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->                 
+                
+<!--===============================================header morse================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'MORSE CODE'">
+                
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:20%" />
+                              <col style="width:30%" />
+                              <col style="width:20%" />
+                              <col style="width:30%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>Letter</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Code</h3>
+                              </td>
+                              <td style="background-color: #ffc926">
+                                 <h3>Letter</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Code</h3>
+                              </td>
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data morse====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'MORSE CODE'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:20%" />
+                              <col style="width:30%" />
+                              <col style="width:20%" />
+                              <col style="width:30%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transletter"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#009900"><xsl:value-of select="transcode"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transletter2"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#009900"><xsl:value-of select="transcode2"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                    
+                  </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->   
+<!--===============================================header WIND TABLE================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'WIND TABLE TO EXTEND OUTBOUND LEG FOR HOLDING'">
+                
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:40%" />
+                              <col style="width:60%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>Head Wind</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Increase the outbound leg by</h3>
+                              </td>
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data transponder====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'WIND TABLE TO EXTEND OUTBOUND LEG FOR HOLDING'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:40%" />
+                              <col style="width:60%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                    
+                      <xsl:when test="transicon = 25">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transnumber"/></td>
+                      </xsl:when>
+                   
+                     
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      
+                      <xsl:when test="transicon = 25">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transitem"/></td>
+                      </xsl:when>
+          
+                      </xsl:choose>
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->                 
+     <!--===============================================header considerations================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'BEFORETAKE-OFF CONSIDERATIONS (DAP 1-7)'">
+                
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:45%" />
+                              <col style="width:28%" />
+                              <col style="width:27%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>Weather at Departure</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Visibility</h3>
+                              </td>
+                              <td style="background-color: #ffc926">
+                                 <h3>Ceiling</h3>
+                              </td>
+                                 
+                             
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data CONS====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'BEFORETAKE-OFF CONSIDERATIONS (DAP 1-7)'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:45%" />
+                              <col style="width:28%" />
+                              <col style="width:27%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                      <xsl:when test="transicon = 27">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transweather"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 27">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transvisibility"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      <xsl:choose>
+                      <xsl:when test="transicon = 27">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transceiling"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      
+                    
+                  </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->              
+                
+                </form>
+				</div>
+            </xsl:for-each>     
+        </div>
+       </xsl:for-each>
+
+  </div>
+  
+     
+          
+<!-- part two end-->  
+  
+  
+  
+  
+  
 
   <div data-role="footer">
-    <h1>Becker Helicopters Copyright 2015 V2.0</h1>
+    <h1>Becker Helicopters Copyright 2015 V3.0</h1>
   </div>
 </div> 
 
@@ -2105,3 +2703,4 @@
 </xsl:template>
 
 </xsl:stylesheet>
+
