@@ -65,6 +65,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--

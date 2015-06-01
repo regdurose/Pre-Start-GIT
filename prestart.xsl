@@ -2515,7 +2515,7 @@
                  </xsl:when>
                    
                     </xsl:choose>
-<!--=================================================data transponder====================================================--> 
+<!--=================================================data wind table====================================================--> 
            
                 <xsl:choose>
                   
@@ -2563,7 +2563,7 @@
                    
                     </xsl:choose>
 <!--===============================================data end==============================================================-->                 
-     <!--===============================================header considerations================================================================-->                 
+<!--===============================================header considerations================================================================-->                 
                 <xsl:choose>
                   
                    <xsl:when test="transstagetitle = 'BEFORETAKE-OFF CONSIDERATIONS (DAP 1-7)'">
@@ -2572,9 +2572,9 @@
                 <table style="width:100%" id="checklist" >
                 
                   <colgroup>
-                              <col style="width:45%" />
-                              <col style="width:28%" />
-                              <col style="width:27%" />
+                              <col style="width:40%" />
+                              <col style="width:30%" />
+                              <col style="width:30%" />
                 </colgroup>
 
                     
@@ -2611,9 +2611,9 @@
                 
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
-                              <col style="width:45%" />
-                              <col style="width:28%" />
-                              <col style="width:27%" />
+                              <col style="width:40%" />
+                              <col style="width:30%" />
+                              <col style="width:30%" />
                  </colgroup>
                   
                   <!--     Start of display steps   -->
@@ -2653,7 +2653,390 @@
                    
                     </xsl:choose>
 <!--===============================================data end==============================================================-->              
+<!--===============================================header ifr and nvfr================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'IFR AND NVFR MINIMUMS'">
                 
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:15%" />
+                              <col style="width:15%" />
+                              <col style="width:40%" />
+                              <col style="width:30%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>T/O</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Approach Speed</h3>
+                              </td>
+                              <td style="background-color: #ffc926">
+                                 <h3>Circling</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Alternate</h3>
+                              </td>
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data ifr and nvfr====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'IFR AND NVFR MINIMUMS'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:15%" />
+                              <col style="width:15%" />
+                              <col style="width:40%" />
+                              <col style="width:30%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                      <xsl:when test="transicon = 28">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transweather"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 28">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transapproach"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      <xsl:choose>
+                      <xsl:when test="transicon = 28">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transcircling"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 28">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transalternate"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                    
+                  </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->                   
+<!--=================================================data altimeter====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'ALTIMETER'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:50%" />
+                              <col style="width:50%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                    
+                      <xsl:when test="transicon = 29">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transitem"/></td>
+                      </xsl:when>
+                   
+                     
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      
+                      <xsl:when test="transicon = 29">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transitem2"/></td>
+                      </xsl:when>
+          
+                      </xsl:choose>
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->  
+<!--=================================================data altimeter cross check====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'ALTIMETER CROSS CHECK'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:100%" />
+                             
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                    
+                      <xsl:when test="transicon = 30">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transacc"/></td>
+                      </xsl:when>
+                   
+                     
+                      </xsl:choose>
+                     
+                     
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->  
+<!--===============================================header NAVAID================================================================-->                 
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'NAVAID TOLERANCES AND ERRORS'">
+                
+                
+                <table style="width:100%" id="checklist" >
+                
+                  <colgroup>
+                              <col style="width:15%" />
+                              <col style="width:25%" />
+                              <col style="width:20%" />
+                              <col style="width:40%" />
+                </colgroup>
+
+                    
+                     	 <tr >
+                            
+                              <td style="background-color: #ffc926">
+                                 <h3>Aid</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Range</h3>
+                              </td>
+                              <td style="background-color: #ffc926">
+                                 <h3>Tolerances</h3>
+                              </td>
+                                 
+                              <td style="background-color: #ffc926; ">
+                                 <h3>Position fix</h3>
+                              </td>
+                              
+                          </tr>
+                     	  
+                     
+                  
+                 </table>
+                 
+                 </xsl:when>
+                   
+                    </xsl:choose>
+<!--=================================================data NAVAID====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'NAVAID TOLERANCES AND ERRORS'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:15%" />
+                              <col style="width:25%" />
+                              <col style="width:20%" />
+                              <col style="width:40%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                      <xsl:when test="transicon = 31">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transaid" disable-output-escaping="yes"/>
+                        <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="cordova.plugins.email.open();" />
+                        
+                        <xsl:if test="transaid2 !=''">
+                        <p><xsl:value-of select="transaid2" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                      </td>
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 31">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transrange" disable-output-escaping="yes"/>
+                        
+                        <xsl:if test="transrange2 !=''">
+                        <p><xsl:value-of select="transrange2" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transrange3 !=''">
+                        <p><xsl:value-of select="transrange3" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transrange4 !=''">
+                        <p><xsl:value-of select="transrange4" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transrange5 !=''">
+                        <p><xsl:value-of select="transrange5" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                       
+                      </td>
+                      </xsl:when>
+                      </xsl:choose>
+                      
+                      
+                      <xsl:choose>
+                      <xsl:when test="transicon = 31">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transtol" disable-output-escaping="yes"/>
+                        
+                        <xsl:if test="transtol2 !=''">
+                        <p><xsl:value-of select="transtol2" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                      </td>  
+                      </xsl:when>
+                      </xsl:choose>
+                     
+                      <xsl:choose>
+                      <xsl:when test="transicon = 31">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transpos" disable-output-escaping="yes"/>
+                        
+                        <xsl:if test="transpos2 !=''">
+                        <p><xsl:value-of select="transpos2" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transpos3 !=''">
+                        <p><xsl:value-of select="transpos3" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transpos4 !=''">
+                        <p><xsl:value-of select="transpos4" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transpos5 !=''">
+                        <p><xsl:value-of select="transpos5" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        
+                        <xsl:if test="transpos6 !=''">
+                        <p><xsl:value-of select="transpos6" disable-output-escaping="yes"/></p>
+                        </xsl:if>
+                        </td>
+                      </xsl:when>
+                      </xsl:choose>
+                    
+                  </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->   
+<!--=================================================data p to p====================================================--> 
+           
+                <xsl:choose>
+                  
+                   <xsl:when test="transstagetitle = 'NAVIGATING BETWEEN RADIALS. POINT TO POINT'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:100%" />
+                             
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="transstep">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                    
+                      <xsl:when test="transicon = 32">
+                        <td style="background-color:#4682B4"><xsl:value-of select="transptp"/></td>
+                      </xsl:when>
+                   
+                     
+                      </xsl:choose>
+                     
+                     
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+<!--===============================================data end==============================================================-->  
+
+
+
                 </form>
 				</div>
             </xsl:for-each>     

@@ -7336,8 +7336,202 @@ or
             </transstep>
          </transstage>
        
+       
+ <transstage>
+        <transstagetitle>IFR AND NVFR MINIMUMS</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>28</transicon>
+                <transweather>Cat A</transweather>
+                <transapproach>70-100kts</transapproach>
+                <transcircling>Cat A 1.68NM and 300’ from obstacles</transcircling>
+                <transalternate>As per the DAP or LSALT + 500’ and 8km visibility</transalternate>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>28</transicon>
+                <transweather>Cat B</transweather>
+                <transapproach>85-130kts</transapproach>
+                <transcircling>Cat B 2.66NM and 300’ from obstacles</transcircling>
+                <transalternate></transalternate>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>28</transicon>
+                <transweather>Cat H</transweather>
+                <transapproach>60-90kts</transapproach>
+                <transcircling>Cat H Remain visual</transcircling>
+                <transalternate></transalternate>
+            </transstep>
+            
+         </transstage>      
+         
+         <transstage>
+        <transstagetitle>ALTIMETER</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>15 minute currency for QNH</transitem>
+                <transitem2>AIP ENR1.5-30</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>Using Area QNH</transitem>
+                <transitem2>Add 50ft to MDA</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>Using TAF QNH</transitem>
+                <transitem2>Use published MDA</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>Accurate QNH (ATC, ATIS, AWIS, AERIS)</transitem>
+                <transitem2>DAP shaded area MDA minus 100ft</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>Pressure error correction chart (PEC)</transitem>
+                <transitem2>Only applies to ILS</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>29</transicon>
+                <transitem>If A/C has a published PEC in the flight manual then apply that to the DA</transitem>
+                <transitem2>If the A/C does not have a published PEC then add 50ft to the DA (Bell 206 Jet Ranger)</transitem2>
+                <transinfnotes></transinfnotes>
+            </transstep>
+           
+            
+            </transstage>
+
+        <transstage>
+        <transstagetitle>ALTIMETER CROSS CHECK</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>30</transicon>
+                <transacc>Two (2) altimeters installed on IFR aircraft with current QNH set</transacc>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>30</transicon>
+                <transacc>If both altimeters show 60ft or less difference from the Aerodrome Elevation then OK for IFR flight</transacc>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>30</transicon>
+                <transacc>If one altimeter shows greater than 60ft difference but less than 75ft then OK for the first leg only for IFR flight. </transacc>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>30</transicon>
+                <transacc>If on the second leg both altimeters do not show 60ft or less difference from the Aerodrome Elevation then then IFR flight is not permitted</transacc>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>30</transicon>
+                <transacc>If either altimeter shows greater than 75ft difference from the Aerodrome Elevation the altimeter is unserviceable and IFR flight is not permitted</transacc>
+            </transstep>
+            </transstage>   
+            
+            <transstage>
+        <transstagetitle>NAVAID TOLERANCES AND ERRORS</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>31</transicon>
+                <transaid>NDB</transaid>
+                <transrange>As per ERSA</transrange>
+                <transtol>±6.9°</transtol>
+                <transpos>2 lines at angles not less than 45° with any combination of aids.</transpos>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>31</transicon>
+                <transaid>VOR</transaid>
+                <transrange>&#60; 5000 – 60NM</transrange>
+                <transrange2>&#60; 10000 – 90NM</transrange2>
+                <transrange3>&#60; 15000 – 120NM</transrange3>
+                <transtol>±5.2°</transtol>
+                <transpos>If 2 NDBs both must be within 30NM of each other</transpos>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>31</transicon>
+                <transaid>VOR</transaid>
+                <transaid2><![CDATA[<font color='#000000'>AVGAS</font>]]></transaid2>
+                
+                <transrange><![CDATA[<font color='#000000'>A</font>]]>irbourne</transrange>
+                <transrange2><![CDATA[<font color='#000000'>V</font>]]>ertical Polarisation</transrange2>
+                <transrange3><![CDATA[<font color='#000000'>G</font>]]>round Station</transrange3>
+                <transrange4><![CDATA[<font color='#000000'>A</font>]]>ggregate</transrange4>
+                <transrange5><![CDATA[<font color='#000000'>S</font>]]>calloping</transrange5>
+                <transtol>NDB</transtol>
+                <transtol1><![CDATA[<font color='#000000'>MINTHAT</font>]]></transtol1>
+                <transpos><![CDATA[<font color='#000000'>M</font>]]>ountain</transpos>
+                <transpos2><![CDATA[<font color='#000000'>I</font>]]>nterference</transpos2>
+                <transpos3><![CDATA[<font color='#000000'>N</font>]]>ight effect</transpos3>
+                <transpos4><![CDATA[<font color='#000000'>T</font>]]>hunderstorm</transpos4>
+                <transpos5><![CDATA[<font color='#000000'>A</font>]]>irborne</transpos5>
+                <transpos6><![CDATA[<font color='#000000'>T</font>]]>errain (coastal)</transpos6>
+            </transstep>
+          </transstage>                
+       
+       
+       <transstage>
+        <transstagetitle>NAVIGATING BETWEEN RADIALS. POINT TO POINT</transstagetitle>
+        <transstagenotes></transstagenotes><transformnum></transformnum>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>1 - Base it on radials you are actually on and want to go to not headings</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>2 - Mark radial and distance from station to commence turn</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>3 - Mark radial to intercept and its distance from station</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>4 - Rotate bezel so that marks line up vertically from your position to where you want to go</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>5 - Read off heading to steer at top of index and count distance between the two positions</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>6 - Convert the distance to a time based on GS</transptp>
+            </transstep>
+            <transstep>
+            	<transnumcol>1</transnumcol>
+                <transicon>32</transicon>
+                <transptp>7 - Make allowance for wind </transptp>
+            </transstep>
+            
+            </transstage>   
 </transphase>
- </checklist>
+</checklist>
  
  
  

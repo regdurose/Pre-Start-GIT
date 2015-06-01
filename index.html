@@ -10,7 +10,7 @@
         	
 		
 		<script type="text/javascript" charset="utf-8" src="cordova/cordova.js"></script>
-	
+	    
 	
 	
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -55,7 +55,7 @@ img {
 #checklist td
 {
 	vertical-align: top;
-	padding: 10px 15px 10px 10px;
+	padding: 7px 10px 5px 5px;
 	color: #ffffff;
 	border-top: 2px solid #000028;
 	background: #FFD700;
@@ -329,7 +329,18 @@ input[type='checkbox']:checked {
 </style>
 
 <!-------------------------------------------- sytle.css complete--------------------------------------------------------->
-
+<script>cordova.plugins.email.open({
+    to:          Array, // email addresses for TO field
+    cc:          Array, // email addresses for CC field
+    bcc:         Array, // email addresses for BCC field
+    attachments: Array, // file paths or base64 data streams
+    subject:    String, // subject of the email
+    body:       String, // email body (for HTML, set isHtml to true)
+    isHtml:    Boolean, // indicats if the body is HTML or plain text
+}, callback, scope);
+	
+	
+</script>
 <script>
 	 function changeImage(element) {
      element.src = element.bln ? "rsz_mands_30_50.png" : "rsz_black_mands.png";
@@ -876,6 +887,7 @@ div {
 </table>
  
 <!------ Insert code here ---------> 
+
 
 
 
@@ -13744,9 +13756,9 @@ or</p>
                   <form id="" method="post">
                      <table id="checklist" style="width:100%">
                         <colgroup>
-                           <col style="width:45%" />
-                           <col style="width:28%" />
-                           <col style="width:27%" />
+                           <col style="width:40%" />
+                           <col style="width:30%" />
+                           <col style="width:30%" />
                         </colgroup>
                         <tr>
                            <td style="background-color: #ffc926">
@@ -13762,9 +13774,9 @@ or</p>
                      </table>
                      <table summary="Checklist" id="checklist" style="width:100%">
                         <colgroup>
-                           <col style="width:45%" />
-                           <col style="width:28%" />
-                           <col style="width:27%" />
+                           <col style="width:40%" />
+                           <col style="width:30%" />
+                           <col style="width:30%" />
                         </colgroup>
                         <tbody>
                            <tr class="">
@@ -13784,13 +13796,327 @@ or</p>
                            </tr>
                            <tr class="">
                               <td style="background-color:#4682B4">Multi engine FW</td>
-                              <td style="background-color:#4682B4">As above or Landing Minima/tranvisilibity&gt;</td>
+                              <td style="background-color:#4682B4">As above or Landing Minima</td>
                               <td style="background-color:#4682B4" />
                            </tr>
                            <tr class="">
                               <td style="background-color:#4682B4">Landing minima</td>
                               <td style="background-color:#4682B4">As per DAP</td>
                               <td style="background-color:#4682B4" />
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h3 class="txt_centre">
+                     IFR AND NVFR MINIMUMS
+                     <img class="capimg" src="logo png.png" />
+                     <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="myFunction()" />
+                  </h3>
+                  <form id="" method="post">
+                     <table id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:15%" />
+                           <col style="width:15%" />
+                           <col style="width:40%" />
+                           <col style="width:30%" />
+                        </colgroup>
+                        <tr>
+                           <td style="background-color: #ffc926">
+                              <h3>T/O</h3>
+                           </td>
+                           <td style="background-color: #ffc926; ">
+                              <h3>Approach Speed</h3>
+                           </td>
+                           <td style="background-color: #ffc926">
+                              <h3>Circling</h3>
+                           </td>
+                           <td style="background-color: #ffc926; ">
+                              <h3>Alternate</h3>
+                           </td>
+                        </tr>
+                     </table>
+                     <table summary="Checklist" id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:15%" />
+                           <col style="width:15%" />
+                           <col style="width:40%" />
+                           <col style="width:30%" />
+                        </colgroup>
+                        <tbody>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Cat A</td>
+                              <td style="background-color:#4682B4">70-100kts</td>
+                              <td style="background-color:#4682B4">Cat A 1.68NM and 300’ from obstacles</td>
+                              <td style="background-color:#4682B4">As per the DAP or LSALT + 500’ and 8km visibility</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Cat B</td>
+                              <td style="background-color:#4682B4">85-130kts</td>
+                              <td style="background-color:#4682B4">Cat B 2.66NM and 300’ from obstacles</td>
+                              <td style="background-color:#4682B4" />
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Cat H</td>
+                              <td style="background-color:#4682B4">60-90kts</td>
+                              <td style="background-color:#4682B4">Cat H Remain visual</td>
+                              <td style="background-color:#4682B4" />
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h3 class="txt_centre">
+                     ALTIMETER
+                     <img class="capimg" src="logo png.png" />
+                     <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="myFunction()" />
+                  </h3>
+                  <form id="" method="post">
+                     <table summary="Checklist" id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:50%" />
+                           <col style="width:50%" />
+                        </colgroup>
+                        <tbody>
+                           <tr class="">
+                              <td style="background-color:#4682B4">15 minute currency for QNH</td>
+                              <td style="background-color:#4682B4">AIP ENR1.5-30</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Using Area QNH</td>
+                              <td style="background-color:#4682B4">Add 50ft to MDA</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Using TAF QNH</td>
+                              <td style="background-color:#4682B4">Use published MDA</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Accurate QNH (ATC, ATIS, AWIS, AERIS)</td>
+                              <td style="background-color:#4682B4">DAP shaded area MDA minus 100ft</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Pressure error correction chart (PEC)</td>
+                              <td style="background-color:#4682B4">Only applies to ILS</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">If A/C has a published PEC in the flight manual then apply that to the DA</td>
+                              <td style="background-color:#4682B4">If the A/C does not have a published PEC then add 50ft to the DA (Bell 206 Jet Ranger)</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h3 class="txt_centre">
+                     ALTIMETER CROSS CHECK
+                     <img class="capimg" src="logo png.png" />
+                     <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="myFunction()" />
+                  </h3>
+                  <form id="" method="post">
+                     <table summary="Checklist" id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:100%" />
+                        </colgroup>
+                        <tbody>
+                           <tr class="">
+                              <td style="background-color:#4682B4">Two (2) altimeters installed on IFR aircraft with current QNH set</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">If both altimeters show 60ft or less difference from the Aerodrome Elevation then OK for IFR flight</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">If one altimeter shows greater than 60ft difference but less than 75ft then OK for the first leg only for IFR flight.</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">If on the second leg both altimeters do not show 60ft or less difference from the Aerodrome Elevation then then IFR flight is not permitted</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">If either altimeter shows greater than 75ft difference from the Aerodrome Elevation the altimeter is unserviceable and IFR flight is not permitted</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h3 class="txt_centre">
+                     NAVAID TOLERANCES AND ERRORS
+                     <img class="capimg" src="logo png.png" />
+                     <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="myFunction()" />
+                  </h3>
+                  <form id="" method="post">
+                     <table id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:15%" />
+                           <col style="width:25%" />
+                           <col style="width:20%" />
+                           <col style="width:40%" />
+                        </colgroup>
+                        <tr>
+                           <td style="background-color: #ffc926">
+                              <h3>Aid</h3>
+                           </td>
+                           <td style="background-color: #ffc926; ">
+                              <h3>Range</h3>
+                           </td>
+                           <td style="background-color: #ffc926">
+                              <h3>Tolerances</h3>
+                           </td>
+                           <td style="background-color: #ffc926; ">
+                              <h3>Position fix</h3>
+                           </td>
+                        </tr>
+                     </table>
+                     <table summary="Checklist" id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:15%" />
+                           <col style="width:25%" />
+                           <col style="width:20%" />
+                           <col style="width:40%" />
+                        </colgroup>
+                        <tbody>
+                           <tr class="">
+                              <td style="background-color:#4682B4">
+                                 NDB
+                                 
+                                 <img onclick="cordova.plugins.email.open();" src="rsz_collapse.png"  />
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 As per ERSA
+                                 
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 ±6.9°
+                                 
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 2 lines at angles not less than 45° with any combination of aids.
+                                 
+                              </td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">
+                                 VOR
+                                 
+                                 
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 < 5000 – 60NM
+                                 
+                                 <p>
+                                    < 10000 – 90NM
+                                    
+                                 </p>
+                                 <p>
+                                    < 15000 – 120NM
+                                    
+                                 </p>
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 ±5.2°
+                                 
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 If 2 NDBs both must be within 30NM of each other
+                                 
+                              </td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">
+                                 VOR
+                                 
+                                 
+                                 <p>
+                                    <font color='#000000'>AVGAS</font>
+                                    
+                                 </p>
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 <font color='#000000'>A</font>irbourne
+                                 
+                                 <p>
+                                    <font color='#000000'>V</font>ertical Polarisation
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>G</font>round Station
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>A</font>ggregate
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>S</font>calloping
+                                    
+                                 </p>
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 NDB
+                                 
+                              </td>
+                              <td style="background-color:#4682B4">
+                                 <font color='#000000'>M</font>ountain
+                                 
+                                 <p>
+                                    <font color='#000000'>I</font>nterference
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>N</font>ight effect
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>T</font>hunderstorm
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>A</font>irborne
+                                    
+                                 </p>
+                                 <p>
+                                    <font color='#000000'>T</font>errain (coastal)
+                                    
+                                 </p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </form>
+               </div>
+               <div data-role="collapsible">
+                  <h3 class="txt_centre">
+                     NAVIGATING BETWEEN RADIALS. POINT TO POINT
+                     <img class="capimg" src="logo png.png" />
+                     <img style="width: 5%; height: 5%; float: right;  text-align: center" src="rsz_collapse.png" onclick="myFunction()" />
+                  </h3>
+                  <form id="" method="post">
+                     <table summary="Checklist" id="checklist" style="width:100%">
+                        <colgroup>
+                           <col style="width:100%" />
+                        </colgroup>
+                        <tbody>
+                           <tr class="">
+                              <td style="background-color:#4682B4">1 - Base it on radials you are actually on and want to go to not headings</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">2 - Mark radial and distance from station to commence turn</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">3 - Mark radial to intercept and its distance from station</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">4 - Rotate bezel so that marks line up vertically from your position to where you want to go</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">5 - Read off heading to steer at top of index and count distance between the two positions</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">6 - Convert the distance to a time based on GS</td>
+                           </tr>
+                           <tr class="">
+                              <td style="background-color:#4682B4">7 - Make allowance for wind</td>
                            </tr>
                         </tbody>
                      </table>
