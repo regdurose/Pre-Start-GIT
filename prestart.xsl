@@ -34,9 +34,9 @@
                 
                   <colgroup>
                               
-                              <col style="width:13%" />
+                              <col style="width:15%" />
                               <col style="width:4%" />
-                              <col class="checklist-first" style="width:21%" />
+                              <col class="checklist-first" style="width:19%" />
                               <col style="width:14%" />
                               <col style="width:41%" />
                               <col style="width:7%" />
@@ -59,27 +59,27 @@
                      <xsl:when test="stagetitle = 'PRE START'">
                      	
                      	<tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform1()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide7" src="rsz_recycling_30_50.png" onclick="changeImage2(this)"/></td>
                         </tr>
                      	
@@ -91,27 +91,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform2()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -124,27 +124,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform3()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -157,27 +157,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide2" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform4()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="NOTE: NOT REQUIRED IF FLIGHT IS BY SAME CREW IN SAME AIRCRAFT ON THE SAME DAY" src="inf_50.png" /></td>
                         </tr>
                      	   
@@ -188,27 +188,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide3" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform5()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                         </tr>
                      	   
@@ -219,27 +219,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform6()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -257,27 +257,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform7()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -288,27 +288,27 @@
                     <xsl:when test="stagetitle = 'PWPTEM - PRIOR TO TAKE-OFF BRIEF'">
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform8()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide8" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	   
@@ -319,27 +319,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform9()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	
@@ -351,27 +351,27 @@
                      	   
                      	   
                      	   <tr>
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform10()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -384,27 +384,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform11()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -415,27 +415,27 @@
                      <xsl:when test="stagetitle = 'SHUTDOWN CHECKS'">
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                   <img id="hide5" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform13()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                         </tr>
                      
@@ -447,27 +447,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform15()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -479,27 +479,27 @@
                      <xsl:when test="stagetitle = 'PRE FLIGHT INS - COCKPIT INS AND FUEL DRAIN'">
                      	
                     <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide16" src="rsz_mands_30_50.png" onclick="changeImage2(this)" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform16()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                         </tr>
                      	
@@ -511,27 +511,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform17()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -543,27 +543,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform18()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -574,27 +574,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform19()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -606,27 +606,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform20()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -637,27 +637,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform21()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -669,27 +669,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform22()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -700,27 +700,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform23()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -732,27 +732,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform24()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -763,27 +763,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform25()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -794,27 +794,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform26()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -825,27 +825,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform27()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -856,27 +856,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform28()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -888,27 +888,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform29()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="This is a mandatory inspection of the aircraft prior to the first flight of the day and must be signed off by a qualified pilot in the Maintenance Release." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -919,27 +919,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform30()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The Post Flight Inspection is done immediately at the end of a flight and prior to returning to the Operations Desk.  It is to ensure that the helicopter has been left in a serviceable condition ready for the next flight by another crew." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -950,27 +950,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform31()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
                                  	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                           </tr>
@@ -982,27 +982,27 @@
                      <xsl:when test="stagetitle = 'TURN AROUND - COCKPIT INSPECTION'">
                      	
                     <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide32" src="rsz_mands_30_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform32()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection. 
                                  	The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                         </tr>
@@ -1014,27 +1014,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform33()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
                                  	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                           </tr>
@@ -1046,27 +1046,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform34()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
                                  	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                           </tr>
@@ -1079,27 +1079,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform35()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
                                  	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                           </tr>
@@ -1115,27 +1115,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform36()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="The turn-around inspection is an abbreviated Pre-flight inspection. It is to be carried out on subsequent flights on the same day when the full Daily Pre-flight inspection has already been completed. In this case the helicopter should also have been subjected to a Post Flight inspection.
                                  	 The purpose of this check is to confirm that the aircraft is still flight ready and that the oil and fuel levels are as stated." src="inf_50.png" /></td>
                           </tr>
@@ -1147,27 +1147,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform37()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
                                  	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
                                  	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
@@ -1182,27 +1182,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform38()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
                                  	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
                                  	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
@@ -1218,27 +1218,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform39()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="At least once a week the engine must receive a compressor rinse by the aircrew prior to the first flight of the day. 
                                  	This will be scheduled in as part of your sortie by the instructor. A compressor rinse will require at least two (2) pilots.
                                  	  One pilot will be responsible for managing the starter motor from inside the cockpit.  The second pilot will be responsible for managing the rinse cart and
@@ -1254,27 +1254,27 @@
            <xsl:when test="stagetitle = 'ENGINE START &amp; STOP PROCS - BEFORE START CHECKS'">
                      	
                      	<tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide40" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform40()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide40a" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	
@@ -1287,27 +1287,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform41()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img rel="tooltip" title="To be verbally confirmed between the cockpit crew prior to engine start at the discretion of the instructor or whenever the pilot wants to be reminded of the procedure." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -1317,27 +1317,27 @@
                    <xsl:when test="stagetitle = 'ENGINE STARTING'">
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform42()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide42" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	   
@@ -1348,27 +1348,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform43()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img srel="tooltip" title="When conducting multiple lift-offs and landings and multiple circuits, the normal Engine Start and Stop Procedures may be abbreviated." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -1380,27 +1380,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide44" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform44()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                         </tr>
                      	   
@@ -1411,27 +1411,27 @@
                      	   
                      	   
                      	    <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide45" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform45()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926;">
+                              <td style="background-color: #e8e8e8;">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                         </tr>
                      	   
@@ -1442,27 +1442,27 @@
                    <xsl:when test="stagetitle = 'NORMAL FLIGHT CHECKS'">
                      	
                      	<tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide46" src="rsz_mands_30_50.png" onclick="changeImage(this)"/>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform46()" src="reset_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide46a" src="rsz_recycling_30_50.png" onclick="changeImage2(this)"/></td>
                         </tr>
                      	
@@ -1475,27 +1475,27 @@
                    <xsl:when test="stagetitle = 'HOVER CHECKS  '">
                       
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Nos</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform47()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1507,27 +1507,27 @@
                     <xsl:when test="stagetitle = 'INSTRUMENT TAXI CHECKS  '">
                       
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform48()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1539,27 +1539,27 @@
                          <xsl:when test="stagetitle = 'PRE DEPARTURE BRIEF'">
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img srel="tooltip" title="This is a general departure brief and plan between the crew using the acronym PWPTEM pronounced “Pow-tem” prior to take-off." src="inf_50.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926;  ">
+                              <td style="background-color: #e8e8e8;  ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform49()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img id="hide49" src="rsz_recycling_30_50.png" onclick="changeImage2(this)" /></td>
                         </tr>
                      	   
@@ -1570,27 +1570,27 @@
                     <xsl:when test="stagetitle = 'DEPARTURE AND ENROUTE CHECK'">
                       
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform50()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress" src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -1600,27 +1600,27 @@
                     <xsl:when test="stagetitle = 'INSTRUMENT PRE-DEPARTURE CHECKS'">
                       
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform51()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img srel="tooltip" title="Because instrument flying at Becker Helicopters is done as a multi crew sortie, the Non Flying Pilot (NFP)
                                  	 will make the “challenge” by reading out the ITEM.  The crew will then together conduct actions as appropriate but the FP will give 
                                  	 the “response” by stating what the ACTION was.  In most cases the NFP will be required to do the actions allowing the FP to fly but
@@ -1632,27 +1632,27 @@
                    <xsl:when test="stagetitle = 'DEPARTURE AND ENROUTE CHECK  '">
                       
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform52()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress." src="inf_50.png" /></td>
                           </tr>
                      	   
@@ -1663,27 +1663,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform53()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1695,27 +1695,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform54()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1726,27 +1726,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform55()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1757,27 +1757,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform56()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1788,27 +1788,27 @@
                      	   
                      	   
                      	   <tr >
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" />
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>No</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Item</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <img onclick="resetform56()" src="reset_50.png" />
                              </td>
                               
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Action</h3>
                               </td>
                               
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <img src="rsz_trans2020.png" /></td>
                           </tr>
                      	   
@@ -1816,12 +1816,12 @@
                      </xsl:when>
                    
                     <xsl:otherwise>
-                           <th align="center" scope="col" style="background-color: #ffc926; "><img id="hide" src="rsz_mands_30.png" /></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>No</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Item</h3></th>
-                           <th scope="col" style="background-color: #ffc926; "><img src="reset.png"   onclick = "resetform()"></img></th>
-                           <th scope="col" style="background-color: #ffc926; "><h3>Action</h3></th>
-                           <th scope="col" align="center" style="background-color: #ffc926;"><img id="hide1" src="rsz_recycling_30.png" /></th>
+                           <th align="center" scope="col" style="background-color: #e8e8e8; "><img id="hide" src="rsz_mands_30.png" /></th>
+                           <th scope="col" style="background-color: #e8e8e8; "><h3>No</h3></th>
+                           <th scope="col" style="background-color: #e8e8e8; "><h3>Item</h3></th>
+                           <th scope="col" style="background-color: #e8e8e8; "><img src="reset.png"   onclick = "resetform()"></img></th>
+                           <th scope="col" style="background-color: #e8e8e8; "><h3>Action</h3></th>
+                           <th scope="col" align="center" style="background-color: #e8e8e8;"><img id="hide1" src="rsz_recycling_30.png" /></th>
                     </xsl:otherwise>
                
                     </xsl:choose>
@@ -1839,8 +1839,8 @@
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
                               <col style="width:15%" />
-                              <col style="width:2%" />
-                              <col class="checklist-first" style="width:21%" />
+                              <col style="width:4%" />
+                              <col class="checklist-first" style="width:19%" />
                               <col style="width:14%" />
                               <col style="width:41%" />
                               <col style="width:7%" />
@@ -2311,18 +2311,23 @@
                 <table style="width:100%" id="checklist" >
                 
                   <colgroup>
-                              <col style="width:40%" />
+                              <col style="width:3%" />
+                              <col style="width:37%" />
                               <col style="width:60%" />
                 </colgroup>
 
                     
                      	 <tr >
                             
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
+                                 <h3></h3>
+                              </td>
+                            
+                              <td style="background-color: #e8e8e8">
                                  <h3>Transponder Code</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Use</h3>
                               </td>
                               
@@ -2344,7 +2349,8 @@
                 
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
-                              <col style="width:40%" />
+                              <col style="width:3%" />
+                              <col style="width:37%" />
                               <col style="width:60%" />
                  </colgroup>
                   
@@ -2357,13 +2363,16 @@
                   <tr class="{numcol}">
                   
                       <xsl:choose>
-                    
+                      <xsl:when test="transicon = 25">
+                        <td style="background-color:#4682B4"></td>
+                      </xsl:when>
+                         </xsl:choose>
+                      
+                      <xsl:choose>
                       <xsl:when test="transicon = 25">
                         <td style="background-color:#4682B4"><xsl:value-of select="transnumber"/></td>
                       </xsl:when>
-                   
-                     
-                      </xsl:choose>
+                    </xsl:choose>
                      
                       <xsl:choose>
                       
@@ -2393,27 +2402,40 @@
                 <table style="width:100%" id="checklist" >
                 
                   <colgroup>
-                              <col style="width:20%" />
-                              <col style="width:30%" />
-                              <col style="width:20%" />
-                              <col style="width:30%" />
+                              <col style="width:3%" />
+                              <col style="width:17%" />
+                              <col style="width:3%" />
+                              <col style="width:27%" />
+                              <col style="width:3%" />
+                              <col style="width:17%" />
+                              <col style="width:3%" />
+                              <col style="width:27%" />
                 </colgroup>
 
                     
                      	 <tr >
-                            
-                              <td style="background-color: #ffc926">
+                            <td style="background-color: #e8e8e8">
+                                 <h3></h3>
+                              </td>
+                              <td style="background-color: #e8e8e8">
                                  <h3>Letter</h3>
                               </td>
-                                 
-                              <td style="background-color: #ffc926; ">
+                               <td style="background-color: #e8e8e8">
+                                 <h3></h3>
+                              </td>  
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Code</h3>
                               </td>
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
+                                 <h3></h3>
+                              </td>
+                              <td style="background-color: #e8e8e8">
                                  <h3>Letter</h3>
                               </td>
-                                 
-                              <td style="background-color: #ffc926; ">
+                               <td style="background-color: #e8e8e8">
+                                 <h3></h3>
+                              </td>  
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Code</h3>
                               </td>
                               
@@ -2435,10 +2457,14 @@
                 
                 <table style="width:100%" id="checklist" summary="Checklist">
                  <colgroup>
-                              <col style="width:20%" />
-                              <col style="width:30%" />
-                              <col style="width:20%" />
-                              <col style="width:30%" />
+                              <col style="width:3%" />
+                              <col style="width:17%" />
+                              <col style="width:3%" />
+                              <col style="width:27%" />
+                              <col style="width:3%" />
+                              <col style="width:17%" />
+                              <col style="width:3%" />
+                              <col style="width:27%" />
                  </colgroup>
                   
                   <!--     Start of display steps   -->
@@ -2451,18 +2477,46 @@
                   
                       <xsl:choose>
                       <xsl:when test="transicon = 26">
+                        <td style="background-color:#4682B4"></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      
+                      
+                      
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
                         <td style="background-color:#4682B4"><xsl:value-of select="transletter"/></td>
                       </xsl:when>
                       </xsl:choose>
                      
                       <xsl:choose>
                       <xsl:when test="transicon = 26">
+                        <td style="background-color:#009900"></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      
+                    
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
                         <td style="background-color:#009900"><xsl:value-of select="transcode"/></td>
                       </xsl:when>
                       </xsl:choose>
+                      
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#4682B4"></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      
                       <xsl:choose>
                       <xsl:when test="transicon = 26">
                         <td style="background-color:#4682B4"><xsl:value-of select="transletter2"/></td>
+                      </xsl:when>
+                      </xsl:choose>
+                      
+                      <xsl:choose>
+                      <xsl:when test="transicon = 26">
+                        <td style="background-color:#009900"></td>
                       </xsl:when>
                       </xsl:choose>
                      
@@ -2498,11 +2552,11 @@
                     
                      	 <tr >
                             
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Head Wind</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Increase the outbound leg by</h3>
                               </td>
                               
@@ -2580,14 +2634,14 @@
                     
                      	 <tr >
                             
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Weather at Departure</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Visibility</h3>
                               </td>
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Ceiling</h3>
                               </td>
                                  
@@ -2671,18 +2725,18 @@
                     
                      	 <tr >
                             
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>T/O</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Approach Speed</h3>
                               </td>
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Circling</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Alternate</h3>
                               </td>
                               
@@ -2859,18 +2913,18 @@
                     
                      	 <tr >
                             
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Aid</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Range</h3>
                               </td>
-                              <td style="background-color: #ffc926">
+                              <td style="background-color: #e8e8e8">
                                  <h3>Tolerances</h3>
                               </td>
                                  
-                              <td style="background-color: #ffc926; ">
+                              <td style="background-color: #e8e8e8; ">
                                  <h3>Position fix</h3>
                               </td>
                               
