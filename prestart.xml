@@ -1987,7 +1987,7 @@
                 <icon>3</icon>
                 <number></number>
                 <item>FUEL</item>
-                <action>91 USG (344 LITRES)</action>
+                <action> 91 USG (344 LITRES)</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
@@ -1998,7 +1998,7 @@
                 <icon>3</icon>
                 <number></number>
                 <item>ENGINE OIL</item>
-                <action>5.2 LITRES MOBILE 254</action>
+                <action> 5.2 LITRES MOBILE 254</action>
                 <warning></warning>
                 <caution></caution>
                 <notes></notes>
@@ -6896,7 +6896,7 @@ or
             	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>1</number>
-                <item>25NM</item>
+                <item>15NM</item>
                 <action>•	Make CTAF call:  Position | Height | Intentions using VFR language</action>
                 <warning></warning>
                 <caution></caution>
@@ -6963,7 +6963,7 @@ or
         
 <stage>
                 <stagetitle>INSTRUMENT APPROACH CHECKLIST - 5NM INBOUND TO IAF</stagetitle>
-                <stagenotes></stagenotes><formnum>form-56</formnum>
+                <stagenotes></stagenotes><formnum>form-57</formnum>
             <step>
             	<numcol>60</numcol>
                 <icon>1</icon>

@@ -1721,8 +1721,8 @@
                      	   
                      	 
                      </xsl:when>
-                     
-                                <xsl:when test="stagetitle = 'INSTRUMENT CHECKLIST INBOUND - BY 15NM INBOUND TO IAF'">
+                                                             
+                                <xsl:when test="stagetitle = 'INSTRUMENT CHECKLIST INBOUND - 15NM INBOUND TO IAF'">
                      	   
                      	   
                      	   <tr >
@@ -2270,6 +2270,64 @@
                       
                       </xsl:choose>
                       
+                     
+                   <xsl:choose>
+                  
+                   <xsl:when test="stagetitle = 'PRE-LANDING CHECKS'">
+                
+                
+                <table style="width:100%" id="checklist" summary="Checklist">
+                 <colgroup>
+                              <col style="width:3%" />
+                              <col style="width:37%" />
+                              <col style="width:60%" />
+                 </colgroup>
+                  
+                  <!--     Start of display steps   -->
+               
+                  <tbody>
+                  <xsl:for-each select="step">
+                    
+  
+                  <tr class="{numcol}">
+                  
+                      <xsl:choose>
+                      <xsl:when test="icon = 3">
+                        <td style="background-color:#4682B4"></td>
+                      </xsl:when>
+                         </xsl:choose>
+                      
+                      <xsl:choose>
+                      <xsl:when test="transicon = 3">
+                        <td style="background-color:#4682B4"><xsl:value-of select="item"/></td>
+                      </xsl:when>
+                    </xsl:choose>
+                     
+                      <xsl:choose>
+                      
+                      <xsl:when test="transicon = 3">
+                        <td style="background-color:#4682B4"><xsl:value-of select="action"/></td>
+                      </xsl:when>
+          
+                      </xsl:choose>
+                    
+                     </tr>
+                  </xsl:for-each>
+                               
+                </tbody>
+                </table>
+                
+                </xsl:when>
+                   
+                    </xsl:choose>
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
                      
                       
                      </tr>
