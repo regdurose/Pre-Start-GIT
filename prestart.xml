@@ -4720,7 +4720,7 @@
             	<numcol>60</numcol>
                 <icon>1</icon>
                 <number>34</number>
-                <item>CAUTION / WARNING PANEL</item>
+                <item>CAUTION/WARNING PANEL</item>
                 <action>PRESS to TEST all the Caution and Warning lights on the main Caution / Warning Panel</action>
                 <warning></warning>
                 <caution></caution>

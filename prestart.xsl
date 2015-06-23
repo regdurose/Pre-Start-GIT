@@ -1369,7 +1369,7 @@
                               </td>
                               
                               <td style="background-color: #F5F5DC">
-                                 <img srel="tooltip" title="When conducting multiple lift-offs and landings and multiple circuits, the normal Engine Start and Stop Procedures may be abbreviated." src="inf_50.png" /></td>
+                                 <img rel="tooltip" title="When conducting multiple lift-offs and landings and multiple circuits, the normal Engine Start and Stop Procedures may be abbreviated." src="inf_50.png" /></td>
                           </tr>
                      	   
 
@@ -1540,7 +1540,7 @@
                      	   
                      	   <tr >
                               <td style="background-color: #F5F5DC">
-                                 <img srel="tooltip" title="This is a general departure brief and plan between the crew using the acronym PWPTEM pronounced “Pow-tem” prior to take-off." src="inf_50.png" />
+                                 <img rel="tooltip" title="This is a general departure brief and plan between the crew using the acronym PWPTEM pronounced “Pow-tem” prior to take-off." src="inf_50.png" />
                               </td>
                               
                               <td style="background-color: #F5F5DC">
@@ -1591,7 +1591,7 @@
                               </td>
                               
                               <td style="background-color: #F5F5DC">
-                                 <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress" src="inf_50.png" /></td>
+                                 <img rel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress" src="inf_50.png" /></td>
                           </tr>
                      	   
                       </xsl:when>
@@ -1621,7 +1621,7 @@
                               </td>
                               
                               <td style="background-color: #F5F5DC">
-                                 <img srel="tooltip" title="Because instrument flying at Becker Helicopters is done as a multi crew sortie, the Non Flying Pilot (NFP)
+                                 <img rel="tooltip" title="Because instrument flying at Becker Helicopters is done as a multi crew sortie, the Non Flying Pilot (NFP)
                                  	 will make the “challenge” by reading out the ITEM.  The crew will then together conduct actions as appropriate but the FP will give 
                                  	 the “response” by stating what the ACTION was.  In most cases the NFP will be required to do the actions allowing the FP to fly but
                                  	  the FP will have to give confirmation that the task has been completed." src="inf_50.png" /></td>
@@ -1653,7 +1653,7 @@
                               </td>
                               
                               <td style="background-color: #F5F5DC">
-                                 <img srel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress." src="inf_50.png" /></td>
+                                 <img rel="tooltip" title="Using the acronym “CLEAROFF” this is required on departure, enroute or any time the pilot decides to conduct a cross check of progress." src="inf_50.png" /></td>
                           </tr>
                      	   
                    </xsl:when>
